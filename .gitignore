@@ -5,12 +5,12 @@ __pycache__/
 .aws/
 *.pem
 *.key
-evidence/revision_source/
+reproduction/evidence/revision_source/
 qa/
 output/
 *.aux
 *.log
-overleaf/*.out
+reproduction/overleaf/*.out
 *.toc
 *.blg
 *.synctex.gz
