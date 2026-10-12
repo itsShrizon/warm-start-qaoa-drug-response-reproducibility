@@ -1,0 +1,142 @@
+Collecting numba==0.60.0
+  Obtaining dependency information for numba==0.60.0 from https://files.pythonhosted.org/packages/f9/4c/8889ac94c0b33dca80bed11564b8c6d9ea14d7f094e674c58e5c5b05859b/numba-0.60.0-cp311-cp311-manylinux2014_aarch64.manylinux_2_17_aarch64.whl.metadata
+  Downloading numba-0.60.0-cp311-cp311-manylinux2014_aarch64.manylinux_2_17_aarch64.whl.metadata (2.7 kB)
+Collecting llvmlite<0.44,>=0.43.0dev0 (from numba==0.60.0)
+  Obtaining dependency information for llvmlite<0.44,>=0.43.0dev0 from https://files.pythonhosted.org/packages/2f/b2/4429433eb2dc8379e2cb582502dca074c23837f8fd009907f78a24de4c25/llvmlite-0.43.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.metadata
+  Downloading llvmlite-0.43.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.metadata (4.8 kB)
+Requirement already satisfied: numpy<2.1,>=1.22 in /opt/cray/pe/python/3.11.7/lib/python3.11/site-packages (from numba==0.60.0) (1.24.4)
+Downloading numba-0.60.0-cp311-cp311-manylinux2014_aarch64.manylinux_2_17_aarch64.whl (3.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.4/3.4 MB 3.9 MB/s eta 0:00:00
+Downloading llvmlite-0.43.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl (42.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.9/42.9 MB 3.4 MB/s eta 0:00:00
+Installing collected packages: llvmlite, numba
+Successfully installed llvmlite-0.43.0 numba-0.60.0
+
+[notice] A new release of pip is available: 23.2.1 -> 26.2.1
+[notice] To update, run: pip install --upgrade pip
+1.24.4 0.60.0
+test_gray_against_original_formula (test_noiseless_revision.NoiselessChecks.test_gray_against_original_formula) ... initialized 6
+initialized 6
+initialized 8
+initialized 8
+initialized 9
+initialized 9
+initialized 10
+initialized 10
+initialized 12
+initialized 12
+initialized 15
+initialized 15
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 3.218s
+
+OK
+initialized 25
+{
+  "qubits": 25,
+  "feasible_states": 1500,
+  "circuit_sha256": "24d531e692efcbb98301437f437c5299e65cd8c259a2856b41bd89c10d0f5b8e",
+  "norm": 0.9999999640656999,
+  "precision_comparison": {
+    "maximum_amplitude_error": 4.136853060175629e-08,
+    "feasible_mass_absolute_error": 2.2895191298388795e-10,
+    "maximum_feasible_probability_error": 1.4401467232291743e-09,
+    "maximum_feasible_relative_error": 7.772435130770945e-07
+  },
+  "methods": {
+    "ideal_qaoa": {
+      "feasibility": 0.2953073249586737,
+      "optimum_probability": 0.00024248631980481553,
+      "conditional_mean_score": 0.40436278418320026,
+      "conditional_mean_normalized_score": 0.42367052061851723
+    },
+    "initial_product": {
+      "feasibility": 0.3072114370133286,
+      "optimum_probability": 0.00022202621784009086,
+      "conditional_mean_score": 0.3951604303419753,
+      "conditional_mean_normalized_score": 0.4197851117727648
+    },
+    "uniform_feasible": {
+      "feasibility": 1.0000000000000002,
+      "optimum_probability": 0.0006666666666666666,
+      "conditional_mean_score": 0.19274971733333326,
+      "conditional_mean_normalized_score": 0.33432345833408955
+    }
+  },
+  "execution": {
+    "seconds": 37.033811463974416,
+    "slurm_job_id": "48405004",
+    "state_dtype": "complex64",
+    "state_bytes": 268435456
+  }
+}
+initialized 30
+{
+  "qubits": 30,
+  "feasible_states": 2875,
+  "circuit_sha256": "c2aef67a99071c3dad3d15de9527402649e4dbbf5f8d927adde7ed1eccdb5069",
+  "norm": 0.9999999926584566,
+  "precision_comparison": null,
+  "methods": {
+    "ideal_qaoa": {
+      "feasibility": 0.3339051448738423,
+      "optimum_probability": 0.0001741843141365451,
+      "conditional_mean_score": 0.29476160757973247,
+      "conditional_mean_normalized_score": 0.5210610068354848
+    },
+    "initial_product": {
+      "feasibility": 0.3364376982035314,
+      "optimum_probability": 0.0001717815112905185,
+      "conditional_mean_score": 0.29275012043189075,
+      "conditional_mean_normalized_score": 0.5204076919932582
+    },
+    "uniform_feasible": {
+      "feasibility": 1.0,
+      "optimum_probability": 0.00034782608695652176,
+      "conditional_mean_score": 0.019682805217391307,
+      "conditional_mean_normalized_score": 0.4317176249709769
+    }
+  },
+  "execution": {
+    "seconds": 8.896619932027534,
+    "slurm_job_id": "48405004",
+    "state_dtype": "complex64",
+    "state_bytes": 8589934592
+  }
+}
+initialized 35
+{
+  "qubits": 35,
+  "feasible_states": 4900,
+  "circuit_sha256": "816b43b2481aa910bfe12676df28a2e6099146a4ed37c3f47f364c17ba8b42a1",
+  "norm": 1.0000000312724782,
+  "precision_comparison": null,
+  "methods": {
+    "ideal_qaoa": {
+      "feasibility": 0.35850629454812327,
+      "optimum_probability": 0.00011971869311473587,
+      "conditional_mean_score": 0.24037675517697052,
+      "conditional_mean_normalized_score": 0.5033972443276615
+    },
+    "initial_product": {
+      "feasibility": 0.3574569177372071,
+      "optimum_probability": 0.00012173772561941219,
+      "conditional_mean_score": 0.24031900025984268,
+      "conditional_mean_normalized_score": 0.5033784859952448
+    },
+    "uniform_feasible": {
+      "feasibility": 1.0,
+      "optimum_probability": 0.00020408163265306123,
+      "conditional_mean_score": -0.026203624693877568,
+      "conditional_mean_normalized_score": 0.41681408171444767
+    }
+  },
+  "execution": {
+    "seconds": 270.45671614503954,
+    "slurm_job_id": "48405004",
+    "state_dtype": "complex64",
+    "state_bytes": 274877906944
+  }
+}

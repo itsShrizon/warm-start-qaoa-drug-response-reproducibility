@@ -1,0 +1,62 @@
+[
+  {
+    "file": "CAMA1c7_drugs.txt",
+    "source": "C:\\Users\\Shrizon\\Desktop\\Pawsey\\projects\\drug-search\\data\\CAMA1c7_drugs.txt",
+    "sha256": "0214a5d9273d807f6194b5acd7e3d2de188c12a6149978ad8b199da0d3e2714c"
+  },
+  {
+    "file": "CAMA1c7_moa.csv",
+    "source": "C:\\Users\\Shrizon\\Desktop\\Pawsey\\projects\\drug-search\\data\\CAMA1c7_moa.csv",
+    "sha256": "e347b612fa59d95874abfee6ceb6759c8240a6f0b90d55a2bd74a79abd819a3b"
+  },
+  {
+    "file": "CAMA1c7_D3_meta.json",
+    "source": "C:\\Users\\Shrizon\\Desktop\\Pawsey\\projects\\drug-search\\data\\CAMA1c7_D3_meta.json",
+    "sha256": "017e2d922974fcf564e3d6af4c2c83a2539c7abfa2e3fdb7505eb39efeeca433"
+  },
+  {
+    "file": "CAMA1c7_D3_doses.csv",
+    "source": "C:\\Users\\Shrizon\\Desktop\\Pawsey\\projects\\drug-search\\data\\CAMA1c7_D3_doses.csv",
+    "sha256": "84233f252524a6a05cee310902a45a714d6da4b3711f42f4d6e0c1120b52b2c4"
+  },
+  {
+    "file": "CAMA1c7_D3_h.csv",
+    "source": "C:\\Users\\Shrizon\\Desktop\\Pawsey\\projects\\drug-search\\data\\CAMA1c7_D3_h.csv",
+    "sha256": "887cf7aaa14ae6c06ff8cf45ada0c8ddb4e1100a99e3e382b0187cf0cfbbf4e0"
+  },
+  {
+    "file": "CAMA1c7_D3_tox.csv",
+    "source": "C:\\Users\\Shrizon\\Desktop\\Pawsey\\projects\\drug-search\\data\\CAMA1c7_D3_tox.csv",
+    "sha256": "10d76b4cc6248bce7d24a34db073b52800042ffb66bf1325e26059246f87ebdb"
+  },
+  {
+    "file": "CAMA1c7_D3_Jij.csv",
+    "source": "C:\\Users\\Shrizon\\Desktop\\Pawsey\\projects\\drug-search\\data\\CAMA1c7_D3_Jij.csv",
+    "sha256": "2c3f91df09da4ed0ab58aec9893c16b89e6a0ed9f473ba0572791849c1953c1e"
+  },
+  {
+    "file": "_azdream_build_instance.py",
+    "source": "C:\\Users\\Shrizon\\Desktop\\Pawsey\\projects\\drug-search\\src\\_azdream_build_instance.py",
+    "sha256": "9d65f9963449fa5200fa03640ed0e05cddf55531cc31eb3a6dbbf25505abd487"
+  },
+  {
+    "file": "_gen_braket_ladder.py",
+    "source": "C:\\Users\\Shrizon\\Desktop\\Pawsey\\projects\\drug-search\\src\\_gen_braket_ladder.py",
+    "sha256": "fd8fe2944664c33f58293323f1130a24edaa06d701898a9d0939b46c85bfe387"
+  },
+  {
+    "file": "_azdream_hardware_coda.py",
+    "source": "C:\\Users\\Shrizon\\Desktop\\Pawsey\\projects\\drug-search\\src\\_azdream_hardware_coda.py",
+    "sha256": "8a4c33f6847f8e629152ced85e25796074e2cf71812d287b0a4479a84112373f"
+  },
+  {
+    "file": "dose_qaoa.py",
+    "source": "C:\\Users\\Shrizon\\Desktop\\Pawsey\\projects\\drug-search\\src\\dose_qaoa.py",
+    "sha256": "424b9d7c3709b1d84d10b568fe7947174de5bcbbcc3400026972e1f62fa763ab"
+  },
+  {
+    "file": "warmstart.py",
+    "source": "C:\\Users\\Shrizon\\Desktop\\Pawsey\\projects\\drug-search\\src\\warmstart.py",
+    "sha256": "1ed3d4e3ceb56180e8300b8e9de484bcb26f820fed38de3d7556b636a70f33b0"
+  }
+]

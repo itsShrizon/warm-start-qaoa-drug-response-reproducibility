@@ -1,0 +1,104 @@
+{
+  "cell": "CAMA-1",
+  "clique": [
+    "AKT_1",
+    "BCL2_BCL2L1",
+    "FASN",
+    "MAP2K_1",
+    "MTOR_1",
+    "PIK3CB_PIK3CD",
+    "SLC16A4"
+  ],
+  "n_drugs": 7,
+  "D": 3,
+  "doses_normalised": [
+    0.1,
+    0.32,
+    1.0
+  ],
+  "qubits_one_hot": 21,
+  "moa_class": {
+    "AKT_1": "AKT",
+    "BCL2_BCL2L1": "BCL2_BCL2L1",
+    "FASN": "FASN",
+    "MAP2K_1": "MAP2K",
+    "MTOR_1": "MTOR",
+    "PIK3CB_PIK3CD": "PIK3CB_PIK3CD",
+    "SLC16A4": "SLC16A4"
+  },
+  "tox_weight": {
+    "AKT_1": 1.0,
+    "BCL2_BCL2L1": 0.9,
+    "FASN": 0.6,
+    "MAP2K_1": 1.1,
+    "MTOR_1": 1.0,
+    "PIK3CB_PIK3CD": 1.2,
+    "SLC16A4": 0.5
+  },
+  "synergy_score_mean": {
+    "AKT_1|MTOR_1": 47.6,
+    "AKT_1|PIK3CB_PIK3CD": 79.4,
+    "AKT_1|BCL2_BCL2L1": 15.2,
+    "BCL2_BCL2L1|MAP2K_1": 13.0,
+    "BCL2_BCL2L1|MTOR_1": 6.88,
+    "BCL2_BCL2L1|PIK3CB_PIK3CD": 20.9,
+    "AKT_1|FASN": -8.68,
+    "BCL2_BCL2L1|FASN": -2.21,
+    "FASN|MAP2K_1": 7.07,
+    "FASN|MTOR_1": -4.27,
+    "FASN|PIK3CB_PIK3CD": 17.6,
+    "FASN|SLC16A4": 3.65,
+    "AKT_1|MAP2K_1": 19.66,
+    "MAP2K_1|MTOR_1": -2.06,
+    "MAP2K_1|PIK3CB_PIK3CD": 3.8,
+    "MTOR_1|PIK3CB_PIK3CD": 21.1,
+    "AKT_1|SLC16A4": 7.09,
+    "BCL2_BCL2L1|SLC16A4": 11.9,
+    "MAP2K_1|SLC16A4": -22.2,
+    "MTOR_1|SLC16A4": 5.52,
+    "PIK3CB_PIK3CD|SLC16A4": 33.3
+  },
+  "hill_median": {
+    "AKT_1": {
+      "IC50": 0.4861,
+      "H": 1.5847,
+      "Einf": 4.6808
+    },
+    "BCL2_BCL2L1": {
+      "IC50": 0.6645,
+      "H": 2.8757,
+      "Einf": 84.0442
+    },
+    "FASN": {
+      "IC50": 0.5516,
+      "H": 1.0718,
+      "Einf": 80.7708
+    },
+    "MAP2K_1": {
+      "IC50": 1.0,
+      "H": 1.4161,
+      "Einf": 91.691
+    },
+    "MTOR_1": {
+      "IC50": 0.43,
+      "H": 1.6663,
+      "Einf": 8.6484
+    },
+    "PIK3CB_PIK3CD": {
+      "IC50": 0.1831,
+      "H": 1.2265,
+      "Einf": 15.436
+    },
+    "SLC16A4": {
+      "IC50": 1.0,
+      "H": 0.0,
+      "Einf": 100.0
+    }
+  },
+  "model_notes": {
+    "efficacy_linear": "h_{i,d} = 1 - Hill viability(c_d); IC50/Einf in max-conc-normalised units",
+    "efficacy_quad": "J = (SYNERGY_SCORE_ij/100) * c_d * c_d' (dose-fraction product; sign preserved)",
+    "toxicity": "PROXY: T_{i,d} = w_class(MoA) * c_d (dose-magnitude x per-MoA weight)",
+    "source": "AZ-DREAM OI table, CAMA-1, QA=1 only; all 21 clique pairs measured"
+  }
+}

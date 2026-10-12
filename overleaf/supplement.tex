@@ -1,0 +1,214 @@
+\documentclass[utf8]{frontiers_suppmat}
+\usepackage{url,hyperref,microtype,booktabs,longtable}
+\usepackage[singlespacing]{setspace}
+\hypersetup{hidelinks}
+\setlength{\headheight}{20pt}
+\setlength{\headsep}{15pt}
+\input{supp_feas_rows}
+\input{supp_hit_rows}
+\input{supp_panel_rows}
+\input{table2_rows}
+\input{supp_recovered_quality}
+\input{supp_larger_controls}
+\input{supp_larger_hardware}
+\begin{document}
+\onecolumn
+\firstpage{1}
+\title[Supplementary Material]{{\helveticaitalic{Supplementary Material}}}
+{\setlength{\parindent}{0pt}\maketitle}
+
+\section{Hardware dataset}
+The dataset contains 25 completed IonQ Forte-1 tasks. The supplied files include a duplicate of one 10-qubit task, which we count once. Twenty-four tasks have 200 shots and one 6-qubit task has 500 shots, for a total of 5,300. Each record includes measured-qubit order, submitted OpenQASM, output probabilities and task metadata. Every circuit matches an archived instance definition, and all 25 tasks are included.
+
+This is a retrospective analysis of completed hardware executions and was not preregistered. The hardware records are distinct from the source drug-response dataset used to construct the optimization instances. Numerical figures are generated programmatically from the analyzed records.
+
+Main Table~1 and Figures~1A and 2 report the original six-task series, for which we independently checked the noiseless calculations. Figure~1B adds larger-width noiseless and hardware comparisons. Main Table~2 reports the other 19 tasks. In total, the records represent 18 distinct circuits and 14 optimization instances. The dataset also includes the 30- and 35-qubit executions listed in the main paper.
+
+The reproducibility package contains the original JSON files, four archived runner scripts, their instance definitions and SHA-256 hashes. We extract the literal instance arrays without executing the submission code. The complete task UUID inventory appears below. 
+
+\section{Circuit identity and independent calculations}
+We extract literal instance arrays from the four archived runners using Python's abstract syntax tree. No hardware-submission code is imported or executed. For each instance, we reconstruct its initial $R_y$ rotations, cost $R_z$ rotations and CNOT pairs, and final $R_y(-\theta)$, $R_z(2\beta)$, $R_y(\theta)$ mixers. We compare every operation, wire, and numeric angle to the submitted OpenQASM, using $10^{-10}$ absolute tolerance for angles. The compiled native program is absent from the task records, so native-gate counts and noise parameters cannot be recovered from these files.
+
+A NumPy simulator applies the submitted gate sequence directly. A second calculation applies the diagonal Ising phase followed by tensor-product mixers. Their full probability vectors agree within $10^{-10}$ maximum absolute error for the original six instances. A PennyLane \texttt{default.qubit} execution of the same gate list provides a third check, agreeing within $10^{-12}$ absolute tolerance. Bell-state and single-wire rotation tests check the bit-order convention. The first character of each outcome string represents wire zero throughout.
+
+Feasibility is independently constructed both by binary-state decoding and by enumerating compound-level assignments. The reconstructed evaluator also matches the original pure decoding, feasibility, and scoring functions on all 38,720 binary states across the original six instances. A state's score is compared only when it is feasible. Each original instance's optimum is recomputed, including ties; all six have exactly one optimum. For the expanded set, feasible assignments are generated directly by compound subsets and dose choices, independently checked against Cartesian assignment enumeration, and scored using both bit-level and assignment-level implementations. This remains small even at 35 qubits (4,900 feasible assignments). Every observed output is also decoded independently. Additional noiseless calculations through 35 qubits (4,900 feasible assignments) are described below. Source coefficients are used at their archived precision.
+
+\section{Classical sampling and uncertainty}
+The 10-qubit prior feasibility is 41.36\% when truncated to two decimal places; Table~S1 rounds this value to 41.37\%.
+
+To sample uniformly from the feasible set, choose $m=2$ or $3$ with probability proportional to $\binom{n}{m}D^m$, choose an $m$-compound subset uniformly, and draw one of $D$ doses independently for each chosen compound. Because every included compound has a distinct mechanism class, this procedure returns every feasible assignment with equal probability. This procedure uses the constraints alone.
+
+For warm-start-only sampling, draw each bit independently with probability $\sin^2(\theta_v/2)$. We sum probabilities over the exact feasible and optimal sets instead of using Monte Carlo estimates for these classical distributions. The ideal-QAOA control is similarly analytic.
+
+For $k$ successes in $N$ shots, the reported 95\% Wilson interval is
+\begin{equation}
+ \frac{\hat p+z^2/(2N)\ \pm\ z\sqrt{\hat p(1-\hat p)/N+z^2/(4N^2)}}{1+z^2/N},
+ \quad \hat p=k/N,\quad z=1.9599639845.
+\end{equation}
+These are pointwise intervals conditional on independent shots within a run. They do not account for unrecorded calibration changes, provider processing, or between-run variability. No multiple-comparison inference is claimed.
+
+The main fixed-budget metric is $1-(1-P_\star)^{200}$ for analytically known distributions. It describes 200 independent draws with replacement. Hardware columns report each actual batch separately. Conditional hardware score summaries are reported in Tables~S4--S5. The code also saves the expected normalized best-of-200 score for the analytic controls as a diagnostic.
+
+\section{Exact control probabilities}
+\begin{table}[h!]
+\caption{Feasible probability (percent), calculated exactly for analytic controls. Hardware proportions are reconstructed from archived task records. The feasible classical sampler has 100\% feasibility in every instance.}
+\centering\small
+\begin{tabular}{rrrrrr}
+\toprule
+Qubits & Uniform bits & Initial product & Ideal QAOA & Hardware & Uniform feasible\\
+\midrule
+\SupplementFeasRows
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[h!]
+\caption{Probability of at least one optimum in 200 independent draws (percent), calculated for analytic controls. Observed hardware batches are reported separately.}
+\centering\small
+\begin{tabular}{rrrrr}
+\toprule
+Qubits & Uniform bits & Initial product & Ideal QAOA & Uniform feasible\\
+\midrule
+\SupplementHitRows
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Model coefficients and circuit parameters}
+The supplied \texttt{CAMA1c7\_D3\_meta.json} and coefficient arrays define the seven-compound CAMA-1 model used for the sensitivity panels. The source builder uses QA-passing AstraZeneca--Sanger DREAM observations, averages pairwise synergy values, and summarizes monotherapy Hill parameters by their median. Its single-agent term is $h_{id}=[100-v_i(c_d)]/100$, with
+\begin{equation}
+v_i(c)=E_{\infty,i}+\frac{100-E_{\infty,i}}{1+(c/IC_{50,i})^{H_i}}.
+\end{equation}
+The pair term is $J_{id,je}=s_{ij}c_dc_e/100$, where $s_{ij}$ is the archived synergy coefficient; $t_{id}=w_i c_d$ uses an illustrative mechanism-class weight. We use the archived coefficients without refitting. The package includes the source arrays, metadata, builder and their hashes.
+
+For the new panels, let $l_v=h_v-0.6t_v$, let $S=\sum_v x_v$, and let $S_i$ count active dose bits for compound $i$. The minimized cost, up to a constant, is
+\begin{equation}
+C(x)=-f(x)+P(S-2)(S-3)+P\sum_i S_i(S_i-1),
+\end{equation}
+where $P=3[\max_v|l_v|+\max_v\sum_w|J_{vw}|+10^{-6}]$ and $J$ is the symmetric score-interaction matrix. The second penalty therefore contributes $2P$ for each simultaneously active pair in a drug block. No mechanism-class penalty is needed for these distinct-class panels. We verify the reconstructed Ising energy against this polynomial over every binary state, up to its constant shift.
+
+The initial probabilities use the standardized linear scores $g_v=(l_v-\bar l)/\mathrm{sd}(l)$, with the unstandardized values used if the standard deviation is below $10^{-9}$. Compute $a_v=[1+\exp(-g_v/0.5)]^{-1}$ and $c_v=\mathrm{clip}[2.5a_v/\sum_w a_w,0.001,0.999]$, then $\theta_v=2\arcsin\sqrt{c_v}$. Each training seed draws $\gamma,\beta$ independently from $N(0,0.1^2)$ and performs 60 Adam updates of the expected penalized cost. Learning rate is 0.1, moment coefficients are 0.9 and 0.99, and the numerical stabilizer is $10^{-8}$, matching the source optimizer's defaults. We retain the final iterate, with no selection by optimum probability. Every initialization, gradient, cost trajectory and final circuit is saved. The same training rule is used for all new panels. The historical hardware training trajectories are unavailable.
+
+\section{Panel and initialization sensitivity}
+Using NumPy random seed 20260905, four panels were drawn without replacement from the lexicographically ordered 35 four-compound subsets of the archived seven-compound order, before optimization. Their membership is:
+\begin{itemize}
+\item Panel 1: FASN, MAP2K\_1, PIK3CB\_PIK3CD, SLC16A4.
+\item Panel 2: AKT\_1, FASN, MTOR\_1, SLC16A4.
+\item Panel 3: FASN, MAP2K\_1, MTOR\_1, PIK3CB\_PIK3CD.
+\item Panel 4: BCL2\_BCL2L1, FASN, MTOR\_1, SLC16A4.
+\end{itemize}
+Each panel has 12 qubits, 162 feasible assignments and one optimum. The design and source-file hashes are in the reproducibility package. All three initialization seeds per panel are included in Table~S3. The expanded CAMA-1 and second-cell-line results follow in Table~S11.
+
+\begin{table}[h!]
+\caption{Simulation results for all four panels and three seeds. Valid: ideal-QAOA feasible probability. Remaining columns give per-shot optimum probabilities; all entries are percentages. The uniform-feasible probability is $100/162$. Greedy search independently finds every panel optimum in 36, 50, 36 and 36 evaluations, respectively. All rows are noiseless simulations.}
+\centering\small
+\begin{tabular}{rrrrrr}
+\toprule
+Panel & Seed & Valid & Ideal optimum & Prior optimum & Feasible optimum\\
+\midrule
+\PanelRows
+\bottomrule
+\end{tabular}
+\end{table}
+
+The four original panels have exact optimum scores 0.327939, 0.732473, 0.532951 and 0.143720, respectively. The simulations use NumPy on Pawsey Setonix ARM CPUs. The statevector gradients and Adam updates were independently checked against PennyLane.
+
+\section{Solution quality and repeated executions}
+\begin{table}[h!]
+\caption{Original six-task reference: feasible solution quality and classical search. Mean quality is $100\,\mathbb{E}[u\mid\mathcal F]$ and best gap is $100(1-\max u)$ over valid shots. Greedy gaps use the same feasible score range; the cap is 200 unique objective evaluations including partial construction. These counts do not match the full quantum computational cost.}
+\centering\small
+\begin{tabular}{rrrrr}
+\toprule
+$q$ & HW mean quality (\%) & HW best gap (\%) & Greedy gap (\%) & Eval.\\
+\midrule
+\QualityRows
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[h!]
+\caption{Feasible quality for all 25 tasks. UTC date/time is in 2026. Valid: number of feasible shots; mean and gap are percentages under the normalization in Table~S4. Greedy: total unique score evaluations, including partial construction states; every row's search reaches its exact optimum. Repeated problems share the same deterministic search result.}
+\centering\small
+\begin{tabular}{rrlrrrr}
+\toprule
+$q$ & $D$ & UTC date/time & Valid & Mean & Best gap & Greedy\\
+\midrule
+\RecoveredQualityRows
+\bottomrule
+\end{tabular}
+\end{table}
+
+We found identical submitted circuits in two executions at 6 qubits, three at 18, two at 20, three at 21 and two at 25. Each execution has a distinct task identifier and histogram. We report the denominator and Wilson interval for each task separately. With so few runs and no calibration records, we cannot estimate long-term drift or establish equivalence between executions. The additional programs at 6, 8, 10 and 15 qubits use different variational angles from the original series, and the two 12-qubit programs encode different instances. Those tasks remain separate comparisons. The runner records transferred parameters for the 25-, 30- and 35-qubit circuits.
+
+\section{Hardware score distributions}
+For each valid hardware output, normalize the frozen score by the full feasible score range: $u=(f-f_{\min})/(f_\star-f_{\min})$. Figure~S1 shows the empirical cumulative distribution conditional on validity, with the valid-shot denominator shown in each panel. The means and best scores summarize the observed batch.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\textwidth]{figures/figureS1.pdf}
+\caption{Empirical feasible-score distributions for the original six hardware batches listed in main Table~1. The horizontal axis places the worst feasible score at zero and the optimum at one; the vertical axis is the fraction of valid shots with score at or below that value. Invalid outputs are excluded from these conditional distributions and counted separately in the main feasibility analysis.}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\textwidth]{figures/figureS2.pdf}
+\caption{All identical-circuit repeat groups. Markers show separate completed hardware tasks; labels give valid/total shots. Error bars are pointwise 95\% Wilson intervals, and dashed lines are analytic initial-product feasibility for that circuit. Dates and times are UTC. Each interval refers to one execution.}
+\end{figure}
+
+\clearpage
+\section{Larger-circuit noiseless references}
+We calculate the exact statevector of each distinct archived circuit at 18, 20, 21 and 25 qubits, retaining the original angles and coefficients. There is one circuit at each width, corresponding to three, two, three and two hardware executions. A single reference distribution is therefore used for each group. The implementation forms initial amplitudes and diagonal Ising phases in chunks of $2^{18}$ integer indices. For an index $j$, the bit on wire $v$ is $(j\mathbin{\mathrm{div}}2^{q-1-v})\bmod 2$; pairwise $Z$ eigenvalues are computed from bit parity. Local mixers update disjoint pairs of complex amplitudes in place, using bounded temporary arrays. This needs $O(2^q+C)$ working memory for chunk size $C$, rather than a $2^q\times q$ bit matrix. At 25 qubits the complex128 statevector occupies 512 MiB. This remains a full statevector calculation, with exponential storage in width.
+
+Only feasible assignments are decoded into a small bit matrix. We sum their probabilities to obtain feasibility, sum over all tied optimal assignments for optimum probability, and probability-weight their scores to obtain conditional mean quality. The original four feasible sets contain 675, 650, 1,134 and 1,500 assignments, respectively; the two added sets contain 2,875 and 4,900. Each has one optimum. Initial-product and uniform-feasible probabilities use these same independently checked assignments. Table~S6 gives the numerically evaluated controls; Table~S7 gives each observed hardware batch. The machine-readable comparison also includes unnormalized mean scores, full-precision probabilities, task UUIDs and source hashes.
+
+The chunked implementation reproduces all six original probability vectors within $10^{-12}$. At 18 qubits, independent simulation of the submitted gate sequence agrees within $10^{-10}$. All four final state norms differ from one by less than $10^{-10}$.
+
+The calculations use Python 3.11.7 and NumPy 1.24.4 on Pawsey Setonix ARM CPUs. The revision adds full-statevector calculations at 30 qubits (2,875 feasible assignments) and 35 qubits (4,900 feasible assignments), using Numba 0.60.0 and complex64 amplitudes. These statevectors occupy 8 GiB and 256 GiB, respectively. We allocate four GPU shares to obtain sufficient host memory and perform the calculation on 72 CPU threads. GPU kernels are not used.
+
+We initialize amplitudes and phases in Gray-code order within blocks of $2^{16}$ states. Each transition changes one bit, so its energy update requires only that bit's incident interactions. We recompute the starting amplitude and energy at each block boundary. Local mixers then update disjoint amplitude pairs in parallel. We save every feasible-state probability for later rescoring, without storing full statevectors in the result archive.
+
+At 25 qubits, the maximum complex64 amplitude error relative to the original complex128 implementation is $4.14\times10^{-8}$, and the total feasible probability differs by $2.29\times10^{-10}$. The maximum relative error among feasible probabilities is $7.77\times10^{-7}$. Independent comparisons on all six original circuits pass for both precisions. State norms at 30 and 35 qubits differ from one by less than $4\times10^{-8}$. The two new calculations take 8.90 and 270.46 seconds, respectively, excluding queueing and environment setup. These are simulation runtimes, not an end-to-end comparison with quantum hardware.
+
+\begin{table}[h!]
+\caption{Noiseless and classical controls for six distinct circuits. All probability and normalized-quality entries are percentages; printed values are rounded. $|\mathcal F|$: feasible assignments; $P_{\mathcal F}$: feasible probability; $P_\star$: per-draw optimum probability; mean $u$: quality conditional on feasibility. Identical hardware repetitions share each ideal reference.}
+\centering\small
+\begin{tabular}{rrlrrr}
+\toprule
+$q$ & $|\mathcal F|$ & Distribution & $P_{\mathcal F}$ & $P_\star$ & Mean $u$\\
+\midrule
+\LargerControlRows
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[h!]
+\caption{Individual larger-width hardware executions for comparison with Table~S6. Each batch has 200 shots; entries are percentages. Times are UTC in 2026. $P_\star$ here is the observed optimum fraction, not an exact probability for future executions. Pointwise feasibility intervals are in main Table~2 and Figure~1B; Table~S5 also reports best-sample gaps.}
+\centering\small
+\begin{tabular}{rlrrr}
+\toprule
+$q$ & UTC date/time & Feasible & Optimum & Mean $u$\\
+\midrule
+\LargerHardwareRows
+\bottomrule
+\end{tabular}
+\end{table}
+
+\clearpage
+\input{results}
+\clearpage
+\section{Complete task inventory}
+Each item identifies one unique completed task by width, nonzero dose choices, UTC date/time in 2026 and task UUID. All 25 tasks are included in the analysis; the six original reference tasks are also listed here.
+\input{supp_task_inventory}
+
+\clearpage
+\section{Reproduction}
+The reproducibility materials are available at \url{https://github.com/itsShrizon/warm-start-qaoa-drug-response-reproducibility} (release v1.0.0). Compile \texttt{overleaf/supplement.tex} for Tables~S1--S11 and Figures~S1--S3, which cover sampling controls, solution quality, repeated executions, classical search, score-weight sensitivity, mixer comparisons, and expanded panels.
+
+The analysis runs offline from the bundled records. From the analysis package directory, run \texttt{python reanalysis.py} to reproduce results from bundled evidence; then run \texttt{python build\_figures.py}. Run \texttt{python -m unittest discover -p test\_reanalysis.py -v} for circuit and scorer checks. Python, NumPy, matplotlib, and PennyLane versions are recorded in the package.
+
+Run \texttt{python quality\_analysis.py} for the score distributions and greedy search, and \texttt{python sensitivity.py} for the frozen panel experiment. The latter preserves its frozen design and reports all seeds; reruns on a different platform can differ slightly because the optimization uses floating-point arithmetic. The original Pawsey output and its execution metadata are archived. Run \texttt{python build\_improvement\_outputs.py} for the added tables and figure, and \texttt{python -m unittest discover -p test\_improvements.py -v} for the additional independent checks.
+
+Run \texttt{python analyze\_recovered\_hardware.py} to verify all downloaded tasks and reconstruct their observations. Then run \texttt{python build\_recovered\_outputs.py} to regenerate expanded tables and the repeat-execution plot. Run \texttt{python -m unittest discover -p test\_recovered\_hardware.py -v} to check enumeration through 35 qubits, reconciliation with the original six records, duplicate handling and circuit-based repetition grouping.
+
+The separate directory \texttt{analysis/larger\_noiseless/} preserves the submitted package, completed execution archive, four result JSON files, Slurm logs and accounting record. The final batch script and code are in the completed archive. To recalculate a width, run \texttt{python larger\_noiseless.py --qubits 18 --output result.json}, substituting 20, 21 or 25 as appropriate. Run \texttt{python build\_larger\_outputs.py} to validate the saved outputs and generate Tables~S6--S7, then \texttt{python build\_figures.py} to regenerate the two-panel feasibility figure. The complete scientific test suite is \texttt{python -m unittest discover -p test\_*.py -v}.
+\end{document}

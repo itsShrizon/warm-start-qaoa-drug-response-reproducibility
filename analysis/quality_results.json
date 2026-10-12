@@ -1,0 +1,1243 @@
+{
+  "normalization": "(score - worst feasible)/(optimum - worst feasible)",
+  "hardware_conditioning": "Valid shots only; validity reported separately; descriptive within one batch",
+  "classical_cost": "Unique objective evaluations including partial construction; no quantum cost equivalence",
+  "rows": [
+    {
+      "name": "6q_3drug_D2",
+      "qubits": 6,
+      "valid_count": 176,
+      "total_shots": 200,
+      "optimum": 1.7693640000000002,
+      "worst_feasible": 0.030552999999999997,
+      "hardware_mean_normalized": 0.3353553284922336,
+      "hardware_quantiles_normalized": [
+        0.18691278120508784,
+        0.2141549599122619,
+        0.5769327431215927
+      ],
+      "hardware_best_score": 1.7693640000000002,
+      "hardware_best_normalized_gap": 0.0,
+      "feasible_score_histogram": [
+        {
+          "score": 0.18424400000000007,
+          "count": 3
+        },
+        {
+          "score": 0.19322199999999998,
+          "count": 2
+        },
+        {
+          "score": 0.21674000000000002,
+          "count": 7
+        },
+        {
+          "score": 0.220617,
+          "count": 6
+        },
+        {
+          "score": 0.355559,
+          "count": 37
+        },
+        {
+          "score": 0.37659299999999996,
+          "count": 1
+        },
+        {
+          "score": 0.40292800000000006,
+          "count": 44
+        },
+        {
+          "score": 0.423019,
+          "count": 1
+        },
+        {
+          "score": 0.46651100000000006,
+          "count": 8
+        },
+        {
+          "score": 0.732473,
+          "count": 12
+        },
+        {
+          "score": 0.9486620000000001,
+          "count": 6
+        },
+        {
+          "score": 1.031235,
+          "count": 1
+        },
+        {
+          "score": 1.0337299999999998,
+          "count": 43
+        },
+        {
+          "score": 1.7693640000000002,
+          "count": 5
+        }
+      ],
+      "greedy_local": {
+        "assignment": [
+          1,
+          1,
+          1
+        ],
+        "score": 1.7693640000000002,
+        "objective_evaluations": 21,
+        "budget": 200,
+        "runtime_seconds": 0.00027179999960935675,
+        "normalized_gap": 0.0,
+        "found_optimum": true
+      }
+    },
+    {
+      "name": "8q_4drug_D2",
+      "qubits": 8,
+      "valid_count": 146,
+      "total_shots": 200,
+      "optimum": 1.7693640000000002,
+      "worst_feasible": -0.28099,
+      "hardware_mean_normalized": 0.3827021931835867,
+      "hardware_quantiles_normalized": [
+        0.23350309263668617,
+        0.33356093630660855,
+        0.4942868402236882
+      ],
+      "hardware_best_score": 1.7693640000000002,
+      "hardware_best_normalized_gap": 0.0,
+      "feasible_score_histogram": [
+        {
+          "score": -0.03933599999999991,
+          "count": 1
+        },
+        {
+          "score": -0.015575000000000002,
+          "count": 2
+        },
+        {
+          "score": 0.03519100000000001,
+          "count": 1
+        },
+        {
+          "score": 0.066864,
+          "count": 2
+        },
+        {
+          "score": 0.09986100000000007,
+          "count": 3
+        },
+        {
+          "score": 0.10922199999999999,
+          "count": 3
+        },
+        {
+          "score": 0.123211,
+          "count": 5
+        },
+        {
+          "score": 0.14405900000000002,
+          "count": 1
+        },
+        {
+          "score": 0.16188600000000009,
+          "count": 1
+        },
+        {
+          "score": 0.16945099999999996,
+          "count": 2
+        },
+        {
+          "score": 0.17408700000000002,
+          "count": 4
+        },
+        {
+          "score": 0.18424400000000007,
+          "count": 7
+        },
+        {
+          "score": 0.190622,
+          "count": 1
+        },
+        {
+          "score": 0.19322199999999998,
+          "count": 2
+        },
+        {
+          "score": 0.194656,
+          "count": 2
+        },
+        {
+          "score": 0.2071280000000001,
+          "count": 1
+        },
+        {
+          "score": 0.21674000000000002,
+          "count": 8
+        },
+        {
+          "score": 0.220617,
+          "count": 4
+        },
+        {
+          "score": 0.24136000000000002,
+          "count": 3
+        },
+        {
+          "score": 0.33440900000000007,
+          "count": 3
+        },
+        {
+          "score": 0.355559,
+          "count": 8
+        },
+        {
+          "score": 0.37659299999999996,
+          "count": 3
+        },
+        {
+          "score": 0.38334800000000013,
+          "count": 2
+        },
+        {
+          "score": 0.385413,
+          "count": 1
+        },
+        {
+          "score": 0.40292800000000006,
+          "count": 14
+        },
+        {
+          "score": 0.423019,
+          "count": 7
+        },
+        {
+          "score": 0.46651100000000006,
+          "count": 7
+        },
+        {
+          "score": 0.515513,
+          "count": 2
+        },
+        {
+          "score": 0.5585730000000001,
+          "count": 1
+        },
+        {
+          "score": 0.715083,
+          "count": 2
+        },
+        {
+          "score": 0.732473,
+          "count": 10
+        },
+        {
+          "score": 0.9486620000000001,
+          "count": 12
+        },
+        {
+          "score": 0.9590520000000001,
+          "count": 1
+        },
+        {
+          "score": 1.031235,
+          "count": 2
+        },
+        {
+          "score": 1.0337299999999998,
+          "count": 12
+        },
+        {
+          "score": 1.052562,
+          "count": 1
+        },
+        {
+          "score": 1.7693640000000002,
+          "count": 5
+        }
+      ],
+      "greedy_local": {
+        "assignment": [
+          1,
+          1,
+          1,
+          -1
+        ],
+        "score": 1.7693640000000002,
+        "objective_evaluations": 37,
+        "budget": 200,
+        "runtime_seconds": 0.00048570000035397243,
+        "normalized_gap": 0.0,
+        "found_optimum": true
+      }
+    },
+    {
+      "name": "9q_3drug_D3",
+      "qubits": 9,
+      "valid_count": 126,
+      "total_shots": 200,
+      "optimum": 1.7693640000000002,
+      "worst_feasible": 0.030552999999999997,
+      "hardware_mean_normalized": 0.3348672952425173,
+      "hardware_quantiles_normalized": [
+        0.19467555703293798,
+        0.288931919570327,
+        0.39449658416009564
+      ],
+      "hardware_best_score": 1.385802,
+      "hardware_best_normalized_gap": 0.2205886666233421,
+      "feasible_score_histogram": [
+        {
+          "score": 0.19322199999999998,
+          "count": 1
+        },
+        {
+          "score": 0.21674000000000002,
+          "count": 1
+        },
+        {
+          "score": 0.220617,
+          "count": 1
+        },
+        {
+          "score": 0.253919,
+          "count": 1
+        },
+        {
+          "score": 0.335501,
+          "count": 8
+        },
+        {
+          "score": 0.355559,
+          "count": 4
+        },
+        {
+          "score": 0.358416,
+          "count": 5
+        },
+        {
+          "score": 0.362017,
+          "count": 10
+        },
+        {
+          "score": 0.36905699999999997,
+          "count": 3
+        },
+        {
+          "score": 0.40292800000000006,
+          "count": 4
+        },
+        {
+          "score": 0.418222,
+          "count": 1
+        },
+        {
+          "score": 0.418273,
+          "count": 4
+        },
+        {
+          "score": 0.423019,
+          "count": 1
+        },
+        {
+          "score": 0.42959900000000006,
+          "count": 5
+        },
+        {
+          "score": 0.5078429999999999,
+          "count": 11
+        },
+        {
+          "score": 0.532951,
+          "count": 7
+        },
+        {
+          "score": 0.545286,
+          "count": 7
+        },
+        {
+          "score": 0.560403,
+          "count": 2
+        },
+        {
+          "score": 0.568418,
+          "count": 3
+        },
+        {
+          "score": 0.665538,
+          "count": 6
+        },
+        {
+          "score": 0.70858,
+          "count": 5
+        },
+        {
+          "score": 0.7165080000000001,
+          "count": 6
+        },
+        {
+          "score": 0.732473,
+          "count": 3
+        },
+        {
+          "score": 0.7701419999999999,
+          "count": 4
+        },
+        {
+          "score": 0.8988280000000001,
+          "count": 4
+        },
+        {
+          "score": 1.0337299999999998,
+          "count": 5
+        },
+        {
+          "score": 1.0370139999999999,
+          "count": 5
+        },
+        {
+          "score": 1.32301,
+          "count": 1
+        },
+        {
+          "score": 1.385802,
+          "count": 8
+        }
+      ],
+      "greedy_local": {
+        "assignment": [
+          2,
+          2,
+          2
+        ],
+        "score": 1.7693640000000002,
+        "objective_evaluations": 33,
+        "budget": 200,
+        "runtime_seconds": 0.0003966000003856607,
+        "normalized_gap": 0.0,
+        "found_optimum": true
+      }
+    },
+    {
+      "name": "10q_5drug_D2",
+      "qubits": 10,
+      "valid_count": 141,
+      "total_shots": 200,
+      "optimum": 1.7693640000000002,
+      "worst_feasible": -0.599075,
+      "hardware_mean_normalized": 0.38341103376108526,
+      "hardware_quantiles_normalized": [
+        0.30496288905899616,
+        0.34608955518803736,
+        0.4230647274428432
+      ],
+      "hardware_best_score": 1.052562,
+      "hardware_best_normalized_gap": 0.3026474399382886,
+      "feasible_score_histogram": [
+        {
+          "score": -0.39095500000000005,
+          "count": 1
+        },
+        {
+          "score": -0.34137300000000004,
+          "count": 1
+        },
+        {
+          "score": -0.28099,
+          "count": 2
+        },
+        {
+          "score": -0.280607,
+          "count": 1
+        },
+        {
+          "score": -0.13533100000000006,
+          "count": 1
+        },
+        {
+          "score": -0.111098,
+          "count": 1
+        },
+        {
+          "score": -0.082125,
+          "count": 3
+        },
+        {
+          "score": -0.06701200000000002,
+          "count": 1
+        },
+        {
+          "score": 0.030552999999999997,
+          "count": 2
+        },
+        {
+          "score": 0.03519100000000001,
+          "count": 1
+        },
+        {
+          "score": 0.06397699999999998,
+          "count": 1
+        },
+        {
+          "score": 0.066864,
+          "count": 3
+        },
+        {
+          "score": 0.08465600000000008,
+          "count": 3
+        },
+        {
+          "score": 0.08726699999999998,
+          "count": 7
+        },
+        {
+          "score": 0.09986100000000007,
+          "count": 1
+        },
+        {
+          "score": 0.10922199999999999,
+          "count": 4
+        },
+        {
+          "score": 0.123211,
+          "count": 3
+        },
+        {
+          "score": 0.14405900000000002,
+          "count": 1
+        },
+        {
+          "score": 0.14681700000000006,
+          "count": 3
+        },
+        {
+          "score": 0.14830699999999997,
+          "count": 1
+        },
+        {
+          "score": 0.14953200000000003,
+          "count": 2
+        },
+        {
+          "score": 0.15775300000000006,
+          "count": 1
+        },
+        {
+          "score": 0.16620300000000002,
+          "count": 1
+        },
+        {
+          "score": 0.16945099999999996,
+          "count": 1
+        },
+        {
+          "score": 0.170912,
+          "count": 1
+        },
+        {
+          "score": 0.17408700000000002,
+          "count": 2
+        },
+        {
+          "score": 0.18424400000000007,
+          "count": 2
+        },
+        {
+          "score": 0.190622,
+          "count": 1
+        },
+        {
+          "score": 0.19322199999999998,
+          "count": 3
+        },
+        {
+          "score": 0.194656,
+          "count": 3
+        },
+        {
+          "score": 0.2071280000000001,
+          "count": 1
+        },
+        {
+          "score": 0.21674000000000002,
+          "count": 4
+        },
+        {
+          "score": 0.220617,
+          "count": 8
+        },
+        {
+          "score": 0.24136000000000002,
+          "count": 5
+        },
+        {
+          "score": 0.311214,
+          "count": 2
+        },
+        {
+          "score": 0.33440900000000007,
+          "count": 1
+        },
+        {
+          "score": 0.351058,
+          "count": 3
+        },
+        {
+          "score": 0.355559,
+          "count": 11
+        },
+        {
+          "score": 0.37659299999999996,
+          "count": 3
+        },
+        {
+          "score": 0.38334800000000013,
+          "count": 3
+        },
+        {
+          "score": 0.385413,
+          "count": 2
+        },
+        {
+          "score": 0.40292800000000006,
+          "count": 10
+        },
+        {
+          "score": 0.423019,
+          "count": 3
+        },
+        {
+          "score": 0.46651100000000006,
+          "count": 3
+        },
+        {
+          "score": 0.515513,
+          "count": 2
+        },
+        {
+          "score": 0.535198,
+          "count": 1
+        },
+        {
+          "score": 0.701238,
+          "count": 1
+        },
+        {
+          "score": 0.715083,
+          "count": 2
+        },
+        {
+          "score": 0.732473,
+          "count": 5
+        },
+        {
+          "score": 0.9314470000000001,
+          "count": 3
+        },
+        {
+          "score": 0.9486620000000001,
+          "count": 4
+        },
+        {
+          "score": 0.9590520000000001,
+          "count": 1
+        },
+        {
+          "score": 1.031235,
+          "count": 2
+        },
+        {
+          "score": 1.0337299999999998,
+          "count": 2
+        },
+        {
+          "score": 1.052562,
+          "count": 1
+        }
+      ],
+      "greedy_local": {
+        "assignment": [
+          1,
+          -1,
+          1,
+          1,
+          -1
+        ],
+        "score": 1.7693640000000002,
+        "objective_evaluations": 53,
+        "budget": 200,
+        "runtime_seconds": 0.0007325000005948823,
+        "normalized_gap": 0.0,
+        "found_optimum": true
+      }
+    },
+    {
+      "name": "12q_4drug_D3",
+      "qubits": 12,
+      "valid_count": 59,
+      "total_shots": 200,
+      "optimum": 1.7693640000000002,
+      "worst_feasible": -0.28099,
+      "hardware_mean_normalized": 0.3453817970714044,
+      "hardware_quantiles_normalized": [
+        0.252765132264965,
+        0.33356093630660855,
+        0.42943852622522743
+      ],
+      "hardware_best_score": 0.9590520000000001,
+      "hardware_best_normalized_gap": 0.3952059010297734,
+      "feasible_score_histogram": [
+        {
+          "score": -0.06594299999999997,
+          "count": 1
+        },
+        {
+          "score": -0.017370999999999998,
+          "count": 1
+        },
+        {
+          "score": 0.03519100000000001,
+          "count": 1
+        },
+        {
+          "score": 0.066864,
+          "count": 1
+        },
+        {
+          "score": 0.09986100000000007,
+          "count": 1
+        },
+        {
+          "score": 0.161356,
+          "count": 1
+        },
+        {
+          "score": 0.17408700000000002,
+          "count": 2
+        },
+        {
+          "score": 0.18165999999999996,
+          "count": 3
+        },
+        {
+          "score": 0.194656,
+          "count": 1
+        },
+        {
+          "score": 0.196161,
+          "count": 1
+        },
+        {
+          "score": 0.220617,
+          "count": 2
+        },
+        {
+          "score": 0.253919,
+          "count": 1
+        },
+        {
+          "score": 0.309425,
+          "count": 1
+        },
+        {
+          "score": 0.312385,
+          "count": 1
+        },
+        {
+          "score": 0.335501,
+          "count": 2
+        },
+        {
+          "score": 0.35235399999999995,
+          "count": 1
+        },
+        {
+          "score": 0.355559,
+          "count": 2
+        },
+        {
+          "score": 0.358416,
+          "count": 1
+        },
+        {
+          "score": 0.360471,
+          "count": 1
+        },
+        {
+          "score": 0.362017,
+          "count": 3
+        },
+        {
+          "score": 0.36905699999999997,
+          "count": 1
+        },
+        {
+          "score": 0.40292800000000006,
+          "count": 4
+        },
+        {
+          "score": 0.408455,
+          "count": 1
+        },
+        {
+          "score": 0.423019,
+          "count": 1
+        },
+        {
+          "score": 0.423791,
+          "count": 1
+        },
+        {
+          "score": 0.42959900000000006,
+          "count": 1
+        },
+        {
+          "score": 0.5078429999999999,
+          "count": 1
+        },
+        {
+          "score": 0.515513,
+          "count": 1
+        },
+        {
+          "score": 0.532951,
+          "count": 2
+        },
+        {
+          "score": 0.545286,
+          "count": 1
+        },
+        {
+          "score": 0.560403,
+          "count": 1
+        },
+        {
+          "score": 0.581143,
+          "count": 1
+        },
+        {
+          "score": 0.617879,
+          "count": 1
+        },
+        {
+          "score": 0.6768250000000001,
+          "count": 1
+        },
+        {
+          "score": 0.688992,
+          "count": 1
+        },
+        {
+          "score": 0.6963260000000001,
+          "count": 1
+        },
+        {
+          "score": 0.70858,
+          "count": 3
+        },
+        {
+          "score": 0.7165080000000001,
+          "count": 1
+        },
+        {
+          "score": 0.732473,
+          "count": 2
+        },
+        {
+          "score": 0.7701419999999999,
+          "count": 1
+        },
+        {
+          "score": 0.776805,
+          "count": 1
+        },
+        {
+          "score": 0.8988280000000001,
+          "count": 1
+        },
+        {
+          "score": 0.9486620000000001,
+          "count": 1
+        },
+        {
+          "score": 0.9590520000000001,
+          "count": 1
+        }
+      ],
+      "greedy_local": {
+        "assignment": [
+          2,
+          2,
+          2,
+          -1
+        ],
+        "score": 1.7693640000000002,
+        "objective_evaluations": 57,
+        "budget": 200,
+        "runtime_seconds": 0.0008196999988285825,
+        "normalized_gap": 0.0,
+        "found_optimum": true
+      }
+    },
+    {
+      "name": "15q_5drug_D3",
+      "qubits": 15,
+      "valid_count": 130,
+      "total_shots": 200,
+      "optimum": 1.7693640000000002,
+      "worst_feasible": -0.599075,
+      "hardware_mean_normalized": 0.39671963750743056,
+      "hardware_quantiles_normalized": [
+        0.2954771053846014,
+        0.40238802857071676,
+        0.4818689651707305
+      ],
+      "hardware_best_score": 1.32301,
+      "hardware_best_normalized_gap": 0.18845914967622146,
+      "feasible_score_histogram": [
+        {
+          "score": -0.34141499999999997,
+          "count": 1
+        },
+        {
+          "score": -0.25788500000000003,
+          "count": 1
+        },
+        {
+          "score": -0.25301499999999993,
+          "count": 1
+        },
+        {
+          "score": -0.196418,
+          "count": 1
+        },
+        {
+          "score": -0.18160199999999999,
+          "count": 1
+        },
+        {
+          "score": -0.139335,
+          "count": 1
+        },
+        {
+          "score": -0.10526799999999997,
+          "count": 1
+        },
+        {
+          "score": -0.09358600000000003,
+          "count": 1
+        },
+        {
+          "score": -0.082125,
+          "count": 1
+        },
+        {
+          "score": -0.07066400000000003,
+          "count": 1
+        },
+        {
+          "score": -0.056638999999999995,
+          "count": 1
+        },
+        {
+          "score": -0.038754000000000004,
+          "count": 1
+        },
+        {
+          "score": -0.020364000000000004,
+          "count": 1
+        },
+        {
+          "score": -0.017370999999999998,
+          "count": 1
+        },
+        {
+          "score": -0.003100999999999914,
+          "count": 2
+        },
+        {
+          "score": 0.006142999999999986,
+          "count": 2
+        },
+        {
+          "score": 0.016001000000000085,
+          "count": 2
+        },
+        {
+          "score": 0.023713000000000012,
+          "count": 1
+        },
+        {
+          "score": 0.030552999999999997,
+          "count": 1
+        },
+        {
+          "score": 0.04351100000000001,
+          "count": 2
+        },
+        {
+          "score": 0.052035000000000026,
+          "count": 1
+        },
+        {
+          "score": 0.055365999999999985,
+          "count": 2
+        },
+        {
+          "score": 0.057259000000000004,
+          "count": 1
+        },
+        {
+          "score": 0.066864,
+          "count": 1
+        },
+        {
+          "score": 0.08465600000000008,
+          "count": 1
+        },
+        {
+          "score": 0.08726699999999998,
+          "count": 1
+        },
+        {
+          "score": 0.09986100000000007,
+          "count": 2
+        },
+        {
+          "score": 0.10339499999999997,
+          "count": 1
+        },
+        {
+          "score": 0.10452,
+          "count": 2
+        },
+        {
+          "score": 0.123211,
+          "count": 2
+        },
+        {
+          "score": 0.161356,
+          "count": 1
+        },
+        {
+          "score": 0.16188600000000009,
+          "count": 1
+        },
+        {
+          "score": 0.170912,
+          "count": 1
+        },
+        {
+          "score": 0.17408700000000002,
+          "count": 1
+        },
+        {
+          "score": 0.18424400000000007,
+          "count": 2
+        },
+        {
+          "score": 0.197721,
+          "count": 1
+        },
+        {
+          "score": 0.21674000000000002,
+          "count": 2
+        },
+        {
+          "score": 0.220617,
+          "count": 2
+        },
+        {
+          "score": 0.253919,
+          "count": 2
+        },
+        {
+          "score": 0.285102,
+          "count": 1
+        },
+        {
+          "score": 0.287879,
+          "count": 1
+        },
+        {
+          "score": 0.312385,
+          "count": 1
+        },
+        {
+          "score": 0.31299399999999994,
+          "count": 1
+        },
+        {
+          "score": 0.33401500000000006,
+          "count": 2
+        },
+        {
+          "score": 0.33440900000000007,
+          "count": 1
+        },
+        {
+          "score": 0.335501,
+          "count": 4
+        },
+        {
+          "score": 0.337113,
+          "count": 1
+        },
+        {
+          "score": 0.35235399999999995,
+          "count": 2
+        },
+        {
+          "score": 0.355559,
+          "count": 2
+        },
+        {
+          "score": 0.358416,
+          "count": 2
+        },
+        {
+          "score": 0.36905699999999997,
+          "count": 4
+        },
+        {
+          "score": 0.37659299999999996,
+          "count": 1
+        },
+        {
+          "score": 0.396062,
+          "count": 1
+        },
+        {
+          "score": 0.397109,
+          "count": 2
+        },
+        {
+          "score": 0.40292800000000006,
+          "count": 2
+        },
+        {
+          "score": 0.418222,
+          "count": 2
+        },
+        {
+          "score": 0.418273,
+          "count": 1
+        },
+        {
+          "score": 0.423019,
+          "count": 1
+        },
+        {
+          "score": 0.426843,
+          "count": 1
+        },
+        {
+          "score": 0.42959900000000006,
+          "count": 2
+        },
+        {
+          "score": 0.45159399999999994,
+          "count": 1
+        },
+        {
+          "score": 0.5078429999999999,
+          "count": 3
+        },
+        {
+          "score": 0.515513,
+          "count": 1
+        },
+        {
+          "score": 0.528211,
+          "count": 2
+        },
+        {
+          "score": 0.532951,
+          "count": 4
+        },
+        {
+          "score": 0.545286,
+          "count": 5
+        },
+        {
+          "score": 0.5585730000000001,
+          "count": 1
+        },
+        {
+          "score": 0.560403,
+          "count": 2
+        },
+        {
+          "score": 0.568418,
+          "count": 1
+        },
+        {
+          "score": 0.581143,
+          "count": 2
+        },
+        {
+          "score": 0.5860400000000001,
+          "count": 1
+        },
+        {
+          "score": 0.6477190000000002,
+          "count": 1
+        },
+        {
+          "score": 0.665538,
+          "count": 2
+        },
+        {
+          "score": 0.6771530000000001,
+          "count": 1
+        },
+        {
+          "score": 0.688992,
+          "count": 1
+        },
+        {
+          "score": 0.70858,
+          "count": 2
+        },
+        {
+          "score": 0.7165080000000001,
+          "count": 3
+        },
+        {
+          "score": 0.7701419999999999,
+          "count": 1
+        },
+        {
+          "score": 0.776805,
+          "count": 2
+        },
+        {
+          "score": 0.8988280000000001,
+          "count": 5
+        },
+        {
+          "score": 0.915244,
+          "count": 2
+        },
+        {
+          "score": 1.32301,
+          "count": 1
+        }
+      ],
+      "greedy_local": {
+        "assignment": [
+          2,
+          -1,
+          2,
+          2,
+          -1
+        ],
+        "score": 1.7693640000000002,
+        "objective_evaluations": 81,
+        "budget": 200,
+        "runtime_seconds": 0.0012936000002810033,
+        "normalized_gap": 0.0,
+        "found_optimum": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+test_six_full_distributions_and_saved_metrics (test_larger_noiseless.LargerNoiselessTests.test_six_full_distributions_and_saved_metrics) ... ok
+test_wire_order_and_general_complex_pair_update (test_larger_noiseless.LargerNoiselessTests.test_wire_order_and_general_complex_pair_update) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.413s
+
+OK
+{
+  "qubits": 20,
+  "circuit_sha256": "08e0323bc41758902c413df6b7b40c27edbd944ac2d0784d70e3d1e687d4b9ad",
+  "feasible_states": 650,
+  "optimal_states": 1,
+  "norm": 1.0000000000000009,
+  "independent_gate_max_probability_error": null,
+  "methods": {
+    "ideal_qaoa": {
+      "feasibility": 0.255213850740175,
+      "optimum_probability": 0.00023885294631043828,
+      "conditional_mean_score": 0.5186720146383895,
+      "conditional_mean_normalized_score": 0.390011683171974
+    },
+    "initial_product": {
+      "feasibility": 0.2779610428103495,
+      "optimum_probability": 0.00021194756007706197,
+      "conditional_mean_score": 0.5000897377881091,
+      "conditional_mean_normalized_score": 0.3809487228976603
+    },
+    "uniform_feasible": {
+      "feasibility": 1.0000000000000002,
+      "optimum_probability": 0.0015384615384615385,
+      "conditional_mean_score": 0.3703169769230768,
+      "conditional_mean_normalized_score": 0.3176558667054942
+    }
+  },
+  "hardware": [
+    {
+      "task_uuid": "abdccbd0-9b84-4ba1-b5a7-91c6e0403be6",
+      "source_sha256": "3000b77e8fff9771864de5b206ad5f924a56dd73405f0f51ce1b6af71cd64b1a",
+      "qasm_sha256": "cf63f625b0e737443c820cf9eb9952a68730da1d3da9fa06bc106f6dc6fa5e74",
+      "shots": 200,
+      "created_utc": "2026-07-11T08:09:44.843Z",
+      "feasibility": 0.2,
+      "optimum_probability": 0.0,
+      "conditional_mean_score": 0.49147620000000003,
+      "conditional_mean_normalized_score": 0.37674772258839206
+    },
+    {
+      "task_uuid": "b4079656-2649-4163-9025-133821ff1bdd",
+      "source_sha256": "8100b80e6e3d2ba02e1f450847ce071db09147e9db16ffe71f808486b99fe291",
+      "qasm_sha256": "cf63f625b0e737443c820cf9eb9952a68730da1d3da9fa06bc106f6dc6fa5e74",
+      "shots": 200,
+      "created_utc": "2026-07-12T13:47:11.070Z",
+      "feasibility": 0.27,
+      "optimum_probability": 0.0,
+      "conditional_mean_score": 0.49247411111111117,
+      "conditional_mean_normalized_score": 0.3772344244511489
+    }
+  ],
+  "execution": {
+    "utc_completed": "2026-09-05T20:23:33.983226+00:00",
+    "elapsed_seconds": 0.8715192410163581,
+    "peak_rss_kib_linux": 36864,
+    "hostname": "nid002250",
+    "platform": "Linux-6.4.0-150700.53.78-64kb-aarch64-with-glibc2.38",
+    "python": "3.11.7",
+    "numpy": "1.24.4",
+    "slurm_job_id": "48062930",
+    "slurm_array_task_id": "1",
+    "state_dtype": "complex128",
+    "chunk_size": 262144,
+    "code_sha256": {
+      "larger_noiseless.py": "987e0a3d77abb840dc811f9bb7c6ca2ee44b4d15588268eaa284f267b9134b0e",
+      "reanalysis.py": "f48df234f2e6c0374c48e80138cc0ece4b36361c56afd879fb6cee299782d25b",
+      "analyze_recovered_hardware.py": "697de82ec11d9fab5fc9f3d7e8fc0bcf5ff4d5556d08bf4dd45d117a18dcd47c",
+      "quality_analysis.py": "0de45b8709654567d52df9f1cf7ec46e404a9e2d9a5bda85d7388c466ec50735"
+    },
+    "frozen_instances_sha256": "32ae0d5a6242c230c3514e85cb6773bdf9cef2cb88e299d256c3979449ded3ab"
+  }
+}

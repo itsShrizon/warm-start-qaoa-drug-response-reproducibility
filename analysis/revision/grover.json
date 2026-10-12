@@ -1,0 +1,452 @@
+[
+  {
+    "name": "6q_3drug_D2",
+    "seed": 0,
+    "lambda": 0.6,
+    "qubits": 6,
+    "feasible_states": 20,
+    "feasibility": 1.0,
+    "optimum_probability": 0.27221374231342305,
+    "uniform_feasible": 0.05,
+    "final_parameters": [
+      1.9800984860410984,
+      -2.226502932469374
+    ],
+    "final_cost": -1.0627359494190414
+  },
+  {
+    "name": "6q_3drug_D2",
+    "seed": 1,
+    "lambda": 0.6,
+    "qubits": 6,
+    "feasible_states": 20,
+    "feasibility": 1.0,
+    "optimum_probability": 0.2712913005009921,
+    "uniform_feasible": 0.05,
+    "final_parameters": [
+      -1.9775116625190248,
+      2.21220946564381
+    ],
+    "final_cost": -1.0622989422119247
+  },
+  {
+    "name": "6q_3drug_D2",
+    "seed": 2,
+    "lambda": 0.6,
+    "qubits": 6,
+    "feasible_states": 20,
+    "feasibility": 1.0,
+    "optimum_probability": 0.27241645863542563,
+    "uniform_feasible": 0.05,
+    "final_parameters": [
+      1.9815082623409146,
+      -2.2305326639297642
+    ],
+    "final_cost": -1.062858908277952
+  },
+  {
+    "name": "8q_4drug_D2",
+    "seed": 0,
+    "lambda": 0.6,
+    "qubits": 8,
+    "feasible_states": 56,
+    "feasibility": 1.0,
+    "optimum_probability": 0.09423197818660674,
+    "uniform_feasible": 0.017857142857142856,
+    "final_parameters": [
+      2.0156187038204947,
+      -2.130811376384325
+    ],
+    "final_cost": -0.738992751592393
+  },
+  {
+    "name": "8q_4drug_D2",
+    "seed": 1,
+    "lambda": 0.6,
+    "qubits": 8,
+    "feasible_states": 56,
+    "feasibility": 1.0,
+    "optimum_probability": 0.09365422187948051,
+    "uniform_feasible": 0.017857142857142856,
+    "final_parameters": [
+      -2.0038930768759786,
+      2.100572542769712
+    ],
+    "final_cost": -0.7382613143922973
+  },
+  {
+    "name": "8q_4drug_D2",
+    "seed": 2,
+    "lambda": 0.6,
+    "qubits": 8,
+    "feasible_states": 56,
+    "feasibility": 1.0,
+    "optimum_probability": 0.09429783666982035,
+    "uniform_feasible": 0.017857142857142856,
+    "final_parameters": [
+      2.0187346541747377,
+      -2.1368621742570144
+    ],
+    "final_cost": -0.7391212828553746
+  },
+  {
+    "name": "9q_3drug_D3",
+    "seed": 0,
+    "lambda": 0.6,
+    "qubits": 9,
+    "feasible_states": 54,
+    "feasibility": 1.0,
+    "optimum_probability": 0.09989999339151714,
+    "uniform_feasible": 0.018518518518518517,
+    "final_parameters": [
+      2.223628861630719,
+      -2.0969371386043623
+    ],
+    "final_cost": -0.9573009211170587
+  },
+  {
+    "name": "9q_3drug_D3",
+    "seed": 1,
+    "lambda": 0.6,
+    "qubits": 9,
+    "feasible_states": 54,
+    "feasibility": 1.0,
+    "optimum_probability": 0.0999352267550679,
+    "uniform_feasible": 0.018518518518518517,
+    "final_parameters": [
+      -2.210387952196732,
+      2.0849722229215333
+    ],
+    "final_cost": -0.9569661903382498
+  },
+  {
+    "name": "9q_3drug_D3",
+    "seed": 2,
+    "lambda": 0.6,
+    "qubits": 9,
+    "feasible_states": 54,
+    "feasibility": 1.0,
+    "optimum_probability": 0.09981950729441953,
+    "uniform_feasible": 0.018518518518518517,
+    "final_parameters": [
+      2.226989480313801,
+      -2.098157424272838
+    ],
+    "final_cost": -0.9573788023525095
+  },
+  {
+    "name": "10q_5drug_D2",
+    "seed": 0,
+    "lambda": 0.6,
+    "qubits": 10,
+    "feasible_states": 120,
+    "feasibility": 1.0,
+    "optimum_probability": 0.039304551736202495,
+    "uniform_feasible": 0.008333333333333333,
+    "final_parameters": [
+      1.9486166549388972,
+      -2.007587734843296
+    ],
+    "final_cost": -0.5154089459986567
+  },
+  {
+    "name": "10q_5drug_D2",
+    "seed": 1,
+    "lambda": 0.6,
+    "qubits": 10,
+    "feasible_states": 120,
+    "feasibility": 1.0,
+    "optimum_probability": 0.03929636479109222,
+    "uniform_feasible": 0.008333333333333333,
+    "final_parameters": [
+      -1.9287707873861202,
+      1.9750407200974192
+    ],
+    "final_cost": -0.5150015789575796
+  },
+  {
+    "name": "10q_5drug_D2",
+    "seed": 2,
+    "lambda": 0.6,
+    "qubits": 10,
+    "feasible_states": 120,
+    "feasibility": 1.0,
+    "optimum_probability": 0.03926545607804888,
+    "uniform_feasible": 0.008333333333333333,
+    "final_parameters": [
+      1.9528578720416125,
+      -2.01284010247304
+    ],
+    "final_cost": -0.5154539696249903
+  },
+  {
+    "name": "12q_4drug_D3",
+    "seed": 0,
+    "lambda": 0.6,
+    "qubits": 12,
+    "feasible_states": 162,
+    "feasibility": 1.0,
+    "optimum_probability": 0.03019235509563346,
+    "uniform_feasible": 0.006172839506172839,
+    "final_parameters": [
+      2.215798334225186,
+      -2.0058425785009457
+    ],
+    "final_cost": -0.6758399010387433
+  },
+  {
+    "name": "12q_4drug_D3",
+    "seed": 1,
+    "lambda": 0.6,
+    "qubits": 12,
+    "feasible_states": 162,
+    "feasibility": 1.0,
+    "optimum_probability": 0.030452275946292726,
+    "uniform_feasible": 0.006172839506172839,
+    "final_parameters": [
+      -2.2026460797768026,
+      2.0038610928763045
+    ],
+    "final_cost": -0.6755950531051095
+  },
+  {
+    "name": "12q_4drug_D3",
+    "seed": 2,
+    "lambda": 0.6,
+    "qubits": 12,
+    "feasible_states": 162,
+    "feasibility": 1.0,
+    "optimum_probability": 0.03009636946969188,
+    "uniform_feasible": 0.006172839506172839,
+    "final_parameters": [
+      2.2188904709916235,
+      -2.004231676871107
+    ],
+    "final_cost": -0.675910150314711
+  },
+  {
+    "name": "15q_5drug_D3",
+    "seed": 0,
+    "lambda": 0.6,
+    "qubits": 15,
+    "feasible_states": 360,
+    "feasibility": 1.0,
+    "optimum_probability": 0.011758064218407784,
+    "uniform_feasible": 0.002777777777777778,
+    "final_parameters": [
+      2.083537031866855,
+      -1.8667241611444834
+    ],
+    "final_cost": -0.48930183630146923
+  },
+  {
+    "name": "15q_5drug_D3",
+    "seed": 1,
+    "lambda": 0.6,
+    "qubits": 15,
+    "feasible_states": 360,
+    "feasibility": 1.0,
+    "optimum_probability": 0.012040815131173273,
+    "uniform_feasible": 0.002777777777777778,
+    "final_parameters": [
+      -2.064850204959426,
+      1.8742077785517333
+    ],
+    "final_cost": -0.48889006929298096
+  },
+  {
+    "name": "15q_5drug_D3",
+    "seed": 2,
+    "lambda": 0.6,
+    "qubits": 15,
+    "feasible_states": 360,
+    "feasibility": 1.0,
+    "optimum_probability": 0.011683180413277634,
+    "uniform_feasible": 0.002777777777777778,
+    "final_parameters": [
+      2.087375635730194,
+      -1.863076844063522
+    ],
+    "final_cost": -0.48939528976991054
+  },
+  {
+    "name": "panel_1",
+    "seed": 0,
+    "lambda": 0.6,
+    "qubits": 12,
+    "feasible_states": 162,
+    "feasibility": 1.0,
+    "optimum_probability": 0.015276665602436169,
+    "uniform_feasible": 0.006172839506172839,
+    "final_parameters": [
+      1.6903757064435083,
+      -1.2933951483186406
+    ],
+    "final_cost": -0.01849951449683306
+  },
+  {
+    "name": "panel_1",
+    "seed": 1,
+    "lambda": 0.6,
+    "qubits": 12,
+    "feasible_states": 162,
+    "feasibility": 1.0,
+    "optimum_probability": 0.015410803378882664,
+    "uniform_feasible": 0.006172839506172839,
+    "final_parameters": [
+      -1.6894112015001164,
+      1.3275363271617209
+    ],
+    "final_cost": -0.018592163157456505
+  },
+  {
+    "name": "panel_1",
+    "seed": 2,
+    "lambda": 0.6,
+    "qubits": 12,
+    "feasible_states": 162,
+    "feasibility": 1.0,
+    "optimum_probability": 0.015259496986364265,
+    "uniform_feasible": 0.006172839506172839,
+    "final_parameters": [
+      1.6918523525826072,
+      -1.288215343584874
+    ],
+    "final_cost": -0.018463746133833534
+  },
+  {
+    "name": "panel_2",
+    "seed": 0,
+    "lambda": 0.6,
+    "qubits": 12,
+    "feasible_states": 162,
+    "feasibility": 1.0,
+    "optimum_probability": 0.029139710164870315,
+    "uniform_feasible": 0.006172839506172839,
+    "final_parameters": [
+      3.293494614625401,
+      -1.8016009663520725
+    ],
+    "final_cost": -0.25318055673607226
+  },
+  {
+    "name": "panel_2",
+    "seed": 1,
+    "lambda": 0.6,
+    "qubits": 12,
+    "feasible_states": 162,
+    "feasibility": 1.0,
+    "optimum_probability": 0.029422037965691053,
+    "uniform_feasible": 0.006172839506172839,
+    "final_parameters": [
+      -3.3182228081134144,
+      1.8349566192681408
+    ],
+    "final_cost": -0.25308242996370545
+  },
+  {
+    "name": "panel_2",
+    "seed": 2,
+    "lambda": 0.6,
+    "qubits": 12,
+    "feasible_states": 162,
+    "feasibility": 1.0,
+    "optimum_probability": 0.029106579225894744,
+    "uniform_feasible": 0.006172839506172839,
+    "final_parameters": [
+      3.288598548458017,
+      -1.7969785832222789
+    ],
+    "final_cost": -0.25318542944650624
+  },
+  {
+    "name": "panel_3",
+    "seed": 0,
+    "lambda": 0.6,
+    "qubits": 12,
+    "feasible_states": 162,
+    "feasibility": 1.0,
+    "optimum_probability": 0.01844863837857371,
+    "uniform_feasible": 0.006172839506172839,
+    "final_parameters": [
+      2.0286082553190163,
+      -1.4091443501333087
+    ],
+    "final_cost": -0.2034273408585447
+  },
+  {
+    "name": "panel_3",
+    "seed": 1,
+    "lambda": 0.6,
+    "qubits": 12,
+    "feasible_states": 162,
+    "feasibility": 1.0,
+    "optimum_probability": 0.01862597378104403,
+    "uniform_feasible": 0.006172839506172839,
+    "final_parameters": [
+      -2.024380902934629,
+      1.4456189496662035
+    ],
+    "final_cost": -0.20341203698169436
+  },
+  {
+    "name": "panel_3",
+    "seed": 2,
+    "lambda": 0.6,
+    "qubits": 12,
+    "feasible_states": 162,
+    "feasibility": 1.0,
+    "optimum_probability": 0.01842231797191732,
+    "uniform_feasible": 0.006172839506172839,
+    "final_parameters": [
+      2.030029118301473,
+      -1.4035483801145925
+    ],
+    "final_cost": -0.20340573342285484
+  },
+  {
+    "name": "panel_4",
+    "seed": 0,
+    "lambda": 0.6,
+    "qubits": 12,
+    "feasible_states": 162,
+    "feasibility": 1.0,
+    "optimum_probability": 0.01784578146338639,
+    "uniform_feasible": 0.006172839506172839,
+    "final_parameters": [
+      3.2819080405293044,
+      -1.37192862460734
+    ],
+    "final_cost": 0.05818599598873563
+  },
+  {
+    "name": "panel_4",
+    "seed": 1,
+    "lambda": 0.6,
+    "qubits": 12,
+    "feasible_states": 162,
+    "feasibility": 1.0,
+    "optimum_probability": 0.017841732723041608,
+    "uniform_feasible": 0.006172839506172839,
+    "final_parameters": [
+      -3.3061456577525465,
+      1.3663725538499185
+    ],
+    "final_cost": 0.058323442140550345
+  },
+  {
+    "name": "panel_4",
+    "seed": 2,
+    "lambda": 0.6,
+    "qubits": 12,
+    "feasible_states": 162,
+    "feasibility": 1.0,
+    "optimum_probability": 0.01786616091931844,
+    "uniform_feasible": 0.006172839506172839,
+    "final_parameters": [
+      3.277443493558201,
+      -1.3766647125296025
+    ],
+    "final_cost": 0.05813787574706745
+  }
+]

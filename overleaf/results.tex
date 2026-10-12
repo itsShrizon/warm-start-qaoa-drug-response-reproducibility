@@ -1,0 +1,510 @@
+\clearpage
+\section{Additional classical search and panel definitions}
+We use simulated annealing (SA) with the same feasible dose-change, addition, deletion and compound-swap neighborhood as greedy local search. We draw the initial assignment uniformly from the feasible space by rejection sampling complete compound assignments. At each step we propose a uniformly chosen neighbor and accept an improving move, or accept a worse move with probability $\exp(\Delta f/T)$. We use 100 seeds, numbered 0 through 99, for each model and weight.
+
+We set the initial temperature to the maximum absolute linear or pair coefficient, with a lower bound of $10^{-6}$. Over 2,000 proposals we cool geometrically to one thousandth of that temperature. We stop after 200 unique objective evaluations or 2,000 proposals, whichever comes first. Cached evaluations do not count again. The initial state's evaluation counts toward the cap. For small feasible sets the proposal limit prevents an endless attempt to obtain 200 distinct evaluations. We record the best score evaluated, and compare its trace with the enumerated optimum only after the run. Median first-hit evaluations condition on successful seeds; the success fraction reports failures separately.
+
+Exhaustive enumeration is the exact solver: it evaluates each feasible assignment once. It supplies no search information to SA or greedy. Table~S8 reports all hardware models and the expanded panels at the archived weight. OR-Tools is not installed in the execution environment, so CP-SAT is not included.
+
+\begingroup
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{lrrrrrr}
+\caption{Classical search at $\lambda=0.6$. H01--H14 are hardware models, C01--C35 are all CAMA-1 panels, and V1--V4 are 647-V panels. Exact: enumeration evaluations, equal to $|\mathcal F|$. Greedy: total unique evaluations, including partial construction states, and optimum recovery. SA: percentage of 100 seeds reaching the optimum and median evaluations to first hit among successful seeds.}\\
+\toprule
+Model & $q$ & Exact & Greedy eval. & Hit & SA (\%) & First hit\\
+\midrule
+\endfirsthead
+\toprule
+Model & $q$ & Exact & Greedy eval. & Hit & SA (\%) & First hit\\
+\midrule
+\endhead
+H01 & 6 & 20 & 21 & yes & 100 & 11 \\
+H02 & 8 & 56 & 37 & yes & 100 & 20.5 \\
+H03 & 9 & 54 & 33 & yes & 100 & 22.5 \\
+H04 & 10 & 120 & 53 & yes & 100 & 36 \\
+H05 & 12 & 162 & 57 & yes & 100 & 54 \\
+H06 & 15 & 360 & 81 & yes & 98 & 87.5 \\
+H07 & 18 & 675 & 105 & yes & 68 & 112.5 \\
+H08 & 21 & 1134 & 129 & yes & 65 & 115 \\
+H09 & 20 & 650 & 97 & yes & 65 & 115 \\
+H10 & 25 & 1500 & 137 & yes & 33 & 127 \\
+H11 & 12 & 220 & 69 & yes & 100 & 57 \\
+H12 & 14 & 364 & 85 & yes & 95 & 77 \\
+H13 & 30 & 2875 & 177 & yes & 22 & 97.5 \\
+H14 & 35 & 4900 & 200 & yes & 15 & 144 \\
+C01 & 12 & 162 & 36 & yes & 100 & 56 \\
+C02 & 12 & 162 & 50 & yes & 100 & 56.5 \\
+C03 & 12 & 162 & 50 & yes & 100 & 58 \\
+C04 & 12 & 162 & 36 & yes & 100 & 61.5 \\
+C05 & 12 & 162 & 50 & yes & 100 & 56 \\
+C06 & 12 & 162 & 50 & yes & 100 & 49.5 \\
+C07 & 12 & 162 & 36 & yes & 100 & 58.5 \\
+C08 & 12 & 162 & 57 & yes & 100 & 47 \\
+C09 & 12 & 162 & 50 & yes & 100 & 43.5 \\
+C10 & 12 & 162 & 59 & yes & 100 & 66 \\
+C11 & 12 & 162 & 50 & yes & 100 & 55.5 \\
+C12 & 12 & 162 & 50 & yes & 100 & 58 \\
+C13 & 12 & 162 & 36 & yes & 100 & 65 \\
+C14 & 12 & 162 & 57 & yes & 100 & 50.5 \\
+C15 & 12 & 162 & 50 & yes & 100 & 48.5 \\
+C16 & 12 & 162 & 59 & yes & 100 & 62 \\
+C17 & 12 & 162 & 57 & yes & 100 & 45 \\
+C18 & 12 & 162 & 50 & yes & 100 & 43.5 \\
+C19 & 12 & 162 & 59 & yes & 100 & 69.5 \\
+C20 & 12 & 162 & 57 & yes & 100 & 54 \\
+C21 & 12 & 162 & 36 & yes & 100 & 65 \\
+C22 & 12 & 162 & 36 & yes & 100 & 53 \\
+C23 & 12 & 162 & 36 & yes & 100 & 63.5 \\
+C24 & 12 & 162 & 36 & yes & 100 & 45.5 \\
+C25 & 12 & 162 & 36 & yes & 100 & 69.5 \\
+C26 & 12 & 162 & 36 & yes & 100 & 60.5 \\
+C27 & 12 & 162 & 36 & yes & 100 & 65.5 \\
+C28 & 12 & 162 & 36 & yes & 100 & 59 \\
+C29 & 12 & 162 & 36 & yes & 100 & 50.5 \\
+C30 & 12 & 162 & 36 & yes & 100 & 38 \\
+C31 & 12 & 162 & 36 & yes & 100 & 49 \\
+C32 & 12 & 162 & 36 & yes & 100 & 53.5 \\
+C33 & 12 & 162 & 36 & yes & 100 & 60 \\
+C34 & 12 & 162 & 36 & yes & 100 & 52 \\
+C35 & 12 & 162 & 36 & yes & 100 & 54 \\
+V1 & 12 & 162 & 46 & yes & 100 & 58 \\
+V2 & 12 & 162 & 46 & yes & 100 & 48.5 \\
+V3 & 12 & 162 & 55 & yes & 100 & 58.5 \\
+V4 & 12 & 162 & 50 & no & 100 & 84 \\
+\bottomrule
+\end{longtable}
+\endgroup
+
+Hardware model labels follow the original six instances first, then the additional distinct models. Their compound counts, dose counts and feasible-set sizes identify the encoding; Table~S9 additionally identifies every distinct circuit. Panel membership is given with Table~S11.
+
+\clearpage
+\section{Score-weight sensitivity}
+We retain $\lambda=0.6$ as the archived model value and rescore each feasible assignment at $\lambda\in\{0.3,0.45,0.6,0.75,0.9\}$. All archived circuit coefficients, initialization angles, variational angles and hardware histograms remain fixed. Only the score and the set of globally optimal feasible assignments change. We sum each fixed distribution over that new optimum set, including ties. For the original four 12-qubit panels we instead rebuild the penalty cost and product prior at each weight and retrain all three seeds with 60 Adam steps and learning rate 0.1. Table~S9 distinguishes those retrained panels (P1--P4) from the fixed circuits (Q01--Q18).
+
+Each entry below is a per-draw optimum probability, in percent. Hardware values are observed fractions, with repeated tasks separated by slashes in chronological order. A dash indicates an unavailable noiseless reference. Greedy reports whether it reaches the re-enumerated optimum; SA gives the percentage of successful seeds. For retrained panels the ideal values follow seed order 0, 1 and 2. The machine-readable results include exact optimum scores, all tied optimum bitstrings, individual hardware task identifiers and every SA seed.
+
+\begingroup
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{rrrrlrrr}
+\caption{Weight sensitivity for every archived circuit and the original four retrained panels. Prior, Ideal, Feasible and HW are optimum probabilities (percent). Hit: greedy optimum recovery. SA: successful seeds (percent); Eval.: median first-hit evaluations among those seeds.}\\
+\toprule
+$\lambda$ & Prior & Ideal & Feasible & HW & Hit & SA & Eval.\\
+\midrule
+\endfirsthead
+\toprule
+$\lambda$ & Prior & Ideal & Feasible & HW & Hit & SA & Eval.\\
+\midrule
+\endhead
+\multicolumn{8}{l}{Q01: H01, 6 qubits, 20 feasible assignments} \\
+0.3 & 0.9404 & 1.5739 & 5.0000 & 2.50 & yes & 100 & 7.5 \\
+0.45 & 0.9404 & 1.5739 & 5.0000 & 2.50 & yes & 100 & 8 \\
+0.6 & 0.9404 & 1.5739 & 5.0000 & 2.50 & yes & 100 & 11 \\
+0.75 & 0.9404 & 1.5739 & 5.0000 & 2.50 & yes & 100 & 13 \\
+0.9 & 0.9404 & 1.5739 & 5.0000 & 2.50 & no & 100 & 11 \\
+\multicolumn{8}{l}{Q02: H01, 6 qubits, 20 feasible assignments} \\
+0.3 & 0.9404 & 1.6009 & 5.0000 & 1.20/2.50 & yes & 100 & 7.5 \\
+0.45 & 0.9404 & 1.6009 & 5.0000 & 1.20/2.50 & yes & 100 & 8 \\
+0.6 & 0.9404 & 1.6009 & 5.0000 & 1.20/2.50 & yes & 100 & 11 \\
+0.75 & 0.9404 & 1.6009 & 5.0000 & 1.20/2.50 & yes & 100 & 13 \\
+0.9 & 0.9404 & 1.6009 & 5.0000 & 1.20/2.50 & no & 100 & 11 \\
+\multicolumn{8}{l}{Q03: H02, 8 qubits, 56 feasible assignments} \\
+0.3 & 1.3671 & 2.3948 & 1.7857 & 2.50 & yes & 100 & 17 \\
+0.45 & 1.3671 & 2.3948 & 1.7857 & 2.50 & yes & 100 & 19.5 \\
+0.6 & 1.3671 & 2.3948 & 1.7857 & 2.50 & yes & 100 & 20.5 \\
+0.75 & 1.3671 & 2.3948 & 1.7857 & 2.50 & yes & 100 & 24 \\
+0.9 & 1.3671 & 2.3948 & 1.7857 & 2.50 & no & 100 & 29 \\
+\multicolumn{8}{l}{Q04: H02, 8 qubits, 56 feasible assignments} \\
+0.3 & 1.3671 & 2.3900 & 1.7857 & 2.50 & yes & 100 & 17 \\
+0.45 & 1.3671 & 2.3900 & 1.7857 & 2.50 & yes & 100 & 19.5 \\
+0.6 & 1.3671 & 2.3900 & 1.7857 & 2.50 & yes & 100 & 20.5 \\
+0.75 & 1.3671 & 2.3900 & 1.7857 & 2.50 & yes & 100 & 24 \\
+0.9 & 1.3671 & 2.3900 & 1.7857 & 2.50 & no & 100 & 29 \\
+\multicolumn{8}{l}{Q05: H03, 9 qubits, 54 feasible assignments} \\
+0.3 & 0.0550 & 0.0928 & 1.8519 & 0.00 & yes & 100 & 19 \\
+0.45 & 0.0550 & 0.0928 & 1.8519 & 0.00 & yes & 100 & 22 \\
+0.6 & 0.0550 & 0.0928 & 1.8519 & 0.00 & yes & 100 & 22.5 \\
+0.75 & 0.0550 & 0.0928 & 1.8519 & 0.00 & yes & 100 & 28 \\
+0.9 & 0.0550 & 0.0928 & 1.8519 & 0.00 & yes & 100 & 28.5 \\
+\multicolumn{8}{l}{Q06: H04, 10 qubits, 120 feasible assignments} \\
+0.3 & 0.8128 & 1.4110 & 0.8333 & 2.00 & yes & 100 & 27 \\
+0.45 & 0.8128 & 1.4110 & 0.8333 & 2.00 & yes & 100 & 32.5 \\
+0.6 & 0.8128 & 1.4110 & 0.8333 & 2.00 & yes & 100 & 36 \\
+0.75 & 0.8128 & 1.4110 & 0.8333 & 2.00 & yes & 100 & 40 \\
+0.9 & 0.8128 & 1.4110 & 0.8333 & 2.00 & no & 100 & 43 \\
+\multicolumn{8}{l}{Q07: H04, 10 qubits, 120 feasible assignments} \\
+0.3 & 0.8128 & 1.3987 & 0.8333 & 0.00 & yes & 100 & 27 \\
+0.45 & 0.8128 & 1.3987 & 0.8333 & 0.00 & yes & 100 & 32.5 \\
+0.6 & 0.8128 & 1.3987 & 0.8333 & 0.00 & yes & 100 & 36 \\
+0.75 & 0.8128 & 1.3987 & 0.8333 & 0.00 & yes & 100 & 40 \\
+0.9 & 0.8128 & 1.3987 & 0.8333 & 0.00 & no & 100 & 43 \\
+\multicolumn{8}{l}{Q08: H11, 12 qubits, 220 feasible assignments} \\
+0.3 & 0.4592 & 0.7827 & 0.4545 & 2.00 & yes & 100 & 52 \\
+0.45 & 0.4592 & 0.7827 & 0.4545 & 2.00 & yes & 100 & 52.5 \\
+0.6 & 0.4592 & 0.7827 & 0.4545 & 2.00 & yes & 100 & 57 \\
+0.75 & 0.4592 & 0.7827 & 0.4545 & 2.00 & yes & 100 & 79 \\
+0.9 & 0.4592 & 0.7827 & 0.4545 & 2.00 & no & 100 & 77.5 \\
+\multicolumn{8}{l}{Q09: H05, 12 qubits, 162 feasible assignments} \\
+0.3 & 0.1657 & 0.1917 & 0.6173 & 0.00 & yes & 100 & 44.5 \\
+0.45 & 0.1657 & 0.1917 & 0.6173 & 0.00 & yes & 100 & 46 \\
+0.6 & 0.1657 & 0.1917 & 0.6173 & 0.00 & yes & 100 & 54 \\
+0.75 & 0.1657 & 0.1917 & 0.6173 & 0.00 & yes & 100 & 59 \\
+0.9 & 0.1657 & 0.1917 & 0.6173 & 0.00 & yes & 100 & 62 \\
+\multicolumn{8}{l}{Q10: H12, 14 qubits, 364 feasible assignments} \\
+0.3 & 0.2963 & 0.5040 & 0.2747 & 1.50 & yes & 100 & 72 \\
+0.45 & 0.2963 & 0.5040 & 0.2747 & 1.50 & yes & 99 & 67 \\
+0.6 & 0.2963 & 0.5040 & 0.2747 & 1.50 & yes & 95 & 77 \\
+0.75 & 0.2963 & 0.5040 & 0.2747 & 1.50 & yes & 97 & 96 \\
+0.9 & 0.2963 & 0.5040 & 0.2747 & 1.50 & no & 77 & 109 \\
+\multicolumn{8}{l}{Q11: H06, 15 qubits, 360 feasible assignments} \\
+0.3 & 0.1438 & 0.2469 & 0.2778 & 0.00 & yes & 98 & 58 \\
+0.45 & 0.1438 & 0.2469 & 0.2778 & 0.00 & yes & 99 & 66 \\
+0.6 & 0.1438 & 0.2469 & 0.2778 & 0.00 & yes & 98 & 87.5 \\
+0.75 & 0.1438 & 0.2469 & 0.2778 & 0.00 & yes & 85 & 86 \\
+0.9 & 0.1438 & 0.2469 & 0.2778 & 0.00 & yes & 75 & 110 \\
+\multicolumn{8}{l}{Q12: H06, 15 qubits, 360 feasible assignments} \\
+0.3 & 0.1438 & 0.2456 & 0.2778 & 0.00 & yes & 98 & 58 \\
+0.45 & 0.1438 & 0.2456 & 0.2778 & 0.00 & yes & 99 & 66 \\
+0.6 & 0.1438 & 0.2456 & 0.2778 & 0.00 & yes & 98 & 87.5 \\
+0.75 & 0.1438 & 0.2456 & 0.2778 & 0.00 & yes & 85 & 86 \\
+0.9 & 0.1438 & 0.2456 & 0.2778 & 0.00 & yes & 75 & 110 \\
+\multicolumn{8}{l}{Q13: H07, 18 qubits, 675 feasible assignments} \\
+0.3 & 0.0985 & 0.1666 & 0.1481 & 0.00/0.50/0.50 & yes & 88 & 93.5 \\
+0.45 & 0.0985 & 0.1666 & 0.1481 & 0.00/0.50/0.50 & yes & 76 & 73 \\
+0.6 & 0.0985 & 0.1666 & 0.1481 & 0.00/0.50/0.50 & yes & 68 & 112.5 \\
+0.75 & 0.0985 & 0.1666 & 0.1481 & 0.00/0.50/0.50 & yes & 56 & 116.5 \\
+0.9 & 0.0985 & 0.1666 & 0.1481 & 0.00/0.50/0.50 & yes & 39 & 81 \\
+\multicolumn{8}{l}{Q14: H09, 20 qubits, 650 feasible assignments} \\
+0.3 & 0.0212 & 0.0239 & 0.1538 & 0.00/0.00 & yes & 79 & 87 \\
+0.45 & 0.0212 & 0.0239 & 0.1538 & 0.00/0.00 & yes & 84 & 104.5 \\
+0.6 & 0.0212 & 0.0239 & 0.1538 & 0.00/0.00 & yes & 65 & 115 \\
+0.75 & 0.0212 & 0.0239 & 0.1538 & 0.00/0.00 & yes & 59 & 118 \\
+0.9 & 0.0212 & 0.0239 & 0.1538 & 0.00/0.00 & yes & 51 & 123 \\
+\multicolumn{8}{l}{Q15: H08, 21 qubits, 1,134 feasible assignments} \\
+0.3 & 0.0670 & 0.1111 & 0.0882 & 0.50/0.00/0.00 & yes & 68 & 121 \\
+0.45 & 0.0670 & 0.1111 & 0.0882 & 0.50/0.00/0.00 & yes & 75 & 123 \\
+0.6 & 0.0670 & 0.1111 & 0.0882 & 0.50/0.00/0.00 & yes & 65 & 115 \\
+0.75 & 0.0670 & 0.1111 & 0.0882 & 0.50/0.00/0.00 & yes & 42 & 94 \\
+0.9 & 0.0670 & 0.1111 & 0.0882 & 0.50/0.00/0.00 & yes & 31 & 94 \\
+\multicolumn{8}{l}{Q16: H10, 25 qubits, 1,500 feasible assignments} \\
+0.3 & 0.0222 & 0.0242 & 0.0667 & 0.00/0.00 & yes & 51 & 121 \\
+0.45 & 0.0222 & 0.0242 & 0.0667 & 0.00/0.00 & yes & 43 & 151 \\
+0.6 & 0.0222 & 0.0242 & 0.0667 & 0.00/0.00 & yes & 33 & 127 \\
+0.75 & 0.0222 & 0.0242 & 0.0667 & 0.00/0.00 & yes & 24 & 131 \\
+0.9 & 0.0222 & 0.0242 & 0.0667 & 0.00/0.00 & yes & 18 & 147.5 \\
+\multicolumn{8}{l}{Q17: H13, 30 qubits, 2,875 feasible assignments} \\
+0.3 & 0.0172 & 0.0174 & 0.0348 & 0.00 & yes & 39 & 83 \\
+0.45 & 0.0172 & 0.0174 & 0.0348 & 0.00 & yes & 31 & 118 \\
+0.6 & 0.0172 & 0.0174 & 0.0348 & 0.00 & yes & 22 & 97.5 \\
+0.75 & 0.0172 & 0.0174 & 0.0348 & 0.00 & no & 10 & 95 \\
+0.9 & 0.0172 & 0.0174 & 0.0348 & 0.00 & no & 13 & 108 \\
+\multicolumn{8}{l}{Q18: H14, 35 qubits, 4,900 feasible assignments} \\
+0.3 & 0.0122 & 0.0120 & 0.0204 & 0.00 & yes & 25 & 124 \\
+0.45 & 0.0122 & 0.0120 & 0.0204 & 0.00 & yes & 17 & 132 \\
+0.6 & 0.0122 & 0.0120 & 0.0204 & 0.00 & yes & 15 & 144 \\
+0.75 & 0.0122 & 0.0120 & 0.0204 & 0.00 & no & 9 & 83 \\
+0.9 & 0.0122 & 0.0120 & 0.0204 & 0.00 & no & 6 & 158.5 \\
+\multicolumn{8}{l}{P1: retrained 12-qubit panel, 162 feasible assignments} \\
+0.3 & 0.0438 & 0.07/0.08/0.07 & 0.6173 & -- & no & 100 & 62 \\
+0.45 & 1.1547 & 2.56/2.48/2.62 & 0.6173 & -- & yes & 100 & 68 \\
+0.6 & 1.2651 & 2.68/2.23/2.75 & 0.6173 & -- & yes & 100 & 60 \\
+0.75 & 1.3438 & 2.91/2.75/2.90 & 0.6173 & -- & yes & 100 & 57 \\
+0.9 & 1.3615 & 2.81/2.59/2.90 & 0.6173 & -- & yes & 100 & 60.5 \\
+\multicolumn{8}{l}{P2: retrained 12-qubit panel, 162 feasible assignments} \\
+0.3 & 3.0816 & 6.77/6.85/6.64 & 0.6173 & -- & yes & 100 & 44.5 \\
+0.45 & 2.3851 & 5.43/5.12/5.40 & 0.6173 & -- & yes & 100 & 51.5 \\
+0.6 & 1.4854 & 3.36/3.32/3.43 & 0.6173 & -- & yes & 100 & 48.5 \\
+0.75 & 0.5827 & 1.39/1.46/1.38 & 0.6173 & -- & no & 100 & 54.5 \\
+0.9 & 1.4192 & 3.07/2.88/2.95 & 0.6173 & -- & yes & 100 & 50.5 \\
+\multicolumn{8}{l}{P3: retrained 12-qubit panel, 162 feasible assignments} \\
+0.3 & 0.1872 & 0.32/0.33/0.32 & 0.6173 & -- & yes & 100 & 46 \\
+0.45 & 0.3624 & 0.61/0.62/0.61 & 0.6173 & -- & yes & 100 & 64.5 \\
+0.6 & 1.4361 & 3.28/3.25/3.22 & 0.6173 & -- & yes & 100 & 49 \\
+0.75 & 1.4490 & 3.06/1.33/3.09 & 0.6173 & -- & yes & 100 & 62.5 \\
+0.9 & 1.3731 & 2.86/2.74/2.90 & 0.6173 & -- & yes & 100 & 59 \\
+\multicolumn{8}{l}{P4: retrained 12-qubit panel, 162 feasible assignments} \\
+0.3 & 1.2864 & 2.86/2.83/2.84 & 0.6173 & -- & yes & 100 & 69 \\
+0.45 & 1.3741 & 3.07/3.04/3.00 & 0.6173 & -- & yes & 100 & 50 \\
+0.6 & 1.2954 & 2.89/2.81/2.87 & 0.6173 & -- & yes & 100 & 69.5 \\
+0.75 & 1.2801 & 2.77/2.71/2.75 & 0.6173 & -- & yes & 100 & 54 \\
+0.9 & 1.2979 & 2.74/2.69/2.75 & 0.6173 & -- & yes & 100 & 59 \\
+\bottomrule
+\end{longtable}
+\endgroup
+
+Circuit identifiers map to the archived task inventory as follows. Repeated tasks share a circuit identifier.
+\begin{itemize}
+
+\item Q01: \texttt{c8ea4f7a-a64e-49d2-a7f8-f1ac1eff2136}.
+
+\item Q02: \texttt{24d41998-5edf-44bf-93a4-60fca948ae8c}\newline \texttt{98cb6dee-1d5d-4aec-9122-6a1c390a2608}.
+
+\item Q03: \texttt{e1a915b0-ff23-4769-8289-bfb7fcb0f74b}.
+
+\item Q04: \texttt{4e307518-f350-4843-98ab-06f91315c190}.
+
+\item Q05: \texttt{e88a4bac-5f06-4b2c-bcc8-69a20d23e527}.
+
+\item Q06: \texttt{fad4ee6f-3815-4d92-af93-dbd2c19ec6a4}.
+
+\item Q07: \texttt{9fcd57c3-97a5-4070-929d-d4ba5b7284f9}.
+
+\item Q08: \texttt{48d52888-7f37-4931-a135-8f831f1a208e}.
+
+\item Q09: \texttt{5cecf3e8-853e-448d-b296-d8bd2ef9f5e0}.
+
+\item Q10: \texttt{1ebf3086-bb62-48fc-9bdb-0df1dedd62cf}.
+
+\item Q11: \texttt{4d659093-99b5-4d58-9063-cd20724f7a98}.
+
+\item Q12: \texttt{566d8e0f-b67b-4786-86fa-3b112aaf15bd}.
+
+\item Q13: \texttt{4b60729f-56e1-45d5-a2d6-fec25d56c84c}\newline \texttt{b3fd2bd7-1b51-48e1-9c63-cbe7d55e1120}\newline \texttt{014e4aba-2301-4b48-87ba-28c46e97e84f}.
+
+\item Q14: \texttt{abdccbd0-9b84-4ba1-b5a7-91c6e0403be6}\newline \texttt{b4079656-2649-4163-9025-133821ff1bdd}.
+
+\item Q15: \texttt{fa0c9bef-c035-4232-a77b-75970696b227}\newline \texttt{30a44a65-2124-4664-9720-7d3d53e7498e}\newline \texttt{44849fe4-b8c2-4128-8792-ae5ef06009eb}.
+
+\item Q16: \texttt{e69c31e1-b34e-4869-bae9-217de933cb7d}\newline \texttt{b1386480-d348-4a01-ae1a-dbecf6d2a934}.
+
+\item Q17: \texttt{bb016dac-cabb-4e80-b568-0c0818917ab6}.
+
+\item Q18: \texttt{cfdf6f35-0141-46b3-a059-7f9e9fc85b9c}.
+
+\end{itemize}
+
+\clearpage
+\section{Feasibility-preserving Grover mixer}
+We construct $|\mathcal F\rangle$ directly as the uniform vector over enumerated feasible assignments. One layer applies $\exp(i\gamma f)$ followed by $I-(1-e^{-i\beta})|\mathcal F\rangle\langle\mathcal F|$. Thus the optimized energy is $-f$, with no penalty term. We train both angles from the same three random seeds, using 60 Adam steps with learning rate 0.1, and retain every final iterate. Analytic derivatives agree with centered finite differences, and a dense projector calculation independently checks the mixer. Every state remains normalized and entirely feasible.
+
+The construction follows B{\"a}rtschi and Eidenbenz (2020), cited in the main paper. Direct feasible-vector preparation is a simulation device and does not establish a low-cost hardware preparation circuit. The comparison changes initialization and training as well as the mixer: the original penalty circuits retain their archived parameters, whereas both simulated panel methods are trained with the stated settings.
+
+\begingroup
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{lrrrrr}
+\caption{One-layer Grover-mixer comparison for the six reference instances and four original panels. All probabilities are percentages. Grover feasibility is exactly 100 percent. Penalty: warm-start penalty-QAOA optimum probability. Greedy reaches every optimum, with the listed evaluation count.}\\
+\toprule
+Model & Seed & Grover & Penalty & Feasible & Greedy eval.\\
+\midrule
+\endfirsthead
+\toprule
+Model & Seed & Grover & Penalty & Feasible & Greedy eval.\\
+\midrule
+\endhead
+H01 & 0 & 27.2214 & 1.6009 & 5.0000 & 21 \\
+H01 & 1 & 27.1291 & 1.6009 & 5.0000 & 21 \\
+H01 & 2 & 27.2416 & 1.6009 & 5.0000 & 21 \\
+H02 & 0 & 9.4232 & 2.3900 & 1.7857 & 37 \\
+H02 & 1 & 9.3654 & 2.3900 & 1.7857 & 37 \\
+H02 & 2 & 9.4298 & 2.3900 & 1.7857 & 37 \\
+H03 & 0 & 9.9900 & 0.0928 & 1.8519 & 33 \\
+H03 & 1 & 9.9935 & 0.0928 & 1.8519 & 33 \\
+H03 & 2 & 9.9820 & 0.0928 & 1.8519 & 33 \\
+H04 & 0 & 3.9305 & 1.3987 & 0.8333 & 53 \\
+H04 & 1 & 3.9296 & 1.3987 & 0.8333 & 53 \\
+H04 & 2 & 3.9265 & 1.3987 & 0.8333 & 53 \\
+H05 & 0 & 3.0192 & 0.1917 & 0.6173 & 57 \\
+H05 & 1 & 3.0452 & 0.1917 & 0.6173 & 57 \\
+H05 & 2 & 3.0096 & 0.1917 & 0.6173 & 57 \\
+H06 & 0 & 1.1758 & 0.2469 & 0.2778 & 81 \\
+H06 & 1 & 1.2041 & 0.2469 & 0.2778 & 81 \\
+H06 & 2 & 1.1683 & 0.2469 & 0.2778 & 81 \\
+P1 & 0 & 1.5277 & 2.6819 & 0.6173 & 36 \\
+P1 & 1 & 1.5411 & 2.2299 & 0.6173 & 36 \\
+P1 & 2 & 1.5259 & 2.7522 & 0.6173 & 36 \\
+P2 & 0 & 2.9140 & 3.3647 & 0.6173 & 50 \\
+P2 & 1 & 2.9422 & 3.3187 & 0.6173 & 50 \\
+P2 & 2 & 2.9107 & 3.4274 & 0.6173 & 50 \\
+P3 & 0 & 1.8449 & 3.2790 & 0.6173 & 36 \\
+P3 & 1 & 1.8626 & 3.2483 & 0.6173 & 36 \\
+P3 & 2 & 1.8422 & 3.2188 & 0.6173 & 36 \\
+P4 & 0 & 1.7846 & 2.8943 & 0.6173 & 36 \\
+P4 & 1 & 1.7842 & 2.8090 & 0.6173 & 36 \\
+P4 & 2 & 1.7866 & 2.8654 & 0.6173 & 36 \\
+\bottomrule
+\end{longtable}
+\endgroup
+
+\clearpage
+\section{All CAMA-1 panels and a second cell line}
+We enumerate all 35 four-compound subsets of the seven-compound CAMA-1 model. For a second cell line, we inspect QA-passing DREAM pair measurements in alphabetical cell-line order, excluding CAMA-1. We choose the first line with a fully measured five-compound clique having distinct mechanism labels and finite fitted Hill parameters. Within a cell line, compounds are searched lexicographically. This gives 647-V and the compounds AKT, ATM, ATR\_4, CHEK1 and Cisplatin. We sample four of its five four-compound subsets without replacement using seed 20260905, before optimization.
+
+We use the original coefficient-construction rule: median Hill parameters from within-clique observations, mean recorded pair synergy divided by 100 and multiplied by dose fractions, and the same class-weighted dose proxy. Mechanism classes absent from the archived weight dictionary use its existing default weight of 1.0. Every panel uses dose fractions $(0.1,0.32,1)$, 12 qubits and 162 feasible assignments. Table~S11 reports all three training seeds. Figure~S3 shows their optimum probabilities without selecting the best seed.
+
+\begingroup
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{lrrrrrr}
+\caption{Expanded panel results at $\lambda=0.6$. Q0--Q2: ideal penalty-QAOA optimum probabilities for training seeds 0--2; Prior and Feasible: corresponding sampling controls. All probabilities are percentages. Hit: greedy optimum recovery. Every SA seed reaches each panel optimum (Table~S8).}\\
+\toprule
+Panel & Q0 & Q1 & Q2 & Prior & Feasible & Hit\\
+\midrule
+\endfirsthead
+\toprule
+Panel & Q0 & Q1 & Q2 & Prior & Feasible & Hit\\
+\midrule
+\endhead
+C01 & 2.7201 & 2.6732 & 2.6643 & 1.2093 & 0.6173 & yes \\
+C02 & 3.0407 & 1.9400 & 3.1236 & 1.3703 & 0.6173 & yes \\
+C03 & 1.9339 & 1.2859 & 1.9579 & 0.7976 & 0.6173 & yes \\
+C04 & 2.8402 & 2.7449 & 2.7772 & 1.2779 & 0.6173 & yes \\
+C05 & 2.9004 & 2.0200 & 2.9279 & 1.2525 & 0.6173 & yes \\
+C06 & 0.8662 & 1.4319 & 2.2637 & 0.8631 & 0.6173 & yes \\
+C07 & 2.5968 & 1.1360 & 2.5735 & 1.2025 & 0.6173 & yes \\
+C08 & 0.3154 & 0.0481 & 0.0596 & 0.1813 & 0.6173 & yes \\
+C09 & 3.1359 & 1.2523 & 3.1809 & 1.3989 & 0.6173 & yes \\
+C10 & 0.0340 & 0.0086 & 0.0356 & 0.0200 & 0.6173 & yes \\
+C11 & 2.6345 & 1.7352 & 2.7382 & 1.1920 & 0.6173 & yes \\
+C12 & 0.7304 & 1.1637 & 1.8832 & 0.7686 & 0.6173 & yes \\
+C13 & 2.6084 & 2.5187 & 2.5084 & 1.1635 & 0.6173 & yes \\
+C14 & 0.1652 & 0.0321 & 0.2442 & 0.1473 & 0.6173 & yes \\
+C15 & 3.3647 & 3.3187 & 3.4274 & 1.4854 & 0.6173 & yes \\
+C16 & 0.0090 & 0.0033 & 0.0126 & 0.0080 & 0.6173 & yes \\
+C17 & 0.3170 & 0.3146 & 0.0769 & 0.1852 & 0.6173 & yes \\
+C18 & 2.8396 & 1.8293 & 2.7896 & 1.2364 & 0.6173 & yes \\
+C19 & 0.0521 & 0.0155 & 0.0376 & 0.0343 & 0.6173 & yes \\
+C20 & 0.1917 & 0.0362 & 0.2817 & 0.1657 & 0.6173 & yes \\
+C21 & 2.6873 & 2.6428 & 2.7050 & 1.2276 & 0.6173 & yes \\
+C22 & 2.8960 & 2.8696 & 2.9146 & 1.3126 & 0.6173 & yes \\
+C23 & 2.6387 & 2.5725 & 2.6672 & 1.2712 & 0.6173 & yes \\
+C24 & 3.5930 & 3.8332 & 3.6667 & 1.6352 & 0.6173 & yes \\
+C25 & 2.8943 & 2.8090 & 2.8654 & 1.2954 & 0.6173 & yes \\
+C26 & 2.8975 & 2.5269 & 2.9212 & 1.3560 & 0.6173 & yes \\
+C27 & 3.2734 & 3.4699 & 3.3335 & 1.4757 & 0.6173 & yes \\
+C28 & 2.6831 & 2.5605 & 2.6821 & 1.2185 & 0.6173 & yes \\
+C29 & 2.7682 & 2.3319 & 2.8009 & 1.2914 & 0.6173 & yes \\
+C30 & 3.6023 & 3.3816 & 3.7725 & 1.6526 & 0.6173 & yes \\
+C31 & 3.2790 & 3.2483 & 3.2188 & 1.4361 & 0.6173 & yes \\
+C32 & 2.5639 & 2.5042 & 2.5892 & 1.1820 & 0.6173 & yes \\
+C33 & 2.6819 & 2.2299 & 2.7522 & 1.2651 & 0.6173 & yes \\
+C34 & 3.9957 & 3.4488 & 3.8619 & 1.7604 & 0.6173 & yes \\
+C35 & 3.1989 & 2.6416 & 3.3414 & 1.4724 & 0.6173 & yes \\
+V1 & 0.0097 & 0.0098 & 0.0060 & 0.0060 & 0.6173 & yes \\
+V2 & 0.2359 & 0.0921 & 0.2307 & 0.1382 & 0.6173 & yes \\
+V3 & 0.0016 & 0.0014 & 0.0017 & 0.0010 & 0.6173 & yes \\
+V4 & 0.0039 & 0.0016 & 0.0020 & 0.0023 & 0.6173 & no \\
+\bottomrule
+\end{longtable}
+\endgroup
+
+\begin{itemize}
+
+\item C01: AKT\_1, BCL2\_BCL2L1, FASN, MAP2K\_1.
+
+\item C02: AKT\_1, BCL2\_BCL2L1, FASN, MTOR\_1.
+
+\item C03: AKT\_1, BCL2\_BCL2L1, FASN, PIK3CB\_PIK3CD.
+
+\item C04: AKT\_1, BCL2\_BCL2L1, FASN, SLC16A4.
+
+\item C05: AKT\_1, BCL2\_BCL2L1, MAP2K\_1, MTOR\_1.
+
+\item C06: AKT\_1, BCL2\_BCL2L1, MAP2K\_1, PIK3CB\_PIK3CD.
+
+\item C07: AKT\_1, BCL2\_BCL2L1, MAP2K\_1, SLC16A4.
+
+\item C08: AKT\_1, BCL2\_BCL2L1, MTOR\_1, PIK3CB\_PIK3CD.
+
+\item C09: AKT\_1, BCL2\_BCL2L1, MTOR\_1, SLC16A4.
+
+\item C10: AKT\_1, BCL2\_BCL2L1, PIK3CB\_PIK3CD, SLC16A4.
+
+\item C11: AKT\_1, FASN, MAP2K\_1, MTOR\_1.
+
+\item C12: AKT\_1, FASN, MAP2K\_1, PIK3CB\_PIK3CD.
+
+\item C13: AKT\_1, FASN, MAP2K\_1, SLC16A4.
+
+\item C14: AKT\_1, FASN, MTOR\_1, PIK3CB\_PIK3CD.
+
+\item C15: AKT\_1, FASN, MTOR\_1, SLC16A4.
+
+\item C16: AKT\_1, FASN, PIK3CB\_PIK3CD, SLC16A4.
+
+\item C17: AKT\_1, MAP2K\_1, MTOR\_1, PIK3CB\_PIK3CD.
+
+\item C18: AKT\_1, MAP2K\_1, MTOR\_1, SLC16A4.
+
+\item C19: AKT\_1, MAP2K\_1, PIK3CB\_PIK3CD, SLC16A4.
+
+\item C20: AKT\_1, MTOR\_1, PIK3CB\_PIK3CD, SLC16A4.
+
+\item C21: BCL2\_BCL2L1, FASN, MAP2K\_1, MTOR\_1.
+
+\item C22: BCL2\_BCL2L1, FASN, MAP2K\_1, PIK3CB\_PIK3CD.
+
+\item C23: BCL2\_BCL2L1, FASN, MAP2K\_1, SLC16A4.
+
+\item C24: BCL2\_BCL2L1, FASN, MTOR\_1, PIK3CB\_PIK3CD.
+
+\item C25: BCL2\_BCL2L1, FASN, MTOR\_1, SLC16A4.
+
+\item C26: BCL2\_BCL2L1, FASN, PIK3CB\_PIK3CD, SLC16A4.
+
+\item C27: BCL2\_BCL2L1, MAP2K\_1, MTOR\_1, PIK3CB\_PIK3CD.
+
+\item C28: BCL2\_BCL2L1, MAP2K\_1, MTOR\_1, SLC16A4.
+
+\item C29: BCL2\_BCL2L1, MAP2K\_1, PIK3CB\_PIK3CD, SLC16A4.
+
+\item C30: BCL2\_BCL2L1, MTOR\_1, PIK3CB\_PIK3CD, SLC16A4.
+
+\item C31: FASN, MAP2K\_1, MTOR\_1, PIK3CB\_PIK3CD.
+
+\item C32: FASN, MAP2K\_1, MTOR\_1, SLC16A4.
+
+\item C33: FASN, MAP2K\_1, PIK3CB\_PIK3CD, SLC16A4.
+
+\item C34: FASN, MTOR\_1, PIK3CB\_PIK3CD, SLC16A4.
+
+\item C35: MAP2K\_1, MTOR\_1, PIK3CB\_PIK3CD, SLC16A4.
+
+\item V1: ATM, ATR\_4, CHEK1, Cisplatin.
+
+\item V2: AKT, ATM, CHEK1, Cisplatin.
+
+\item V3: AKT, ATR\_4, CHEK1, Cisplatin.
+
+\item V4: AKT, ATM, ATR\_4, Cisplatin.
+
+\end{itemize}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\textwidth]{figures/figureS3.pdf}
+\caption{Ideal penalty-QAOA optimum probability for all expanded panels and all three training seeds. The dashed line is uniform feasible sampling, at $100/162$ percent. Panel labels match Table~S11. Left: all CAMA-1 panels. Right: the four 647-V panels selected by measurement coverage.}
+\end{figure}
+
+\clearpage
+\section{Reproducing the added experiments}
+The added code and results are included in the reproducibility package. Run \texttt{prepare\_revision.py} to reproduce the frozen panel design from the supplied source tables. Run \texttt{revision\_experiments.py} with \texttt{--mode classical}, \texttt{--mode panels}, \texttt{--mode grover} and \texttt{--mode rescore} for the four computations. The first three modes produce independent result files. Rescoring uses the saved large-circuit feasible probabilities when available. Run \texttt{python -m unittest test\_revision -v} for numerical and search checks, then \texttt{build\_revision\_outputs.py} to regenerate the supplemental tables and panel figure. Script SHA-256 hashes are listed below; source-table hashes and panel membership are preserved in \texttt{evidence/revision\_design.json}.
+
+\begin{itemize}
+
+\item \texttt{prepare\_revision.py}\newline {\footnotesize\texttt{ad71abd57e05fd902c7a28cf3426c5a1\allowbreak e888fca6d9d23454ef1622b6c0b494e0}}.
+
+\item \texttt{revision\_experiments.py}\newline {\footnotesize\texttt{232a3e45f773b6e3817dcd4a4f88f2f5\allowbreak 9f0940d6595bbc99bc080df60ab0e6f3}}.
+
+\item \texttt{revision\_noiseless.py}\newline {\footnotesize\texttt{a5357753b6e8bbd86e2d941827f7cb2e\allowbreak 605eb321d1e67dd48a85765d1b3f41a7}}.
+
+\item \texttt{test\_revision.py}\newline {\footnotesize\texttt{5acaa95aab14a7f15a9c538dc9ea5235\allowbreak e0b920dd7f33db5e8a69ee381b9eaf0a}}.
+
+\item \texttt{test\_completed\_revision.py}\newline {\footnotesize\texttt{193ea836bd9373b2f38cb808f554f097\allowbreak 4c0286db043e6a7397a916d7438fa5e6}}.
+
+\item \texttt{test\_noiseless\_revision.py}\newline {\footnotesize\texttt{8ddcfee1996c5f492483b8ae645b0ed1\allowbreak cf40e37c9e94c9b48eb3eba19bf1c73f}}.
+
+\item \texttt{build\_revision\_outputs.py}\newline {\footnotesize\texttt{8d0f6d9e196eed0d86d38f312f6c9e11\allowbreak 989ef4d0298dcea4c1077411a029331b}}.
+
+\item \texttt{rewrite\_prose.py}\newline {\footnotesize\texttt{ed6bc7c885976bd151baecb84dd7782e\allowbreak ef3092632a6c34e761aa403643cc7171}}.
+
+\item \texttt{integrate\_revision.py}\newline {\footnotesize\texttt{4b76905a18f377473b76485c935ee015\allowbreak 7f0ba5c21b1203327fa892ecda702be7}}.
+
+\item \texttt{integrate\_noiseless.py}\newline {\footnotesize\texttt{4892851fb7db5534a0a77f223e22614c\allowbreak 5df1838e2fcc793e8caa188394b39c21}}.
+
+\item \texttt{revision.sbatch}\newline {\footnotesize\texttt{cbf13814e1782192d8c690891f6f4f2f\allowbreak d61b6a5ea91576e61b9fa70a26322cd2}}.
+
+\item \texttt{noiseless\_revision.sbatch}\newline {\footnotesize\texttt{ba6ead793b8710fdc832b543ed4e8134\allowbreak 2aad3c61c369eacf3974a1553e6e1b2f}}.
+
+\end{itemize}

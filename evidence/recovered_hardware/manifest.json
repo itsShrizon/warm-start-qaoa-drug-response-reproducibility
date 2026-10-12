@@ -1,0 +1,184 @@
+{
+  "download_source": "C:/Users/Shrizon/Desktop/Repo Graveyard/Frontier Results",
+  "files": [
+    {
+      "source_name": "results (10).json",
+      "task_uuid": "bb016dac-cabb-4e80-b568-0c0818917ab6",
+      "sha256": "4c3aab0403635749aa77e56e5ca0377cda9fa258ad19c6257712d826dea4b02f",
+      "archived_path": "tasks/bb016dac-cabb-4e80-b568-0c0818917ab6.json"
+    },
+    {
+      "source_name": "results (11).json",
+      "task_uuid": "e69c31e1-b34e-4869-bae9-217de933cb7d",
+      "sha256": "b09e0c94433480fd1c257b41559027765e26a4d5678813b84c6a9d8311e17237",
+      "archived_path": "tasks/e69c31e1-b34e-4869-bae9-217de933cb7d.json"
+    },
+    {
+      "source_name": "results (12).json",
+      "task_uuid": "abdccbd0-9b84-4ba1-b5a7-91c6e0403be6",
+      "sha256": "3000b77e8fff9771864de5b206ad5f924a56dd73405f0f51ce1b6af71cd64b1a",
+      "archived_path": "tasks/abdccbd0-9b84-4ba1-b5a7-91c6e0403be6.json"
+    },
+    {
+      "source_name": "results (13).json",
+      "task_uuid": "30a44a65-2124-4664-9720-7d3d53e7498e",
+      "sha256": "5c29984a97c620b9e9c582dfe3c72e8fa33eebcadaa865829883537b679eaa61",
+      "archived_path": "tasks/30a44a65-2124-4664-9720-7d3d53e7498e.json"
+    },
+    {
+      "source_name": "results (14).json",
+      "task_uuid": "b3fd2bd7-1b51-48e1-9c63-cbe7d55e1120",
+      "sha256": "508f3811580b64d7af002f7419dc635c77f394077dc896018ba6be296d6aedbd",
+      "archived_path": "tasks/b3fd2bd7-1b51-48e1-9c63-cbe7d55e1120.json"
+    },
+    {
+      "source_name": "results (15).json",
+      "task_uuid": "566d8e0f-b67b-4786-86fa-3b112aaf15bd",
+      "sha256": "0c2a17b30bfd251bf8775c9682c726c54a1558941be165feb3ef7e2d1db30a30",
+      "archived_path": "tasks/566d8e0f-b67b-4786-86fa-3b112aaf15bd.json"
+    },
+    {
+      "source_name": "results (16).json",
+      "task_uuid": "5cecf3e8-853e-448d-b296-d8bd2ef9f5e0",
+      "sha256": "047b0c0444087d748b229d00d7206ca5e21875d3092b0b7a6400dfc1b17e94d3",
+      "archived_path": "tasks/5cecf3e8-853e-448d-b296-d8bd2ef9f5e0.json"
+    },
+    {
+      "source_name": "results (17).json",
+      "task_uuid": "4d659093-99b5-4d58-9063-cd20724f7a98",
+      "sha256": "385c433f9bfccc647b05ccae1c72efc23c54ef4b6c67e46d621ef0cd35d03557",
+      "archived_path": "tasks/4d659093-99b5-4d58-9063-cd20724f7a98.json"
+    },
+    {
+      "source_name": "results (18).json",
+      "task_uuid": "4b60729f-56e1-45d5-a2d6-fec25d56c84c",
+      "sha256": "39e881d1c9914896f0422a60bb3cb374e134f81309837489785dda6893e2cb50",
+      "archived_path": "tasks/4b60729f-56e1-45d5-a2d6-fec25d56c84c.json"
+    },
+    {
+      "source_name": "results (19).json",
+      "task_uuid": "fa0c9bef-c035-4232-a77b-75970696b227",
+      "sha256": "85b53be383bfed0c02e10772ec30eb82455f8464e845a1d8d2f2d79d8bdb3f9f",
+      "archived_path": "tasks/fa0c9bef-c035-4232-a77b-75970696b227.json"
+    },
+    {
+      "source_name": "results (20).json",
+      "task_uuid": "c8ea4f7a-a64e-49d2-a7f8-f1ac1eff2136",
+      "sha256": "10e73fd9f377ee264319ed12068134e5c357057ff2f6fb34796b67452546bc7b",
+      "archived_path": "tasks/c8ea4f7a-a64e-49d2-a7f8-f1ac1eff2136.json"
+    },
+    {
+      "source_name": "results (21).json",
+      "task_uuid": "e1a915b0-ff23-4769-8289-bfb7fcb0f74b",
+      "sha256": "a24f64e0e80d53bb37d0a5153b099bd994a7c4bdd511794c1b554724f59521eb",
+      "archived_path": "tasks/e1a915b0-ff23-4769-8289-bfb7fcb0f74b.json"
+    },
+    {
+      "source_name": "results (22).json",
+      "task_uuid": "fad4ee6f-3815-4d92-af93-dbd2c19ec6a4",
+      "sha256": "6deea7755f516514a3614b4441e7774609c0c6a6ae5e505f59c103f519b8d942",
+      "archived_path": "tasks/fad4ee6f-3815-4d92-af93-dbd2c19ec6a4.json"
+    },
+    {
+      "source_name": "results (23).json",
+      "task_uuid": "48d52888-7f37-4931-a135-8f831f1a208e",
+      "sha256": "3a78199a3a5aae9c353f30f399cb0dad28e658ecc96d69bdd099aab22435973d",
+      "archived_path": "tasks/48d52888-7f37-4931-a135-8f831f1a208e.json"
+    },
+    {
+      "source_name": "results (24).json",
+      "task_uuid": "1ebf3086-bb62-48fc-9bdb-0df1dedd62cf",
+      "sha256": "8a857241f4f73b0795c883186fa8482e1b42e3e2965ccde106f4b217ecb923de",
+      "archived_path": "tasks/1ebf3086-bb62-48fc-9bdb-0df1dedd62cf.json"
+    },
+    {
+      "source_name": "results (25).json",
+      "task_uuid": "9fcd57c3-97a5-4070-929d-d4ba5b7284f9",
+      "sha256": "0844c3963b4df63b150f4afac54cffae9c03d69824c3b0dd0968653765ac88a3",
+      "archived_path": "tasks/9fcd57c3-97a5-4070-929d-d4ba5b7284f9.json"
+    },
+    {
+      "source_name": "results (26).json",
+      "task_uuid": "9fcd57c3-97a5-4070-929d-d4ba5b7284f9",
+      "sha256": "0844c3963b4df63b150f4afac54cffae9c03d69824c3b0dd0968653765ac88a3",
+      "archived_path": "tasks/9fcd57c3-97a5-4070-929d-d4ba5b7284f9.json"
+    },
+    {
+      "source_name": "results (27).json",
+      "task_uuid": "e88a4bac-5f06-4b2c-bcc8-69a20d23e527",
+      "sha256": "e3e2f58bd09c08bdd61656f35785a0d50f81d284f4e8f0e8f0cf2aa287273408",
+      "archived_path": "tasks/e88a4bac-5f06-4b2c-bcc8-69a20d23e527.json"
+    },
+    {
+      "source_name": "results (28).json",
+      "task_uuid": "4e307518-f350-4843-98ab-06f91315c190",
+      "sha256": "0d163d2672f9968592a508e643624ac9c35d5506b1a9637a09925984235d58ef",
+      "archived_path": "tasks/4e307518-f350-4843-98ab-06f91315c190.json"
+    },
+    {
+      "source_name": "results (29).json",
+      "task_uuid": "98cb6dee-1d5d-4aec-9122-6a1c390a2608",
+      "sha256": "9ab7a930ce9aa691bde3fcd1e353bed3555f89b20988eddadf87ee2fe42fedc1",
+      "archived_path": "tasks/98cb6dee-1d5d-4aec-9122-6a1c390a2608.json"
+    },
+    {
+      "source_name": "results (30).json",
+      "task_uuid": "24d41998-5edf-44bf-93a4-60fca948ae8c",
+      "sha256": "b892244296030fbca7d0016727d97462eb0efbab6e2b4d5e00af2044cfa71352",
+      "archived_path": "tasks/24d41998-5edf-44bf-93a4-60fca948ae8c.json"
+    },
+    {
+      "source_name": "results (5).json",
+      "task_uuid": "cfdf6f35-0141-46b3-a059-7f9e9fc85b9c",
+      "sha256": "bc1472b9aaf2afa9421660145440913226df8bbf9c542ac44f18442928ca1ad4",
+      "archived_path": "tasks/cfdf6f35-0141-46b3-a059-7f9e9fc85b9c.json"
+    },
+    {
+      "source_name": "results (6).json",
+      "task_uuid": "014e4aba-2301-4b48-87ba-28c46e97e84f",
+      "sha256": "b48184b240521edd0391be6f2342cdae462275e92e83c9d156c2fa4fa4b28e5b",
+      "archived_path": "tasks/014e4aba-2301-4b48-87ba-28c46e97e84f.json"
+    },
+    {
+      "source_name": "results (7).json",
+      "task_uuid": "44849fe4-b8c2-4128-8792-ae5ef06009eb",
+      "sha256": "5e14117785e2089775c22414f92f8c79ca6a1da2e167309442b325a5c77347ce",
+      "archived_path": "tasks/44849fe4-b8c2-4128-8792-ae5ef06009eb.json"
+    },
+    {
+      "source_name": "results (8).json",
+      "task_uuid": "b4079656-2649-4163-9025-133821ff1bdd",
+      "sha256": "8100b80e6e3d2ba02e1f450847ce071db09147e9db16ffe71f808486b99fe291",
+      "archived_path": "tasks/b4079656-2649-4163-9025-133821ff1bdd.json"
+    },
+    {
+      "source_name": "results (9).json",
+      "task_uuid": "b1386480-d348-4a01-ae1a-dbecf6d2a934",
+      "sha256": "28af652428629d33a70dc2fc20e7ff30067d06e941833b1dff246e6c7a8bee2c",
+      "archived_path": "tasks/b1386480-d348-4a01-ae1a-dbecf6d2a934.json"
+    }
+  ],
+  "runners": [
+    {
+      "source": "C:\\Users\\Shrizon\\Desktop\\Pawsey\\projects\\drug-search\\notebooks\\braket_noise_ladder.py",
+      "sha256": "1d5d2919fa1b5260f53239aa08f79d9d55b886fc493c55f67cc034745a2d2bf6",
+      "archived_path": "runners/braket_noise_ladder.py"
+    },
+    {
+      "source": "C:\\Users\\Shrizon\\Desktop\\Pawsey\\projects\\drug-search\\notebooks\\braket_noise_ladder_big.py",
+      "sha256": "8a54a2e7ce7ebc56d9389d7eac860c3371e9035c2c8b4b703e99f6477a73f585",
+      "archived_path": "runners/braket_noise_ladder_big.py"
+    },
+    {
+      "source": "C:\\Users\\Shrizon\\Desktop\\Pawsey\\projects\\drug-search\\notebooks\\braket_noise_ladder_ext.py",
+      "sha256": "6a2965b23aa8667ab54ae508b8898dac55d7f22da3f46d320adecbe10cd3559f",
+      "archived_path": "runners/braket_noise_ladder_ext.py"
+    },
+    {
+      "source": "C:\\Users\\Shrizon\\Desktop\\Pawsey\\projects\\drug-search\\notebooks\\braket_noise_ladder_full.py",
+      "sha256": "7d33ad65fd2823326f1431d7551bc4a50e5f6cbb85a109513dbdbb6e6980080b",
+      "archived_path": "runners/braket_noise_ladder_full.py"
+    }
+  ],
+  "frozen_instances_sha256": "32ae0d5a6242c230c3514e85cb6773bdf9cef2cb88e299d256c3979449ded3ab"
+}

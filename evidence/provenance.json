@@ -1,0 +1,29 @@
+{
+  "runner_sha256": "1d5d2919fa1b5260f53239aa08f79d9d55b886fc493c55f67cc034745a2d2bf6",
+  "sources": [
+    {
+      "file": "C:\\Users\\Shrizon\\Desktop\\Pawsey\\Results\\ionq_forte1_ladder_06q_3drug_D2.json",
+      "sha256": "9ab7a930ce9aa691bde3fcd1e353bed3555f89b20988eddadf87ee2fe42fedc1"
+    },
+    {
+      "file": "C:\\Users\\Shrizon\\Desktop\\Pawsey\\Results\\ionq_forte1_ladder_08q_4drug_D2.json",
+      "sha256": "0d163d2672f9968592a508e643624ac9c35d5506b1a9637a09925984235d58ef"
+    },
+    {
+      "file": "C:\\Users\\Shrizon\\Desktop\\Pawsey\\Results\\ionq_forte1_ladder_09q_3drug_D3.json",
+      "sha256": "e3e2f58bd09c08bdd61656f35785a0d50f81d284f4e8f0e8f0cf2aa287273408"
+    },
+    {
+      "file": "C:\\Users\\Shrizon\\Desktop\\Pawsey\\Results\\ionq_forte1_ladder_10q_5drug_D2.json",
+      "sha256": "0844c3963b4df63b150f4afac54cffae9c03d69824c3b0dd0968653765ac88a3"
+    },
+    {
+      "file": "C:\\Users\\Shrizon\\Desktop\\Pawsey\\Results\\ionq_forte1_ladder_12q_4drug_D3.json",
+      "sha256": "047b0c0444087d748b229d00d7206ca5e21875d3092b0b7a6400dfc1b17e94d3"
+    },
+    {
+      "file": "C:\\Users\\Shrizon\\Desktop\\Pawsey\\Results\\ionq_forte1_ladder_15q_5drug_D3.json",
+      "sha256": "385c433f9bfccc647b05ccae1c72efc23c54ef4b6c67e46d621ef0cd35d03557"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.aws/
+*.pem
+*.key
+evidence/revision_source/
+qa/
+output/
+*.aux
+*.log
+overleaf/*.out
+*.toc
+*.blg
+*.synctex.gz

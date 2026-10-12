@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript and identify this repository release when using these materials."
+title: "Warm-start QAOA drug-response reproducibility"
+type: software
+version: 1.0.0
+date-released: 2026-10-12
+repository-code: "https://github.com/itsShrizon/warm-start-qaoa-drug-response-reproducibility"
+url: "https://github.com/itsShrizon/warm-start-qaoa-drug-response-reproducibility"
+authors:
+  - family-names: Hossain
+    given-names: Tanzir
+  - family-names: Rana
+    given-names: Rajib
+  - family-names: Barua
+    given-names: Prabal Datta
+  - family-names: Sina
+    given-names: Abu Ali Ibn
+  - family-names: Higgins
+    given-names: Niall
+  - family-names: Elahi
+    given-names: Pascal
+  - family-names: Sang
+    given-names: Robert
+  - family-names: Schuller
+    given-names: Björn W.

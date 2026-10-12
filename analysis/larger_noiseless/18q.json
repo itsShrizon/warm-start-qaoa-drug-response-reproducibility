@@ -1,0 +1,83 @@
+{
+  "qubits": 18,
+  "circuit_sha256": "b712477dec2f7366b3c1bbdad0466df8f223b878ca32f8d88d84062ebc35f075",
+  "feasible_states": 675,
+  "optimal_states": 1,
+  "norm": 0.9999999999999981,
+  "independent_gate_max_probability_error": 4.40619762898109e-16,
+  "methods": {
+    "ideal_qaoa": {
+      "feasibility": 0.7315807359422474,
+      "optimum_probability": 0.001665530740245039,
+      "conditional_mean_score": 0.2600896859230758,
+      "conditional_mean_normalized_score": 0.5097998456338791
+    },
+    "initial_product": {
+      "feasibility": 0.3736845552788756,
+      "optimum_probability": 0.0009846217175560846,
+      "conditional_mean_score": 0.2660905476363495,
+      "conditional_mean_normalized_score": 0.5117488772384987
+    },
+    "uniform_feasible": {
+      "feasibility": 0.9999999999999999,
+      "optimum_probability": 0.0014814814814814814,
+      "conditional_mean_score": -0.02276898222222221,
+      "conditional_mean_normalized_score": 0.41792962595587185
+    }
+  },
+  "hardware": [
+    {
+      "task_uuid": "014e4aba-2301-4b48-87ba-28c46e97e84f",
+      "source_sha256": "b48184b240521edd0391be6f2342cdae462275e92e83c9d156c2fa4fa4b28e5b",
+      "qasm_sha256": "676f3664fb6fb920c472f0729a7bdf9590c61d9c4d8e984a71343507f1ad74dc",
+      "shots": 200,
+      "created_utc": "2026-07-12T13:37:58.748Z",
+      "feasibility": 0.46,
+      "optimum_probability": 0.005,
+      "conditional_mean_score": 0.22851171739130435,
+      "conditional_mean_normalized_score": 0.4995435755148779
+    },
+    {
+      "task_uuid": "4b60729f-56e1-45d5-a2d6-fec25d56c84c",
+      "source_sha256": "39e881d1c9914896f0422a60bb3cb374e134f81309837489785dda6893e2cb50",
+      "qasm_sha256": "676f3664fb6fb920c472f0729a7bdf9590c61d9c4d8e984a71343507f1ad74dc",
+      "shots": 200,
+      "created_utc": "2026-07-11T06:06:33.207Z",
+      "feasibility": 0.42000000000000004,
+      "optimum_probability": 0.0,
+      "conditional_mean_score": 0.19654817857142856,
+      "conditional_mean_normalized_score": 0.489162075268401
+    },
+    {
+      "task_uuid": "b3fd2bd7-1b51-48e1-9c63-cbe7d55e1120",
+      "source_sha256": "508f3811580b64d7af002f7419dc635c77f394077dc896018ba6be296d6aedbd",
+      "qasm_sha256": "676f3664fb6fb920c472f0729a7bdf9590c61d9c4d8e984a71343507f1ad74dc",
+      "shots": 200,
+      "created_utc": "2026-07-11T07:55:04.103Z",
+      "feasibility": 0.495,
+      "optimum_probability": 0.005,
+      "conditional_mean_score": 0.1399849696969697,
+      "conditional_mean_normalized_score": 0.4707908001045082
+    }
+  ],
+  "execution": {
+    "utc_completed": "2026-09-05T20:23:22.354988+00:00",
+    "elapsed_seconds": 0.7729178739828058,
+    "peak_rss_kib_linux": 0,
+    "hostname": "nid002248",
+    "platform": "Linux-6.4.0-150700.53.78-64kb-aarch64-with-glibc2.38",
+    "python": "3.11.7",
+    "numpy": "1.24.4",
+    "slurm_job_id": "48062928",
+    "slurm_array_task_id": "0",
+    "state_dtype": "complex128",
+    "chunk_size": 262144,
+    "code_sha256": {
+      "larger_noiseless.py": "987e0a3d77abb840dc811f9bb7c6ca2ee44b4d15588268eaa284f267b9134b0e",
+      "reanalysis.py": "f48df234f2e6c0374c48e80138cc0ece4b36361c56afd879fb6cee299782d25b",
+      "analyze_recovered_hardware.py": "697de82ec11d9fab5fc9f3d7e8fc0bcf5ff4d5556d08bf4dd45d117a18dcd47c",
+      "quality_analysis.py": "0de45b8709654567d52df9f1cf7ec46e404a9e2d9a5bda85d7388c466ec50735"
+    },
+    "frozen_instances_sha256": "32ae0d5a6242c230c3514e85cb6773bdf9cef2cb88e299d256c3979449ded3ab"
+  }
+}

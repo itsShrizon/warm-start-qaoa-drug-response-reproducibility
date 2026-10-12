@@ -1,0 +1,13 @@
+panel_1 0 {'ideal_qaoa': 0.02822, 'warm_start_only': 0.01265, 'uniform_feasible': 0.00617}
+panel_1 0 {'ideal_qaoa': 0.02682, 'warm_start_only': 0.01265, 'uniform_feasible': 0.00617}
+panel_1 1 {'ideal_qaoa': 0.0223, 'warm_start_only': 0.01265, 'uniform_feasible': 0.00617}
+panel_1 2 {'ideal_qaoa': 0.02752, 'warm_start_only': 0.01265, 'uniform_feasible': 0.00617}
+panel_2 0 {'ideal_qaoa': 0.03365, 'warm_start_only': 0.01485, 'uniform_feasible': 0.00617}
+panel_2 1 {'ideal_qaoa': 0.03319, 'warm_start_only': 0.01485, 'uniform_feasible': 0.00617}
+panel_2 2 {'ideal_qaoa': 0.03427, 'warm_start_only': 0.01485, 'uniform_feasible': 0.00617}
+panel_3 0 {'ideal_qaoa': 0.03279, 'warm_start_only': 0.01436, 'uniform_feasible': 0.00617}
+panel_3 1 {'ideal_qaoa': 0.03248, 'warm_start_only': 0.01436, 'uniform_feasible': 0.00617}
+panel_3 2 {'ideal_qaoa': 0.03219, 'warm_start_only': 0.01436, 'uniform_feasible': 0.00617}
+panel_4 0 {'ideal_qaoa': 0.02894, 'warm_start_only': 0.01295, 'uniform_feasible': 0.00617}
+panel_4 1 {'ideal_qaoa': 0.02809, 'warm_start_only': 0.01295, 'uniform_feasible': 0.00617}
+panel_4 2 {'ideal_qaoa': 0.02865, 'warm_start_only': 0.01295, 'uniform_feasible': 0.00617}

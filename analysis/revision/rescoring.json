@@ -1,0 +1,2282 @@
+[
+  {
+    "name": "18q_6drug_D3",
+    "qubits": 18,
+    "problem_key": "50e2860a1282403c4c4ca743a03183a615ad19aa0f4d1281fe7a1db56a481551",
+    "circuit_sha256": "b712477dec2f7366b3c1bbdad0466df8f223b878ca32f8d88d84062ebc35f075",
+    "lambda": 0.3,
+    "feasible_states": 675,
+    "optimum": 2.729364,
+    "optimal_bitstrings": [
+      "001000000001001000"
+    ],
+    "initial_product": 0.0009846217175560846,
+    "uniform_feasible": 0.0014814814814814814,
+    "ideal_qaoa": 0.0016655307402450368,
+    "hardware": [
+      {
+        "task_uuid": "4b60729f-56e1-45d5-a2d6-fec25d56c84c",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      },
+      {
+        "task_uuid": "b3fd2bd7-1b51-48e1-9c63-cbe7d55e1120",
+        "shots": 200,
+        "optimum_count": 1,
+        "optimum_fraction": 0.005
+      },
+      {
+        "task_uuid": "014e4aba-2301-4b48-87ba-28c46e97e84f",
+        "shots": 200,
+        "optimum_count": 1,
+        "optimum_fraction": 0.005
+      }
+    ]
+  },
+  {
+    "name": "18q_6drug_D3",
+    "qubits": 18,
+    "problem_key": "50e2860a1282403c4c4ca743a03183a615ad19aa0f4d1281fe7a1db56a481551",
+    "circuit_sha256": "b712477dec2f7366b3c1bbdad0466df8f223b878ca32f8d88d84062ebc35f075",
+    "lambda": 0.45,
+    "feasible_states": 675,
+    "optimum": 2.249364,
+    "optimal_bitstrings": [
+      "001000000001001000"
+    ],
+    "initial_product": 0.0009846217175560846,
+    "uniform_feasible": 0.0014814814814814814,
+    "ideal_qaoa": 0.0016655307402450368,
+    "hardware": [
+      {
+        "task_uuid": "4b60729f-56e1-45d5-a2d6-fec25d56c84c",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      },
+      {
+        "task_uuid": "b3fd2bd7-1b51-48e1-9c63-cbe7d55e1120",
+        "shots": 200,
+        "optimum_count": 1,
+        "optimum_fraction": 0.005
+      },
+      {
+        "task_uuid": "014e4aba-2301-4b48-87ba-28c46e97e84f",
+        "shots": 200,
+        "optimum_count": 1,
+        "optimum_fraction": 0.005
+      }
+    ]
+  },
+  {
+    "name": "18q_6drug_D3",
+    "qubits": 18,
+    "problem_key": "50e2860a1282403c4c4ca743a03183a615ad19aa0f4d1281fe7a1db56a481551",
+    "circuit_sha256": "b712477dec2f7366b3c1bbdad0466df8f223b878ca32f8d88d84062ebc35f075",
+    "lambda": 0.6,
+    "feasible_states": 675,
+    "optimum": 1.7693640000000002,
+    "optimal_bitstrings": [
+      "001000000001001000"
+    ],
+    "initial_product": 0.0009846217175560846,
+    "uniform_feasible": 0.0014814814814814814,
+    "ideal_qaoa": 0.0016655307402450368,
+    "hardware": [
+      {
+        "task_uuid": "4b60729f-56e1-45d5-a2d6-fec25d56c84c",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      },
+      {
+        "task_uuid": "b3fd2bd7-1b51-48e1-9c63-cbe7d55e1120",
+        "shots": 200,
+        "optimum_count": 1,
+        "optimum_fraction": 0.005
+      },
+      {
+        "task_uuid": "014e4aba-2301-4b48-87ba-28c46e97e84f",
+        "shots": 200,
+        "optimum_count": 1,
+        "optimum_fraction": 0.005
+      }
+    ]
+  },
+  {
+    "name": "18q_6drug_D3",
+    "qubits": 18,
+    "problem_key": "50e2860a1282403c4c4ca743a03183a615ad19aa0f4d1281fe7a1db56a481551",
+    "circuit_sha256": "b712477dec2f7366b3c1bbdad0466df8f223b878ca32f8d88d84062ebc35f075",
+    "lambda": 0.75,
+    "feasible_states": 675,
+    "optimum": 1.2893640000000002,
+    "optimal_bitstrings": [
+      "001000000001001000"
+    ],
+    "initial_product": 0.0009846217175560846,
+    "uniform_feasible": 0.0014814814814814814,
+    "ideal_qaoa": 0.0016655307402450368,
+    "hardware": [
+      {
+        "task_uuid": "4b60729f-56e1-45d5-a2d6-fec25d56c84c",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      },
+      {
+        "task_uuid": "b3fd2bd7-1b51-48e1-9c63-cbe7d55e1120",
+        "shots": 200,
+        "optimum_count": 1,
+        "optimum_fraction": 0.005
+      },
+      {
+        "task_uuid": "014e4aba-2301-4b48-87ba-28c46e97e84f",
+        "shots": 200,
+        "optimum_count": 1,
+        "optimum_fraction": 0.005
+      }
+    ]
+  },
+  {
+    "name": "18q_6drug_D3",
+    "qubits": 18,
+    "problem_key": "50e2860a1282403c4c4ca743a03183a615ad19aa0f4d1281fe7a1db56a481551",
+    "circuit_sha256": "b712477dec2f7366b3c1bbdad0466df8f223b878ca32f8d88d84062ebc35f075",
+    "lambda": 0.9,
+    "feasible_states": 675,
+    "optimum": 0.8093639999999999,
+    "optimal_bitstrings": [
+      "001000000001001000"
+    ],
+    "initial_product": 0.0009846217175560846,
+    "uniform_feasible": 0.0014814814814814814,
+    "ideal_qaoa": 0.0016655307402450368,
+    "hardware": [
+      {
+        "task_uuid": "4b60729f-56e1-45d5-a2d6-fec25d56c84c",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      },
+      {
+        "task_uuid": "b3fd2bd7-1b51-48e1-9c63-cbe7d55e1120",
+        "shots": 200,
+        "optimum_count": 1,
+        "optimum_fraction": 0.005
+      },
+      {
+        "task_uuid": "014e4aba-2301-4b48-87ba-28c46e97e84f",
+        "shots": 200,
+        "optimum_count": 1,
+        "optimum_fraction": 0.005
+      }
+    ]
+  },
+  {
+    "name": "14q_7drug_D2",
+    "qubits": 14,
+    "problem_key": "470e0e435a52745ad6860151cad76f83fd80ef55d5272a02dc16a2d4e0dec2d2",
+    "circuit_sha256": "7d6c442da2fa81068049cc046308fbd8ab97153ecc4560d048d905cf50a3c7e0",
+    "lambda": 0.3,
+    "feasible_states": 364,
+    "optimum": 2.729364,
+    "optimal_bitstrings": [
+      "01000000010100"
+    ],
+    "initial_product": 0.0029629603586148524,
+    "uniform_feasible": 0.0027472527472527475,
+    "ideal_qaoa": 0.005040126804391415,
+    "hardware": [
+      {
+        "task_uuid": "1ebf3086-bb62-48fc-9bdb-0df1dedd62cf",
+        "shots": 200,
+        "optimum_count": 3,
+        "optimum_fraction": 0.015
+      }
+    ]
+  },
+  {
+    "name": "14q_7drug_D2",
+    "qubits": 14,
+    "problem_key": "470e0e435a52745ad6860151cad76f83fd80ef55d5272a02dc16a2d4e0dec2d2",
+    "circuit_sha256": "7d6c442da2fa81068049cc046308fbd8ab97153ecc4560d048d905cf50a3c7e0",
+    "lambda": 0.45,
+    "feasible_states": 364,
+    "optimum": 2.249364,
+    "optimal_bitstrings": [
+      "01000000010100"
+    ],
+    "initial_product": 0.0029629603586148524,
+    "uniform_feasible": 0.0027472527472527475,
+    "ideal_qaoa": 0.005040126804391415,
+    "hardware": [
+      {
+        "task_uuid": "1ebf3086-bb62-48fc-9bdb-0df1dedd62cf",
+        "shots": 200,
+        "optimum_count": 3,
+        "optimum_fraction": 0.015
+      }
+    ]
+  },
+  {
+    "name": "14q_7drug_D2",
+    "qubits": 14,
+    "problem_key": "470e0e435a52745ad6860151cad76f83fd80ef55d5272a02dc16a2d4e0dec2d2",
+    "circuit_sha256": "7d6c442da2fa81068049cc046308fbd8ab97153ecc4560d048d905cf50a3c7e0",
+    "lambda": 0.6,
+    "feasible_states": 364,
+    "optimum": 1.7693640000000002,
+    "optimal_bitstrings": [
+      "01000000010100"
+    ],
+    "initial_product": 0.0029629603586148524,
+    "uniform_feasible": 0.0027472527472527475,
+    "ideal_qaoa": 0.005040126804391415,
+    "hardware": [
+      {
+        "task_uuid": "1ebf3086-bb62-48fc-9bdb-0df1dedd62cf",
+        "shots": 200,
+        "optimum_count": 3,
+        "optimum_fraction": 0.015
+      }
+    ]
+  },
+  {
+    "name": "14q_7drug_D2",
+    "qubits": 14,
+    "problem_key": "470e0e435a52745ad6860151cad76f83fd80ef55d5272a02dc16a2d4e0dec2d2",
+    "circuit_sha256": "7d6c442da2fa81068049cc046308fbd8ab97153ecc4560d048d905cf50a3c7e0",
+    "lambda": 0.75,
+    "feasible_states": 364,
+    "optimum": 1.2893640000000002,
+    "optimal_bitstrings": [
+      "01000000010100"
+    ],
+    "initial_product": 0.0029629603586148524,
+    "uniform_feasible": 0.0027472527472527475,
+    "ideal_qaoa": 0.005040126804391415,
+    "hardware": [
+      {
+        "task_uuid": "1ebf3086-bb62-48fc-9bdb-0df1dedd62cf",
+        "shots": 200,
+        "optimum_count": 3,
+        "optimum_fraction": 0.015
+      }
+    ]
+  },
+  {
+    "name": "14q_7drug_D2",
+    "qubits": 14,
+    "problem_key": "470e0e435a52745ad6860151cad76f83fd80ef55d5272a02dc16a2d4e0dec2d2",
+    "circuit_sha256": "7d6c442da2fa81068049cc046308fbd8ab97153ecc4560d048d905cf50a3c7e0",
+    "lambda": 0.9,
+    "feasible_states": 364,
+    "optimum": 0.8093639999999999,
+    "optimal_bitstrings": [
+      "01000000010100"
+    ],
+    "initial_product": 0.0029629603586148524,
+    "uniform_feasible": 0.0027472527472527475,
+    "ideal_qaoa": 0.005040126804391415,
+    "hardware": [
+      {
+        "task_uuid": "1ebf3086-bb62-48fc-9bdb-0df1dedd62cf",
+        "shots": 200,
+        "optimum_count": 3,
+        "optimum_fraction": 0.015
+      }
+    ]
+  },
+  {
+    "name": "6q_3drug_D2",
+    "qubits": 6,
+    "problem_key": "157b54860c92f100927d24977b7844e477fe7805356d3bd905ddb1598b140060",
+    "circuit_sha256": "deb53899d602ea658db4ec2ca6f4f31dc17c8b56582c74e05729fcbb9169afd3",
+    "lambda": 0.3,
+    "feasible_states": 20,
+    "optimum": 2.729364,
+    "optimal_bitstrings": [
+      "010101"
+    ],
+    "initial_product": 0.009403903851486987,
+    "uniform_feasible": 0.05,
+    "ideal_qaoa": 0.016009156369897408,
+    "hardware": [
+      {
+        "task_uuid": "24d41998-5edf-44bf-93a4-60fca948ae8c",
+        "shots": 500,
+        "optimum_count": 6,
+        "optimum_fraction": 0.012
+      },
+      {
+        "task_uuid": "98cb6dee-1d5d-4aec-9122-6a1c390a2608",
+        "shots": 200,
+        "optimum_count": 5,
+        "optimum_fraction": 0.025
+      }
+    ]
+  },
+  {
+    "name": "6q_3drug_D2",
+    "qubits": 6,
+    "problem_key": "157b54860c92f100927d24977b7844e477fe7805356d3bd905ddb1598b140060",
+    "circuit_sha256": "deb53899d602ea658db4ec2ca6f4f31dc17c8b56582c74e05729fcbb9169afd3",
+    "lambda": 0.45,
+    "feasible_states": 20,
+    "optimum": 2.249364,
+    "optimal_bitstrings": [
+      "010101"
+    ],
+    "initial_product": 0.009403903851486987,
+    "uniform_feasible": 0.05,
+    "ideal_qaoa": 0.016009156369897408,
+    "hardware": [
+      {
+        "task_uuid": "24d41998-5edf-44bf-93a4-60fca948ae8c",
+        "shots": 500,
+        "optimum_count": 6,
+        "optimum_fraction": 0.012
+      },
+      {
+        "task_uuid": "98cb6dee-1d5d-4aec-9122-6a1c390a2608",
+        "shots": 200,
+        "optimum_count": 5,
+        "optimum_fraction": 0.025
+      }
+    ]
+  },
+  {
+    "name": "6q_3drug_D2",
+    "qubits": 6,
+    "problem_key": "157b54860c92f100927d24977b7844e477fe7805356d3bd905ddb1598b140060",
+    "circuit_sha256": "deb53899d602ea658db4ec2ca6f4f31dc17c8b56582c74e05729fcbb9169afd3",
+    "lambda": 0.6,
+    "feasible_states": 20,
+    "optimum": 1.7693640000000002,
+    "optimal_bitstrings": [
+      "010101"
+    ],
+    "initial_product": 0.009403903851486987,
+    "uniform_feasible": 0.05,
+    "ideal_qaoa": 0.016009156369897408,
+    "hardware": [
+      {
+        "task_uuid": "24d41998-5edf-44bf-93a4-60fca948ae8c",
+        "shots": 500,
+        "optimum_count": 6,
+        "optimum_fraction": 0.012
+      },
+      {
+        "task_uuid": "98cb6dee-1d5d-4aec-9122-6a1c390a2608",
+        "shots": 200,
+        "optimum_count": 5,
+        "optimum_fraction": 0.025
+      }
+    ]
+  },
+  {
+    "name": "6q_3drug_D2",
+    "qubits": 6,
+    "problem_key": "157b54860c92f100927d24977b7844e477fe7805356d3bd905ddb1598b140060",
+    "circuit_sha256": "deb53899d602ea658db4ec2ca6f4f31dc17c8b56582c74e05729fcbb9169afd3",
+    "lambda": 0.75,
+    "feasible_states": 20,
+    "optimum": 1.2893640000000002,
+    "optimal_bitstrings": [
+      "010101"
+    ],
+    "initial_product": 0.009403903851486987,
+    "uniform_feasible": 0.05,
+    "ideal_qaoa": 0.016009156369897408,
+    "hardware": [
+      {
+        "task_uuid": "24d41998-5edf-44bf-93a4-60fca948ae8c",
+        "shots": 500,
+        "optimum_count": 6,
+        "optimum_fraction": 0.012
+      },
+      {
+        "task_uuid": "98cb6dee-1d5d-4aec-9122-6a1c390a2608",
+        "shots": 200,
+        "optimum_count": 5,
+        "optimum_fraction": 0.025
+      }
+    ]
+  },
+  {
+    "name": "6q_3drug_D2",
+    "qubits": 6,
+    "problem_key": "157b54860c92f100927d24977b7844e477fe7805356d3bd905ddb1598b140060",
+    "circuit_sha256": "deb53899d602ea658db4ec2ca6f4f31dc17c8b56582c74e05729fcbb9169afd3",
+    "lambda": 0.9,
+    "feasible_states": 20,
+    "optimum": 0.8093639999999999,
+    "optimal_bitstrings": [
+      "010101"
+    ],
+    "initial_product": 0.009403903851486987,
+    "uniform_feasible": 0.05,
+    "ideal_qaoa": 0.016009156369897408,
+    "hardware": [
+      {
+        "task_uuid": "24d41998-5edf-44bf-93a4-60fca948ae8c",
+        "shots": 500,
+        "optimum_count": 6,
+        "optimum_fraction": 0.012
+      },
+      {
+        "task_uuid": "98cb6dee-1d5d-4aec-9122-6a1c390a2608",
+        "shots": 200,
+        "optimum_count": 5,
+        "optimum_fraction": 0.025
+      }
+    ]
+  },
+  {
+    "name": "21q_7drug_D3",
+    "qubits": 21,
+    "problem_key": "53906a7714afb068fad77c7e39fc39a005e6fa785b2bb64061881e8b1ec3a241",
+    "circuit_sha256": "69c2f21ddcc3d7cd516b5a2011239b2a0fb97e28ada0696a304a32dca3458454",
+    "lambda": 0.3,
+    "feasible_states": 1134,
+    "optimum": 2.729364,
+    "optimal_bitstrings": [
+      "001000000000001001000"
+    ],
+    "initial_product": 0.0006696696231976501,
+    "uniform_feasible": 0.0008818342151675485,
+    "ideal_qaoa": 0.0011112803642912888,
+    "hardware": [
+      {
+        "task_uuid": "fa0c9bef-c035-4232-a77b-75970696b227",
+        "shots": 200,
+        "optimum_count": 1,
+        "optimum_fraction": 0.005
+      },
+      {
+        "task_uuid": "30a44a65-2124-4664-9720-7d3d53e7498e",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      },
+      {
+        "task_uuid": "44849fe4-b8c2-4128-8792-ae5ef06009eb",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "21q_7drug_D3",
+    "qubits": 21,
+    "problem_key": "53906a7714afb068fad77c7e39fc39a005e6fa785b2bb64061881e8b1ec3a241",
+    "circuit_sha256": "69c2f21ddcc3d7cd516b5a2011239b2a0fb97e28ada0696a304a32dca3458454",
+    "lambda": 0.45,
+    "feasible_states": 1134,
+    "optimum": 2.249364,
+    "optimal_bitstrings": [
+      "001000000000001001000"
+    ],
+    "initial_product": 0.0006696696231976501,
+    "uniform_feasible": 0.0008818342151675485,
+    "ideal_qaoa": 0.0011112803642912888,
+    "hardware": [
+      {
+        "task_uuid": "fa0c9bef-c035-4232-a77b-75970696b227",
+        "shots": 200,
+        "optimum_count": 1,
+        "optimum_fraction": 0.005
+      },
+      {
+        "task_uuid": "30a44a65-2124-4664-9720-7d3d53e7498e",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      },
+      {
+        "task_uuid": "44849fe4-b8c2-4128-8792-ae5ef06009eb",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "21q_7drug_D3",
+    "qubits": 21,
+    "problem_key": "53906a7714afb068fad77c7e39fc39a005e6fa785b2bb64061881e8b1ec3a241",
+    "circuit_sha256": "69c2f21ddcc3d7cd516b5a2011239b2a0fb97e28ada0696a304a32dca3458454",
+    "lambda": 0.6,
+    "feasible_states": 1134,
+    "optimum": 1.7693640000000002,
+    "optimal_bitstrings": [
+      "001000000000001001000"
+    ],
+    "initial_product": 0.0006696696231976501,
+    "uniform_feasible": 0.0008818342151675485,
+    "ideal_qaoa": 0.0011112803642912888,
+    "hardware": [
+      {
+        "task_uuid": "fa0c9bef-c035-4232-a77b-75970696b227",
+        "shots": 200,
+        "optimum_count": 1,
+        "optimum_fraction": 0.005
+      },
+      {
+        "task_uuid": "30a44a65-2124-4664-9720-7d3d53e7498e",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      },
+      {
+        "task_uuid": "44849fe4-b8c2-4128-8792-ae5ef06009eb",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "21q_7drug_D3",
+    "qubits": 21,
+    "problem_key": "53906a7714afb068fad77c7e39fc39a005e6fa785b2bb64061881e8b1ec3a241",
+    "circuit_sha256": "69c2f21ddcc3d7cd516b5a2011239b2a0fb97e28ada0696a304a32dca3458454",
+    "lambda": 0.75,
+    "feasible_states": 1134,
+    "optimum": 1.2893640000000002,
+    "optimal_bitstrings": [
+      "001000000000001001000"
+    ],
+    "initial_product": 0.0006696696231976501,
+    "uniform_feasible": 0.0008818342151675485,
+    "ideal_qaoa": 0.0011112803642912888,
+    "hardware": [
+      {
+        "task_uuid": "fa0c9bef-c035-4232-a77b-75970696b227",
+        "shots": 200,
+        "optimum_count": 1,
+        "optimum_fraction": 0.005
+      },
+      {
+        "task_uuid": "30a44a65-2124-4664-9720-7d3d53e7498e",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      },
+      {
+        "task_uuid": "44849fe4-b8c2-4128-8792-ae5ef06009eb",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "21q_7drug_D3",
+    "qubits": 21,
+    "problem_key": "53906a7714afb068fad77c7e39fc39a005e6fa785b2bb64061881e8b1ec3a241",
+    "circuit_sha256": "69c2f21ddcc3d7cd516b5a2011239b2a0fb97e28ada0696a304a32dca3458454",
+    "lambda": 0.9,
+    "feasible_states": 1134,
+    "optimum": 0.8093639999999999,
+    "optimal_bitstrings": [
+      "001000000000001001000"
+    ],
+    "initial_product": 0.0006696696231976501,
+    "uniform_feasible": 0.0008818342151675485,
+    "ideal_qaoa": 0.0011112803642912888,
+    "hardware": [
+      {
+        "task_uuid": "fa0c9bef-c035-4232-a77b-75970696b227",
+        "shots": 200,
+        "optimum_count": 1,
+        "optimum_fraction": 0.005
+      },
+      {
+        "task_uuid": "30a44a65-2124-4664-9720-7d3d53e7498e",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      },
+      {
+        "task_uuid": "44849fe4-b8c2-4128-8792-ae5ef06009eb",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "12q_6drug_D2",
+    "qubits": 12,
+    "problem_key": "2eb7f4535be84fbca24943a25964a1f4e0be132f41f355bf1647c2167a586783",
+    "circuit_sha256": "7933b9b176f86c14c95281a6fc9f281fca8f744ff79f0242297a0138e2863240",
+    "lambda": 0.3,
+    "feasible_states": 220,
+    "optimum": 2.729364,
+    "optimal_bitstrings": [
+      "010000010100"
+    ],
+    "initial_product": 0.00459220593470506,
+    "uniform_feasible": 0.004545454545454545,
+    "ideal_qaoa": 0.007827366801500169,
+    "hardware": [
+      {
+        "task_uuid": "48d52888-7f37-4931-a135-8f831f1a208e",
+        "shots": 200,
+        "optimum_count": 4,
+        "optimum_fraction": 0.02
+      }
+    ]
+  },
+  {
+    "name": "12q_6drug_D2",
+    "qubits": 12,
+    "problem_key": "2eb7f4535be84fbca24943a25964a1f4e0be132f41f355bf1647c2167a586783",
+    "circuit_sha256": "7933b9b176f86c14c95281a6fc9f281fca8f744ff79f0242297a0138e2863240",
+    "lambda": 0.45,
+    "feasible_states": 220,
+    "optimum": 2.249364,
+    "optimal_bitstrings": [
+      "010000010100"
+    ],
+    "initial_product": 0.00459220593470506,
+    "uniform_feasible": 0.004545454545454545,
+    "ideal_qaoa": 0.007827366801500169,
+    "hardware": [
+      {
+        "task_uuid": "48d52888-7f37-4931-a135-8f831f1a208e",
+        "shots": 200,
+        "optimum_count": 4,
+        "optimum_fraction": 0.02
+      }
+    ]
+  },
+  {
+    "name": "12q_6drug_D2",
+    "qubits": 12,
+    "problem_key": "2eb7f4535be84fbca24943a25964a1f4e0be132f41f355bf1647c2167a586783",
+    "circuit_sha256": "7933b9b176f86c14c95281a6fc9f281fca8f744ff79f0242297a0138e2863240",
+    "lambda": 0.6,
+    "feasible_states": 220,
+    "optimum": 1.7693640000000002,
+    "optimal_bitstrings": [
+      "010000010100"
+    ],
+    "initial_product": 0.00459220593470506,
+    "uniform_feasible": 0.004545454545454545,
+    "ideal_qaoa": 0.007827366801500169,
+    "hardware": [
+      {
+        "task_uuid": "48d52888-7f37-4931-a135-8f831f1a208e",
+        "shots": 200,
+        "optimum_count": 4,
+        "optimum_fraction": 0.02
+      }
+    ]
+  },
+  {
+    "name": "12q_6drug_D2",
+    "qubits": 12,
+    "problem_key": "2eb7f4535be84fbca24943a25964a1f4e0be132f41f355bf1647c2167a586783",
+    "circuit_sha256": "7933b9b176f86c14c95281a6fc9f281fca8f744ff79f0242297a0138e2863240",
+    "lambda": 0.75,
+    "feasible_states": 220,
+    "optimum": 1.2893640000000002,
+    "optimal_bitstrings": [
+      "010000010100"
+    ],
+    "initial_product": 0.00459220593470506,
+    "uniform_feasible": 0.004545454545454545,
+    "ideal_qaoa": 0.007827366801500169,
+    "hardware": [
+      {
+        "task_uuid": "48d52888-7f37-4931-a135-8f831f1a208e",
+        "shots": 200,
+        "optimum_count": 4,
+        "optimum_fraction": 0.02
+      }
+    ]
+  },
+  {
+    "name": "12q_6drug_D2",
+    "qubits": 12,
+    "problem_key": "2eb7f4535be84fbca24943a25964a1f4e0be132f41f355bf1647c2167a586783",
+    "circuit_sha256": "7933b9b176f86c14c95281a6fc9f281fca8f744ff79f0242297a0138e2863240",
+    "lambda": 0.9,
+    "feasible_states": 220,
+    "optimum": 0.8093639999999999,
+    "optimal_bitstrings": [
+      "010000010100"
+    ],
+    "initial_product": 0.00459220593470506,
+    "uniform_feasible": 0.004545454545454545,
+    "ideal_qaoa": 0.007827366801500169,
+    "hardware": [
+      {
+        "task_uuid": "48d52888-7f37-4931-a135-8f831f1a208e",
+        "shots": 200,
+        "optimum_count": 4,
+        "optimum_fraction": 0.02
+      }
+    ]
+  },
+  {
+    "name": "15q_5drug_D3",
+    "qubits": 15,
+    "problem_key": "ed2ee1951553c9e811a92ce0986fef4aeb906ad4b513e7d477941c567ad90092",
+    "circuit_sha256": "56c40afae45beab6117d5dc2b451d8e3d05f5da621878c6ead850cf32900f7e1",
+    "lambda": 0.3,
+    "feasible_states": 360,
+    "optimum": 2.729364,
+    "optimal_bitstrings": [
+      "001000001001000"
+    ],
+    "initial_product": 0.0014383982732890386,
+    "uniform_feasible": 0.002777777777777778,
+    "ideal_qaoa": 0.0024690629386180905,
+    "hardware": [
+      {
+        "task_uuid": "4d659093-99b5-4d58-9063-cd20724f7a98",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "15q_5drug_D3",
+    "qubits": 15,
+    "problem_key": "ed2ee1951553c9e811a92ce0986fef4aeb906ad4b513e7d477941c567ad90092",
+    "circuit_sha256": "56c40afae45beab6117d5dc2b451d8e3d05f5da621878c6ead850cf32900f7e1",
+    "lambda": 0.45,
+    "feasible_states": 360,
+    "optimum": 2.249364,
+    "optimal_bitstrings": [
+      "001000001001000"
+    ],
+    "initial_product": 0.0014383982732890386,
+    "uniform_feasible": 0.002777777777777778,
+    "ideal_qaoa": 0.0024690629386180905,
+    "hardware": [
+      {
+        "task_uuid": "4d659093-99b5-4d58-9063-cd20724f7a98",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "15q_5drug_D3",
+    "qubits": 15,
+    "problem_key": "ed2ee1951553c9e811a92ce0986fef4aeb906ad4b513e7d477941c567ad90092",
+    "circuit_sha256": "56c40afae45beab6117d5dc2b451d8e3d05f5da621878c6ead850cf32900f7e1",
+    "lambda": 0.6,
+    "feasible_states": 360,
+    "optimum": 1.7693640000000002,
+    "optimal_bitstrings": [
+      "001000001001000"
+    ],
+    "initial_product": 0.0014383982732890386,
+    "uniform_feasible": 0.002777777777777778,
+    "ideal_qaoa": 0.0024690629386180905,
+    "hardware": [
+      {
+        "task_uuid": "4d659093-99b5-4d58-9063-cd20724f7a98",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "15q_5drug_D3",
+    "qubits": 15,
+    "problem_key": "ed2ee1951553c9e811a92ce0986fef4aeb906ad4b513e7d477941c567ad90092",
+    "circuit_sha256": "56c40afae45beab6117d5dc2b451d8e3d05f5da621878c6ead850cf32900f7e1",
+    "lambda": 0.75,
+    "feasible_states": 360,
+    "optimum": 1.2893640000000002,
+    "optimal_bitstrings": [
+      "001000001001000"
+    ],
+    "initial_product": 0.0014383982732890386,
+    "uniform_feasible": 0.002777777777777778,
+    "ideal_qaoa": 0.0024690629386180905,
+    "hardware": [
+      {
+        "task_uuid": "4d659093-99b5-4d58-9063-cd20724f7a98",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "15q_5drug_D3",
+    "qubits": 15,
+    "problem_key": "ed2ee1951553c9e811a92ce0986fef4aeb906ad4b513e7d477941c567ad90092",
+    "circuit_sha256": "56c40afae45beab6117d5dc2b451d8e3d05f5da621878c6ead850cf32900f7e1",
+    "lambda": 0.9,
+    "feasible_states": 360,
+    "optimum": 0.8093639999999999,
+    "optimal_bitstrings": [
+      "001000001001000"
+    ],
+    "initial_product": 0.0014383982732890386,
+    "uniform_feasible": 0.002777777777777778,
+    "ideal_qaoa": 0.0024690629386180905,
+    "hardware": [
+      {
+        "task_uuid": "4d659093-99b5-4d58-9063-cd20724f7a98",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "8q_4drug_D2",
+    "qubits": 8,
+    "problem_key": "d001a3bc28d9a4ecf259ec964783640b6b122dddf35de7be74255f22678ec75c",
+    "circuit_sha256": "e01aea29ce8e3cd56f9b7b82769885ad4e0c35b92d013381df73e5064878b82e",
+    "lambda": 0.3,
+    "feasible_states": 56,
+    "optimum": 2.729364,
+    "optimal_bitstrings": [
+      "01010100"
+    ],
+    "initial_product": 0.013670978762403545,
+    "uniform_feasible": 0.017857142857142856,
+    "ideal_qaoa": 0.023899817450936802,
+    "hardware": [
+      {
+        "task_uuid": "4e307518-f350-4843-98ab-06f91315c190",
+        "shots": 200,
+        "optimum_count": 5,
+        "optimum_fraction": 0.025
+      }
+    ]
+  },
+  {
+    "name": "8q_4drug_D2",
+    "qubits": 8,
+    "problem_key": "d001a3bc28d9a4ecf259ec964783640b6b122dddf35de7be74255f22678ec75c",
+    "circuit_sha256": "e01aea29ce8e3cd56f9b7b82769885ad4e0c35b92d013381df73e5064878b82e",
+    "lambda": 0.45,
+    "feasible_states": 56,
+    "optimum": 2.249364,
+    "optimal_bitstrings": [
+      "01010100"
+    ],
+    "initial_product": 0.013670978762403545,
+    "uniform_feasible": 0.017857142857142856,
+    "ideal_qaoa": 0.023899817450936802,
+    "hardware": [
+      {
+        "task_uuid": "4e307518-f350-4843-98ab-06f91315c190",
+        "shots": 200,
+        "optimum_count": 5,
+        "optimum_fraction": 0.025
+      }
+    ]
+  },
+  {
+    "name": "8q_4drug_D2",
+    "qubits": 8,
+    "problem_key": "d001a3bc28d9a4ecf259ec964783640b6b122dddf35de7be74255f22678ec75c",
+    "circuit_sha256": "e01aea29ce8e3cd56f9b7b82769885ad4e0c35b92d013381df73e5064878b82e",
+    "lambda": 0.6,
+    "feasible_states": 56,
+    "optimum": 1.7693640000000002,
+    "optimal_bitstrings": [
+      "01010100"
+    ],
+    "initial_product": 0.013670978762403545,
+    "uniform_feasible": 0.017857142857142856,
+    "ideal_qaoa": 0.023899817450936802,
+    "hardware": [
+      {
+        "task_uuid": "4e307518-f350-4843-98ab-06f91315c190",
+        "shots": 200,
+        "optimum_count": 5,
+        "optimum_fraction": 0.025
+      }
+    ]
+  },
+  {
+    "name": "8q_4drug_D2",
+    "qubits": 8,
+    "problem_key": "d001a3bc28d9a4ecf259ec964783640b6b122dddf35de7be74255f22678ec75c",
+    "circuit_sha256": "e01aea29ce8e3cd56f9b7b82769885ad4e0c35b92d013381df73e5064878b82e",
+    "lambda": 0.75,
+    "feasible_states": 56,
+    "optimum": 1.2893640000000002,
+    "optimal_bitstrings": [
+      "01010100"
+    ],
+    "initial_product": 0.013670978762403545,
+    "uniform_feasible": 0.017857142857142856,
+    "ideal_qaoa": 0.023899817450936802,
+    "hardware": [
+      {
+        "task_uuid": "4e307518-f350-4843-98ab-06f91315c190",
+        "shots": 200,
+        "optimum_count": 5,
+        "optimum_fraction": 0.025
+      }
+    ]
+  },
+  {
+    "name": "8q_4drug_D2",
+    "qubits": 8,
+    "problem_key": "d001a3bc28d9a4ecf259ec964783640b6b122dddf35de7be74255f22678ec75c",
+    "circuit_sha256": "e01aea29ce8e3cd56f9b7b82769885ad4e0c35b92d013381df73e5064878b82e",
+    "lambda": 0.9,
+    "feasible_states": 56,
+    "optimum": 0.8093639999999999,
+    "optimal_bitstrings": [
+      "01010100"
+    ],
+    "initial_product": 0.013670978762403545,
+    "uniform_feasible": 0.017857142857142856,
+    "ideal_qaoa": 0.023899817450936802,
+    "hardware": [
+      {
+        "task_uuid": "4e307518-f350-4843-98ab-06f91315c190",
+        "shots": 200,
+        "optimum_count": 5,
+        "optimum_fraction": 0.025
+      }
+    ]
+  },
+  {
+    "name": "15q_5drug_D3",
+    "qubits": 15,
+    "problem_key": "ed2ee1951553c9e811a92ce0986fef4aeb906ad4b513e7d477941c567ad90092",
+    "circuit_sha256": "700d25318f5d5a121248989e1e1176b4c76538649492c0d331dec4eb6083cbee",
+    "lambda": 0.3,
+    "feasible_states": 360,
+    "optimum": 2.729364,
+    "optimal_bitstrings": [
+      "001000001001000"
+    ],
+    "initial_product": 0.0014383982732890386,
+    "uniform_feasible": 0.002777777777777778,
+    "ideal_qaoa": 0.0024563135094361303,
+    "hardware": [
+      {
+        "task_uuid": "566d8e0f-b67b-4786-86fa-3b112aaf15bd",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "15q_5drug_D3",
+    "qubits": 15,
+    "problem_key": "ed2ee1951553c9e811a92ce0986fef4aeb906ad4b513e7d477941c567ad90092",
+    "circuit_sha256": "700d25318f5d5a121248989e1e1176b4c76538649492c0d331dec4eb6083cbee",
+    "lambda": 0.45,
+    "feasible_states": 360,
+    "optimum": 2.249364,
+    "optimal_bitstrings": [
+      "001000001001000"
+    ],
+    "initial_product": 0.0014383982732890386,
+    "uniform_feasible": 0.002777777777777778,
+    "ideal_qaoa": 0.0024563135094361303,
+    "hardware": [
+      {
+        "task_uuid": "566d8e0f-b67b-4786-86fa-3b112aaf15bd",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "15q_5drug_D3",
+    "qubits": 15,
+    "problem_key": "ed2ee1951553c9e811a92ce0986fef4aeb906ad4b513e7d477941c567ad90092",
+    "circuit_sha256": "700d25318f5d5a121248989e1e1176b4c76538649492c0d331dec4eb6083cbee",
+    "lambda": 0.6,
+    "feasible_states": 360,
+    "optimum": 1.7693640000000002,
+    "optimal_bitstrings": [
+      "001000001001000"
+    ],
+    "initial_product": 0.0014383982732890386,
+    "uniform_feasible": 0.002777777777777778,
+    "ideal_qaoa": 0.0024563135094361303,
+    "hardware": [
+      {
+        "task_uuid": "566d8e0f-b67b-4786-86fa-3b112aaf15bd",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "15q_5drug_D3",
+    "qubits": 15,
+    "problem_key": "ed2ee1951553c9e811a92ce0986fef4aeb906ad4b513e7d477941c567ad90092",
+    "circuit_sha256": "700d25318f5d5a121248989e1e1176b4c76538649492c0d331dec4eb6083cbee",
+    "lambda": 0.75,
+    "feasible_states": 360,
+    "optimum": 1.2893640000000002,
+    "optimal_bitstrings": [
+      "001000001001000"
+    ],
+    "initial_product": 0.0014383982732890386,
+    "uniform_feasible": 0.002777777777777778,
+    "ideal_qaoa": 0.0024563135094361303,
+    "hardware": [
+      {
+        "task_uuid": "566d8e0f-b67b-4786-86fa-3b112aaf15bd",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "15q_5drug_D3",
+    "qubits": 15,
+    "problem_key": "ed2ee1951553c9e811a92ce0986fef4aeb906ad4b513e7d477941c567ad90092",
+    "circuit_sha256": "700d25318f5d5a121248989e1e1176b4c76538649492c0d331dec4eb6083cbee",
+    "lambda": 0.9,
+    "feasible_states": 360,
+    "optimum": 0.8093639999999999,
+    "optimal_bitstrings": [
+      "001000001001000"
+    ],
+    "initial_product": 0.0014383982732890386,
+    "uniform_feasible": 0.002777777777777778,
+    "ideal_qaoa": 0.0024563135094361303,
+    "hardware": [
+      {
+        "task_uuid": "566d8e0f-b67b-4786-86fa-3b112aaf15bd",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "12q_4drug_D3",
+    "qubits": 12,
+    "problem_key": "42f809fffe78b93614014bed7323c5dc3336198a2868d3d394e89fbf2679de1e",
+    "circuit_sha256": "8161292f5cad9768a53bfd14140f0c74db1eae7a2fdc71c2df1b900e0a5dab89",
+    "lambda": 0.3,
+    "feasible_states": 162,
+    "optimum": 2.729364,
+    "optimal_bitstrings": [
+      "001001001000"
+    ],
+    "initial_product": 0.0016572308176690293,
+    "uniform_feasible": 0.006172839506172839,
+    "ideal_qaoa": 0.0019174778266204512,
+    "hardware": [
+      {
+        "task_uuid": "5cecf3e8-853e-448d-b296-d8bd2ef9f5e0",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "12q_4drug_D3",
+    "qubits": 12,
+    "problem_key": "42f809fffe78b93614014bed7323c5dc3336198a2868d3d394e89fbf2679de1e",
+    "circuit_sha256": "8161292f5cad9768a53bfd14140f0c74db1eae7a2fdc71c2df1b900e0a5dab89",
+    "lambda": 0.45,
+    "feasible_states": 162,
+    "optimum": 2.249364,
+    "optimal_bitstrings": [
+      "001001001000"
+    ],
+    "initial_product": 0.0016572308176690293,
+    "uniform_feasible": 0.006172839506172839,
+    "ideal_qaoa": 0.0019174778266204512,
+    "hardware": [
+      {
+        "task_uuid": "5cecf3e8-853e-448d-b296-d8bd2ef9f5e0",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "12q_4drug_D3",
+    "qubits": 12,
+    "problem_key": "42f809fffe78b93614014bed7323c5dc3336198a2868d3d394e89fbf2679de1e",
+    "circuit_sha256": "8161292f5cad9768a53bfd14140f0c74db1eae7a2fdc71c2df1b900e0a5dab89",
+    "lambda": 0.6,
+    "feasible_states": 162,
+    "optimum": 1.7693640000000002,
+    "optimal_bitstrings": [
+      "001001001000"
+    ],
+    "initial_product": 0.0016572308176690293,
+    "uniform_feasible": 0.006172839506172839,
+    "ideal_qaoa": 0.0019174778266204512,
+    "hardware": [
+      {
+        "task_uuid": "5cecf3e8-853e-448d-b296-d8bd2ef9f5e0",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "12q_4drug_D3",
+    "qubits": 12,
+    "problem_key": "42f809fffe78b93614014bed7323c5dc3336198a2868d3d394e89fbf2679de1e",
+    "circuit_sha256": "8161292f5cad9768a53bfd14140f0c74db1eae7a2fdc71c2df1b900e0a5dab89",
+    "lambda": 0.75,
+    "feasible_states": 162,
+    "optimum": 1.2893640000000002,
+    "optimal_bitstrings": [
+      "001001001000"
+    ],
+    "initial_product": 0.0016572308176690293,
+    "uniform_feasible": 0.006172839506172839,
+    "ideal_qaoa": 0.0019174778266204512,
+    "hardware": [
+      {
+        "task_uuid": "5cecf3e8-853e-448d-b296-d8bd2ef9f5e0",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "12q_4drug_D3",
+    "qubits": 12,
+    "problem_key": "42f809fffe78b93614014bed7323c5dc3336198a2868d3d394e89fbf2679de1e",
+    "circuit_sha256": "8161292f5cad9768a53bfd14140f0c74db1eae7a2fdc71c2df1b900e0a5dab89",
+    "lambda": 0.9,
+    "feasible_states": 162,
+    "optimum": 0.8093639999999999,
+    "optimal_bitstrings": [
+      "001001001000"
+    ],
+    "initial_product": 0.0016572308176690293,
+    "uniform_feasible": 0.006172839506172839,
+    "ideal_qaoa": 0.0019174778266204512,
+    "hardware": [
+      {
+        "task_uuid": "5cecf3e8-853e-448d-b296-d8bd2ef9f5e0",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "10q_5drug_D2",
+    "qubits": 10,
+    "problem_key": "22ceb0ae28fddc3679048f54b18dbd62d0373a3dfc7dc0cda85672a43c33c150",
+    "circuit_sha256": "6cf8abafe2f93ac5325254e31cd4c9820d2dd25c1a29c6fa5b1218637e3bd6ce",
+    "lambda": 0.3,
+    "feasible_states": 120,
+    "optimum": 2.729364,
+    "optimal_bitstrings": [
+      "0100010100"
+    ],
+    "initial_product": 0.008127599224940373,
+    "uniform_feasible": 0.008333333333333333,
+    "ideal_qaoa": 0.01398704372818059,
+    "hardware": [
+      {
+        "task_uuid": "9fcd57c3-97a5-4070-929d-d4ba5b7284f9",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "10q_5drug_D2",
+    "qubits": 10,
+    "problem_key": "22ceb0ae28fddc3679048f54b18dbd62d0373a3dfc7dc0cda85672a43c33c150",
+    "circuit_sha256": "6cf8abafe2f93ac5325254e31cd4c9820d2dd25c1a29c6fa5b1218637e3bd6ce",
+    "lambda": 0.45,
+    "feasible_states": 120,
+    "optimum": 2.249364,
+    "optimal_bitstrings": [
+      "0100010100"
+    ],
+    "initial_product": 0.008127599224940373,
+    "uniform_feasible": 0.008333333333333333,
+    "ideal_qaoa": 0.01398704372818059,
+    "hardware": [
+      {
+        "task_uuid": "9fcd57c3-97a5-4070-929d-d4ba5b7284f9",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "10q_5drug_D2",
+    "qubits": 10,
+    "problem_key": "22ceb0ae28fddc3679048f54b18dbd62d0373a3dfc7dc0cda85672a43c33c150",
+    "circuit_sha256": "6cf8abafe2f93ac5325254e31cd4c9820d2dd25c1a29c6fa5b1218637e3bd6ce",
+    "lambda": 0.6,
+    "feasible_states": 120,
+    "optimum": 1.7693640000000002,
+    "optimal_bitstrings": [
+      "0100010100"
+    ],
+    "initial_product": 0.008127599224940373,
+    "uniform_feasible": 0.008333333333333333,
+    "ideal_qaoa": 0.01398704372818059,
+    "hardware": [
+      {
+        "task_uuid": "9fcd57c3-97a5-4070-929d-d4ba5b7284f9",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "10q_5drug_D2",
+    "qubits": 10,
+    "problem_key": "22ceb0ae28fddc3679048f54b18dbd62d0373a3dfc7dc0cda85672a43c33c150",
+    "circuit_sha256": "6cf8abafe2f93ac5325254e31cd4c9820d2dd25c1a29c6fa5b1218637e3bd6ce",
+    "lambda": 0.75,
+    "feasible_states": 120,
+    "optimum": 1.2893640000000002,
+    "optimal_bitstrings": [
+      "0100010100"
+    ],
+    "initial_product": 0.008127599224940373,
+    "uniform_feasible": 0.008333333333333333,
+    "ideal_qaoa": 0.01398704372818059,
+    "hardware": [
+      {
+        "task_uuid": "9fcd57c3-97a5-4070-929d-d4ba5b7284f9",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "10q_5drug_D2",
+    "qubits": 10,
+    "problem_key": "22ceb0ae28fddc3679048f54b18dbd62d0373a3dfc7dc0cda85672a43c33c150",
+    "circuit_sha256": "6cf8abafe2f93ac5325254e31cd4c9820d2dd25c1a29c6fa5b1218637e3bd6ce",
+    "lambda": 0.9,
+    "feasible_states": 120,
+    "optimum": 0.8093639999999999,
+    "optimal_bitstrings": [
+      "0100010100"
+    ],
+    "initial_product": 0.008127599224940373,
+    "uniform_feasible": 0.008333333333333333,
+    "ideal_qaoa": 0.01398704372818059,
+    "hardware": [
+      {
+        "task_uuid": "9fcd57c3-97a5-4070-929d-d4ba5b7284f9",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "20q_4drug_D5",
+    "qubits": 20,
+    "problem_key": "9d3c99b166c5c27af541b38601284141fc7b644e8d7823fa77c74f05ac85eb83",
+    "circuit_sha256": "08e0323bc41758902c413df6b7b40c27edbd944ac2d0784d70e3d1e687d4b9ad",
+    "lambda": 0.3,
+    "feasible_states": 650,
+    "optimum": 2.729364,
+    "optimal_bitstrings": [
+      "00001000010000100000"
+    ],
+    "initial_product": 0.00021194756007706197,
+    "uniform_feasible": 0.0015384615384615385,
+    "ideal_qaoa": 0.00023885294631043833,
+    "hardware": [
+      {
+        "task_uuid": "abdccbd0-9b84-4ba1-b5a7-91c6e0403be6",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      },
+      {
+        "task_uuid": "b4079656-2649-4163-9025-133821ff1bdd",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "20q_4drug_D5",
+    "qubits": 20,
+    "problem_key": "9d3c99b166c5c27af541b38601284141fc7b644e8d7823fa77c74f05ac85eb83",
+    "circuit_sha256": "08e0323bc41758902c413df6b7b40c27edbd944ac2d0784d70e3d1e687d4b9ad",
+    "lambda": 0.45,
+    "feasible_states": 650,
+    "optimum": 2.249364,
+    "optimal_bitstrings": [
+      "00001000010000100000"
+    ],
+    "initial_product": 0.00021194756007706197,
+    "uniform_feasible": 0.0015384615384615385,
+    "ideal_qaoa": 0.00023885294631043833,
+    "hardware": [
+      {
+        "task_uuid": "abdccbd0-9b84-4ba1-b5a7-91c6e0403be6",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      },
+      {
+        "task_uuid": "b4079656-2649-4163-9025-133821ff1bdd",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "20q_4drug_D5",
+    "qubits": 20,
+    "problem_key": "9d3c99b166c5c27af541b38601284141fc7b644e8d7823fa77c74f05ac85eb83",
+    "circuit_sha256": "08e0323bc41758902c413df6b7b40c27edbd944ac2d0784d70e3d1e687d4b9ad",
+    "lambda": 0.6,
+    "feasible_states": 650,
+    "optimum": 1.7693640000000002,
+    "optimal_bitstrings": [
+      "00001000010000100000"
+    ],
+    "initial_product": 0.00021194756007706197,
+    "uniform_feasible": 0.0015384615384615385,
+    "ideal_qaoa": 0.00023885294631043833,
+    "hardware": [
+      {
+        "task_uuid": "abdccbd0-9b84-4ba1-b5a7-91c6e0403be6",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      },
+      {
+        "task_uuid": "b4079656-2649-4163-9025-133821ff1bdd",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "20q_4drug_D5",
+    "qubits": 20,
+    "problem_key": "9d3c99b166c5c27af541b38601284141fc7b644e8d7823fa77c74f05ac85eb83",
+    "circuit_sha256": "08e0323bc41758902c413df6b7b40c27edbd944ac2d0784d70e3d1e687d4b9ad",
+    "lambda": 0.75,
+    "feasible_states": 650,
+    "optimum": 1.2893640000000002,
+    "optimal_bitstrings": [
+      "00001000010000100000"
+    ],
+    "initial_product": 0.00021194756007706197,
+    "uniform_feasible": 0.0015384615384615385,
+    "ideal_qaoa": 0.00023885294631043833,
+    "hardware": [
+      {
+        "task_uuid": "abdccbd0-9b84-4ba1-b5a7-91c6e0403be6",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      },
+      {
+        "task_uuid": "b4079656-2649-4163-9025-133821ff1bdd",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "20q_4drug_D5",
+    "qubits": 20,
+    "problem_key": "9d3c99b166c5c27af541b38601284141fc7b644e8d7823fa77c74f05ac85eb83",
+    "circuit_sha256": "08e0323bc41758902c413df6b7b40c27edbd944ac2d0784d70e3d1e687d4b9ad",
+    "lambda": 0.9,
+    "feasible_states": 650,
+    "optimum": 0.8093639999999999,
+    "optimal_bitstrings": [
+      "00001000010000100000"
+    ],
+    "initial_product": 0.00021194756007706197,
+    "uniform_feasible": 0.0015384615384615385,
+    "ideal_qaoa": 0.00023885294631043833,
+    "hardware": [
+      {
+        "task_uuid": "abdccbd0-9b84-4ba1-b5a7-91c6e0403be6",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      },
+      {
+        "task_uuid": "b4079656-2649-4163-9025-133821ff1bdd",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "25q_5drug_D5",
+    "qubits": 25,
+    "problem_key": "98d0d74734c6ded474a664ccba37eb5b02e749593d4a0c8a743b9519080f514f",
+    "circuit_sha256": "24d531e692efcbb98301437f437c5299e65cd8c259a2856b41bd89c10d0f5b8e",
+    "lambda": 0.3,
+    "feasible_states": 1500,
+    "optimum": 2.729364,
+    "optimal_bitstrings": [
+      "0000100000000010000100000"
+    ],
+    "initial_product": 0.00022202621784009086,
+    "uniform_feasible": 0.0006666666666666666,
+    "ideal_qaoa": 0.00024248633361397776,
+    "hardware": [
+      {
+        "task_uuid": "e69c31e1-b34e-4869-bae9-217de933cb7d",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      },
+      {
+        "task_uuid": "b1386480-d348-4a01-ae1a-dbecf6d2a934",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "25q_5drug_D5",
+    "qubits": 25,
+    "problem_key": "98d0d74734c6ded474a664ccba37eb5b02e749593d4a0c8a743b9519080f514f",
+    "circuit_sha256": "24d531e692efcbb98301437f437c5299e65cd8c259a2856b41bd89c10d0f5b8e",
+    "lambda": 0.45,
+    "feasible_states": 1500,
+    "optimum": 2.249364,
+    "optimal_bitstrings": [
+      "0000100000000010000100000"
+    ],
+    "initial_product": 0.00022202621784009086,
+    "uniform_feasible": 0.0006666666666666666,
+    "ideal_qaoa": 0.00024248633361397776,
+    "hardware": [
+      {
+        "task_uuid": "e69c31e1-b34e-4869-bae9-217de933cb7d",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      },
+      {
+        "task_uuid": "b1386480-d348-4a01-ae1a-dbecf6d2a934",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "25q_5drug_D5",
+    "qubits": 25,
+    "problem_key": "98d0d74734c6ded474a664ccba37eb5b02e749593d4a0c8a743b9519080f514f",
+    "circuit_sha256": "24d531e692efcbb98301437f437c5299e65cd8c259a2856b41bd89c10d0f5b8e",
+    "lambda": 0.6,
+    "feasible_states": 1500,
+    "optimum": 1.7693640000000002,
+    "optimal_bitstrings": [
+      "0000100000000010000100000"
+    ],
+    "initial_product": 0.00022202621784009086,
+    "uniform_feasible": 0.0006666666666666666,
+    "ideal_qaoa": 0.00024248633361397776,
+    "hardware": [
+      {
+        "task_uuid": "e69c31e1-b34e-4869-bae9-217de933cb7d",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      },
+      {
+        "task_uuid": "b1386480-d348-4a01-ae1a-dbecf6d2a934",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "25q_5drug_D5",
+    "qubits": 25,
+    "problem_key": "98d0d74734c6ded474a664ccba37eb5b02e749593d4a0c8a743b9519080f514f",
+    "circuit_sha256": "24d531e692efcbb98301437f437c5299e65cd8c259a2856b41bd89c10d0f5b8e",
+    "lambda": 0.75,
+    "feasible_states": 1500,
+    "optimum": 1.2893640000000002,
+    "optimal_bitstrings": [
+      "0000100000000010000100000"
+    ],
+    "initial_product": 0.00022202621784009086,
+    "uniform_feasible": 0.0006666666666666666,
+    "ideal_qaoa": 0.00024248633361397776,
+    "hardware": [
+      {
+        "task_uuid": "e69c31e1-b34e-4869-bae9-217de933cb7d",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      },
+      {
+        "task_uuid": "b1386480-d348-4a01-ae1a-dbecf6d2a934",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "25q_5drug_D5",
+    "qubits": 25,
+    "problem_key": "98d0d74734c6ded474a664ccba37eb5b02e749593d4a0c8a743b9519080f514f",
+    "circuit_sha256": "24d531e692efcbb98301437f437c5299e65cd8c259a2856b41bd89c10d0f5b8e",
+    "lambda": 0.9,
+    "feasible_states": 1500,
+    "optimum": 0.8093639999999999,
+    "optimal_bitstrings": [
+      "0000100000000010000100000"
+    ],
+    "initial_product": 0.00022202621784009086,
+    "uniform_feasible": 0.0006666666666666666,
+    "ideal_qaoa": 0.00024248633361397776,
+    "hardware": [
+      {
+        "task_uuid": "e69c31e1-b34e-4869-bae9-217de933cb7d",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      },
+      {
+        "task_uuid": "b1386480-d348-4a01-ae1a-dbecf6d2a934",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "30q_6drug_D5",
+    "qubits": 30,
+    "problem_key": "ae262ea96c4f573cddd571f39696f4c5038848d91d390f56c88e28f6b383e761",
+    "circuit_sha256": "c2aef67a99071c3dad3d15de9527402649e4dbbf5f8d927adde7ed1eccdb5069",
+    "lambda": 0.3,
+    "feasible_states": 2875,
+    "optimum": 2.729364,
+    "optimal_bitstrings": [
+      "000010000000000000010000100000"
+    ],
+    "initial_product": 0.0001717815112905185,
+    "uniform_feasible": 0.00034782608695652176,
+    "ideal_qaoa": 0.0001741843141365451,
+    "hardware": [
+      {
+        "task_uuid": "bb016dac-cabb-4e80-b568-0c0818917ab6",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "30q_6drug_D5",
+    "qubits": 30,
+    "problem_key": "ae262ea96c4f573cddd571f39696f4c5038848d91d390f56c88e28f6b383e761",
+    "circuit_sha256": "c2aef67a99071c3dad3d15de9527402649e4dbbf5f8d927adde7ed1eccdb5069",
+    "lambda": 0.45,
+    "feasible_states": 2875,
+    "optimum": 2.249364,
+    "optimal_bitstrings": [
+      "000010000000000000010000100000"
+    ],
+    "initial_product": 0.0001717815112905185,
+    "uniform_feasible": 0.00034782608695652176,
+    "ideal_qaoa": 0.0001741843141365451,
+    "hardware": [
+      {
+        "task_uuid": "bb016dac-cabb-4e80-b568-0c0818917ab6",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "30q_6drug_D5",
+    "qubits": 30,
+    "problem_key": "ae262ea96c4f573cddd571f39696f4c5038848d91d390f56c88e28f6b383e761",
+    "circuit_sha256": "c2aef67a99071c3dad3d15de9527402649e4dbbf5f8d927adde7ed1eccdb5069",
+    "lambda": 0.6,
+    "feasible_states": 2875,
+    "optimum": 1.7693640000000002,
+    "optimal_bitstrings": [
+      "000010000000000000010000100000"
+    ],
+    "initial_product": 0.0001717815112905185,
+    "uniform_feasible": 0.00034782608695652176,
+    "ideal_qaoa": 0.0001741843141365451,
+    "hardware": [
+      {
+        "task_uuid": "bb016dac-cabb-4e80-b568-0c0818917ab6",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "30q_6drug_D5",
+    "qubits": 30,
+    "problem_key": "ae262ea96c4f573cddd571f39696f4c5038848d91d390f56c88e28f6b383e761",
+    "circuit_sha256": "c2aef67a99071c3dad3d15de9527402649e4dbbf5f8d927adde7ed1eccdb5069",
+    "lambda": 0.75,
+    "feasible_states": 2875,
+    "optimum": 1.2893640000000002,
+    "optimal_bitstrings": [
+      "000010000000000000010000100000"
+    ],
+    "initial_product": 0.0001717815112905185,
+    "uniform_feasible": 0.00034782608695652176,
+    "ideal_qaoa": 0.0001741843141365451,
+    "hardware": [
+      {
+        "task_uuid": "bb016dac-cabb-4e80-b568-0c0818917ab6",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "30q_6drug_D5",
+    "qubits": 30,
+    "problem_key": "ae262ea96c4f573cddd571f39696f4c5038848d91d390f56c88e28f6b383e761",
+    "circuit_sha256": "c2aef67a99071c3dad3d15de9527402649e4dbbf5f8d927adde7ed1eccdb5069",
+    "lambda": 0.9,
+    "feasible_states": 2875,
+    "optimum": 0.8093639999999999,
+    "optimal_bitstrings": [
+      "000010000000000000010000100000"
+    ],
+    "initial_product": 0.0001717815112905185,
+    "uniform_feasible": 0.00034782608695652176,
+    "ideal_qaoa": 0.0001741843141365451,
+    "hardware": [
+      {
+        "task_uuid": "bb016dac-cabb-4e80-b568-0c0818917ab6",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "6q_3drug_D2",
+    "qubits": 6,
+    "problem_key": "157b54860c92f100927d24977b7844e477fe7805356d3bd905ddb1598b140060",
+    "circuit_sha256": "c189311738997973531ac9c0ed0196a827af59932274bf7cf9ea349083d38071",
+    "lambda": 0.3,
+    "feasible_states": 20,
+    "optimum": 2.729364,
+    "optimal_bitstrings": [
+      "010101"
+    ],
+    "initial_product": 0.009403903851486987,
+    "uniform_feasible": 0.05,
+    "ideal_qaoa": 0.01573915466642854,
+    "hardware": [
+      {
+        "task_uuid": "c8ea4f7a-a64e-49d2-a7f8-f1ac1eff2136",
+        "shots": 200,
+        "optimum_count": 5,
+        "optimum_fraction": 0.025
+      }
+    ]
+  },
+  {
+    "name": "6q_3drug_D2",
+    "qubits": 6,
+    "problem_key": "157b54860c92f100927d24977b7844e477fe7805356d3bd905ddb1598b140060",
+    "circuit_sha256": "c189311738997973531ac9c0ed0196a827af59932274bf7cf9ea349083d38071",
+    "lambda": 0.45,
+    "feasible_states": 20,
+    "optimum": 2.249364,
+    "optimal_bitstrings": [
+      "010101"
+    ],
+    "initial_product": 0.009403903851486987,
+    "uniform_feasible": 0.05,
+    "ideal_qaoa": 0.01573915466642854,
+    "hardware": [
+      {
+        "task_uuid": "c8ea4f7a-a64e-49d2-a7f8-f1ac1eff2136",
+        "shots": 200,
+        "optimum_count": 5,
+        "optimum_fraction": 0.025
+      }
+    ]
+  },
+  {
+    "name": "6q_3drug_D2",
+    "qubits": 6,
+    "problem_key": "157b54860c92f100927d24977b7844e477fe7805356d3bd905ddb1598b140060",
+    "circuit_sha256": "c189311738997973531ac9c0ed0196a827af59932274bf7cf9ea349083d38071",
+    "lambda": 0.6,
+    "feasible_states": 20,
+    "optimum": 1.7693640000000002,
+    "optimal_bitstrings": [
+      "010101"
+    ],
+    "initial_product": 0.009403903851486987,
+    "uniform_feasible": 0.05,
+    "ideal_qaoa": 0.01573915466642854,
+    "hardware": [
+      {
+        "task_uuid": "c8ea4f7a-a64e-49d2-a7f8-f1ac1eff2136",
+        "shots": 200,
+        "optimum_count": 5,
+        "optimum_fraction": 0.025
+      }
+    ]
+  },
+  {
+    "name": "6q_3drug_D2",
+    "qubits": 6,
+    "problem_key": "157b54860c92f100927d24977b7844e477fe7805356d3bd905ddb1598b140060",
+    "circuit_sha256": "c189311738997973531ac9c0ed0196a827af59932274bf7cf9ea349083d38071",
+    "lambda": 0.75,
+    "feasible_states": 20,
+    "optimum": 1.2893640000000002,
+    "optimal_bitstrings": [
+      "010101"
+    ],
+    "initial_product": 0.009403903851486987,
+    "uniform_feasible": 0.05,
+    "ideal_qaoa": 0.01573915466642854,
+    "hardware": [
+      {
+        "task_uuid": "c8ea4f7a-a64e-49d2-a7f8-f1ac1eff2136",
+        "shots": 200,
+        "optimum_count": 5,
+        "optimum_fraction": 0.025
+      }
+    ]
+  },
+  {
+    "name": "6q_3drug_D2",
+    "qubits": 6,
+    "problem_key": "157b54860c92f100927d24977b7844e477fe7805356d3bd905ddb1598b140060",
+    "circuit_sha256": "c189311738997973531ac9c0ed0196a827af59932274bf7cf9ea349083d38071",
+    "lambda": 0.9,
+    "feasible_states": 20,
+    "optimum": 0.8093639999999999,
+    "optimal_bitstrings": [
+      "010101"
+    ],
+    "initial_product": 0.009403903851486987,
+    "uniform_feasible": 0.05,
+    "ideal_qaoa": 0.01573915466642854,
+    "hardware": [
+      {
+        "task_uuid": "c8ea4f7a-a64e-49d2-a7f8-f1ac1eff2136",
+        "shots": 200,
+        "optimum_count": 5,
+        "optimum_fraction": 0.025
+      }
+    ]
+  },
+  {
+    "name": "35q_7drug_D5",
+    "qubits": 35,
+    "problem_key": "b705f89ff7d8b29e42a875ee83d3853cca3518c1d0ab85d1e385f3aa09613e67",
+    "circuit_sha256": "816b43b2481aa910bfe12676df28a2e6099146a4ed37c3f47f364c17ba8b42a1",
+    "lambda": 0.3,
+    "feasible_states": 4900,
+    "optimum": 2.729364,
+    "optimal_bitstrings": [
+      "00001000000000000000000010000100000"
+    ],
+    "initial_product": 0.00012173772561941219,
+    "uniform_feasible": 0.00020408163265306123,
+    "ideal_qaoa": 0.00011971869311473587,
+    "hardware": [
+      {
+        "task_uuid": "cfdf6f35-0141-46b3-a059-7f9e9fc85b9c",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "35q_7drug_D5",
+    "qubits": 35,
+    "problem_key": "b705f89ff7d8b29e42a875ee83d3853cca3518c1d0ab85d1e385f3aa09613e67",
+    "circuit_sha256": "816b43b2481aa910bfe12676df28a2e6099146a4ed37c3f47f364c17ba8b42a1",
+    "lambda": 0.45,
+    "feasible_states": 4900,
+    "optimum": 2.249364,
+    "optimal_bitstrings": [
+      "00001000000000000000000010000100000"
+    ],
+    "initial_product": 0.00012173772561941219,
+    "uniform_feasible": 0.00020408163265306123,
+    "ideal_qaoa": 0.00011971869311473587,
+    "hardware": [
+      {
+        "task_uuid": "cfdf6f35-0141-46b3-a059-7f9e9fc85b9c",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "35q_7drug_D5",
+    "qubits": 35,
+    "problem_key": "b705f89ff7d8b29e42a875ee83d3853cca3518c1d0ab85d1e385f3aa09613e67",
+    "circuit_sha256": "816b43b2481aa910bfe12676df28a2e6099146a4ed37c3f47f364c17ba8b42a1",
+    "lambda": 0.6,
+    "feasible_states": 4900,
+    "optimum": 1.7693640000000002,
+    "optimal_bitstrings": [
+      "00001000000000000000000010000100000"
+    ],
+    "initial_product": 0.00012173772561941219,
+    "uniform_feasible": 0.00020408163265306123,
+    "ideal_qaoa": 0.00011971869311473587,
+    "hardware": [
+      {
+        "task_uuid": "cfdf6f35-0141-46b3-a059-7f9e9fc85b9c",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "35q_7drug_D5",
+    "qubits": 35,
+    "problem_key": "b705f89ff7d8b29e42a875ee83d3853cca3518c1d0ab85d1e385f3aa09613e67",
+    "circuit_sha256": "816b43b2481aa910bfe12676df28a2e6099146a4ed37c3f47f364c17ba8b42a1",
+    "lambda": 0.75,
+    "feasible_states": 4900,
+    "optimum": 1.2893640000000002,
+    "optimal_bitstrings": [
+      "00001000000000000000000010000100000"
+    ],
+    "initial_product": 0.00012173772561941219,
+    "uniform_feasible": 0.00020408163265306123,
+    "ideal_qaoa": 0.00011971869311473587,
+    "hardware": [
+      {
+        "task_uuid": "cfdf6f35-0141-46b3-a059-7f9e9fc85b9c",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "35q_7drug_D5",
+    "qubits": 35,
+    "problem_key": "b705f89ff7d8b29e42a875ee83d3853cca3518c1d0ab85d1e385f3aa09613e67",
+    "circuit_sha256": "816b43b2481aa910bfe12676df28a2e6099146a4ed37c3f47f364c17ba8b42a1",
+    "lambda": 0.9,
+    "feasible_states": 4900,
+    "optimum": 0.8093639999999999,
+    "optimal_bitstrings": [
+      "00001000000000000000000010000100000"
+    ],
+    "initial_product": 0.00012173772561941219,
+    "uniform_feasible": 0.00020408163265306123,
+    "ideal_qaoa": 0.00011971869311473587,
+    "hardware": [
+      {
+        "task_uuid": "cfdf6f35-0141-46b3-a059-7f9e9fc85b9c",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "8q_4drug_D2",
+    "qubits": 8,
+    "problem_key": "d001a3bc28d9a4ecf259ec964783640b6b122dddf35de7be74255f22678ec75c",
+    "circuit_sha256": "7454bcd89c4fe6c6c9a2ab15d9b4b75c042f11b77a8312dad92d73867452471c",
+    "lambda": 0.3,
+    "feasible_states": 56,
+    "optimum": 2.729364,
+    "optimal_bitstrings": [
+      "01010100"
+    ],
+    "initial_product": 0.013670978762403545,
+    "uniform_feasible": 0.017857142857142856,
+    "ideal_qaoa": 0.023948086516808586,
+    "hardware": [
+      {
+        "task_uuid": "e1a915b0-ff23-4769-8289-bfb7fcb0f74b",
+        "shots": 200,
+        "optimum_count": 5,
+        "optimum_fraction": 0.025
+      }
+    ]
+  },
+  {
+    "name": "8q_4drug_D2",
+    "qubits": 8,
+    "problem_key": "d001a3bc28d9a4ecf259ec964783640b6b122dddf35de7be74255f22678ec75c",
+    "circuit_sha256": "7454bcd89c4fe6c6c9a2ab15d9b4b75c042f11b77a8312dad92d73867452471c",
+    "lambda": 0.45,
+    "feasible_states": 56,
+    "optimum": 2.249364,
+    "optimal_bitstrings": [
+      "01010100"
+    ],
+    "initial_product": 0.013670978762403545,
+    "uniform_feasible": 0.017857142857142856,
+    "ideal_qaoa": 0.023948086516808586,
+    "hardware": [
+      {
+        "task_uuid": "e1a915b0-ff23-4769-8289-bfb7fcb0f74b",
+        "shots": 200,
+        "optimum_count": 5,
+        "optimum_fraction": 0.025
+      }
+    ]
+  },
+  {
+    "name": "8q_4drug_D2",
+    "qubits": 8,
+    "problem_key": "d001a3bc28d9a4ecf259ec964783640b6b122dddf35de7be74255f22678ec75c",
+    "circuit_sha256": "7454bcd89c4fe6c6c9a2ab15d9b4b75c042f11b77a8312dad92d73867452471c",
+    "lambda": 0.6,
+    "feasible_states": 56,
+    "optimum": 1.7693640000000002,
+    "optimal_bitstrings": [
+      "01010100"
+    ],
+    "initial_product": 0.013670978762403545,
+    "uniform_feasible": 0.017857142857142856,
+    "ideal_qaoa": 0.023948086516808586,
+    "hardware": [
+      {
+        "task_uuid": "e1a915b0-ff23-4769-8289-bfb7fcb0f74b",
+        "shots": 200,
+        "optimum_count": 5,
+        "optimum_fraction": 0.025
+      }
+    ]
+  },
+  {
+    "name": "8q_4drug_D2",
+    "qubits": 8,
+    "problem_key": "d001a3bc28d9a4ecf259ec964783640b6b122dddf35de7be74255f22678ec75c",
+    "circuit_sha256": "7454bcd89c4fe6c6c9a2ab15d9b4b75c042f11b77a8312dad92d73867452471c",
+    "lambda": 0.75,
+    "feasible_states": 56,
+    "optimum": 1.2893640000000002,
+    "optimal_bitstrings": [
+      "01010100"
+    ],
+    "initial_product": 0.013670978762403545,
+    "uniform_feasible": 0.017857142857142856,
+    "ideal_qaoa": 0.023948086516808586,
+    "hardware": [
+      {
+        "task_uuid": "e1a915b0-ff23-4769-8289-bfb7fcb0f74b",
+        "shots": 200,
+        "optimum_count": 5,
+        "optimum_fraction": 0.025
+      }
+    ]
+  },
+  {
+    "name": "8q_4drug_D2",
+    "qubits": 8,
+    "problem_key": "d001a3bc28d9a4ecf259ec964783640b6b122dddf35de7be74255f22678ec75c",
+    "circuit_sha256": "7454bcd89c4fe6c6c9a2ab15d9b4b75c042f11b77a8312dad92d73867452471c",
+    "lambda": 0.9,
+    "feasible_states": 56,
+    "optimum": 0.8093639999999999,
+    "optimal_bitstrings": [
+      "01010100"
+    ],
+    "initial_product": 0.013670978762403545,
+    "uniform_feasible": 0.017857142857142856,
+    "ideal_qaoa": 0.023948086516808586,
+    "hardware": [
+      {
+        "task_uuid": "e1a915b0-ff23-4769-8289-bfb7fcb0f74b",
+        "shots": 200,
+        "optimum_count": 5,
+        "optimum_fraction": 0.025
+      }
+    ]
+  },
+  {
+    "name": "9q_3drug_D3",
+    "qubits": 9,
+    "problem_key": "6c9bbe0b870ea5067398c5f04f5d107d21173de275c6b56aeab68393db920cb2",
+    "circuit_sha256": "55ece2a1c291c7e8751988e2dccc352f9d29aff9e93c1b7cfe237db6931a0b89",
+    "lambda": 0.3,
+    "feasible_states": 54,
+    "optimum": 2.729364,
+    "optimal_bitstrings": [
+      "001001001"
+    ],
+    "initial_product": 0.0005498680944431506,
+    "uniform_feasible": 0.018518518518518517,
+    "ideal_qaoa": 0.0009278853052244951,
+    "hardware": [
+      {
+        "task_uuid": "e88a4bac-5f06-4b2c-bcc8-69a20d23e527",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "9q_3drug_D3",
+    "qubits": 9,
+    "problem_key": "6c9bbe0b870ea5067398c5f04f5d107d21173de275c6b56aeab68393db920cb2",
+    "circuit_sha256": "55ece2a1c291c7e8751988e2dccc352f9d29aff9e93c1b7cfe237db6931a0b89",
+    "lambda": 0.45,
+    "feasible_states": 54,
+    "optimum": 2.249364,
+    "optimal_bitstrings": [
+      "001001001"
+    ],
+    "initial_product": 0.0005498680944431506,
+    "uniform_feasible": 0.018518518518518517,
+    "ideal_qaoa": 0.0009278853052244951,
+    "hardware": [
+      {
+        "task_uuid": "e88a4bac-5f06-4b2c-bcc8-69a20d23e527",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "9q_3drug_D3",
+    "qubits": 9,
+    "problem_key": "6c9bbe0b870ea5067398c5f04f5d107d21173de275c6b56aeab68393db920cb2",
+    "circuit_sha256": "55ece2a1c291c7e8751988e2dccc352f9d29aff9e93c1b7cfe237db6931a0b89",
+    "lambda": 0.6,
+    "feasible_states": 54,
+    "optimum": 1.7693640000000002,
+    "optimal_bitstrings": [
+      "001001001"
+    ],
+    "initial_product": 0.0005498680944431506,
+    "uniform_feasible": 0.018518518518518517,
+    "ideal_qaoa": 0.0009278853052244951,
+    "hardware": [
+      {
+        "task_uuid": "e88a4bac-5f06-4b2c-bcc8-69a20d23e527",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "9q_3drug_D3",
+    "qubits": 9,
+    "problem_key": "6c9bbe0b870ea5067398c5f04f5d107d21173de275c6b56aeab68393db920cb2",
+    "circuit_sha256": "55ece2a1c291c7e8751988e2dccc352f9d29aff9e93c1b7cfe237db6931a0b89",
+    "lambda": 0.75,
+    "feasible_states": 54,
+    "optimum": 1.2893640000000002,
+    "optimal_bitstrings": [
+      "001001001"
+    ],
+    "initial_product": 0.0005498680944431506,
+    "uniform_feasible": 0.018518518518518517,
+    "ideal_qaoa": 0.0009278853052244951,
+    "hardware": [
+      {
+        "task_uuid": "e88a4bac-5f06-4b2c-bcc8-69a20d23e527",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "9q_3drug_D3",
+    "qubits": 9,
+    "problem_key": "6c9bbe0b870ea5067398c5f04f5d107d21173de275c6b56aeab68393db920cb2",
+    "circuit_sha256": "55ece2a1c291c7e8751988e2dccc352f9d29aff9e93c1b7cfe237db6931a0b89",
+    "lambda": 0.9,
+    "feasible_states": 54,
+    "optimum": 0.8093639999999999,
+    "optimal_bitstrings": [
+      "001001001"
+    ],
+    "initial_product": 0.0005498680944431506,
+    "uniform_feasible": 0.018518518518518517,
+    "ideal_qaoa": 0.0009278853052244951,
+    "hardware": [
+      {
+        "task_uuid": "e88a4bac-5f06-4b2c-bcc8-69a20d23e527",
+        "shots": 200,
+        "optimum_count": 0,
+        "optimum_fraction": 0.0
+      }
+    ]
+  },
+  {
+    "name": "10q_5drug_D2",
+    "qubits": 10,
+    "problem_key": "22ceb0ae28fddc3679048f54b18dbd62d0373a3dfc7dc0cda85672a43c33c150",
+    "circuit_sha256": "1d3f3545cc93c7d32e055cf65c57ebcdd7e8e60d7bd5a29847a46105d20f5074",
+    "lambda": 0.3,
+    "feasible_states": 120,
+    "optimum": 2.729364,
+    "optimal_bitstrings": [
+      "0100010100"
+    ],
+    "initial_product": 0.008127599224940373,
+    "uniform_feasible": 0.008333333333333333,
+    "ideal_qaoa": 0.014110206506614273,
+    "hardware": [
+      {
+        "task_uuid": "fad4ee6f-3815-4d92-af93-dbd2c19ec6a4",
+        "shots": 200,
+        "optimum_count": 4,
+        "optimum_fraction": 0.02
+      }
+    ]
+  },
+  {
+    "name": "10q_5drug_D2",
+    "qubits": 10,
+    "problem_key": "22ceb0ae28fddc3679048f54b18dbd62d0373a3dfc7dc0cda85672a43c33c150",
+    "circuit_sha256": "1d3f3545cc93c7d32e055cf65c57ebcdd7e8e60d7bd5a29847a46105d20f5074",
+    "lambda": 0.45,
+    "feasible_states": 120,
+    "optimum": 2.249364,
+    "optimal_bitstrings": [
+      "0100010100"
+    ],
+    "initial_product": 0.008127599224940373,
+    "uniform_feasible": 0.008333333333333333,
+    "ideal_qaoa": 0.014110206506614273,
+    "hardware": [
+      {
+        "task_uuid": "fad4ee6f-3815-4d92-af93-dbd2c19ec6a4",
+        "shots": 200,
+        "optimum_count": 4,
+        "optimum_fraction": 0.02
+      }
+    ]
+  },
+  {
+    "name": "10q_5drug_D2",
+    "qubits": 10,
+    "problem_key": "22ceb0ae28fddc3679048f54b18dbd62d0373a3dfc7dc0cda85672a43c33c150",
+    "circuit_sha256": "1d3f3545cc93c7d32e055cf65c57ebcdd7e8e60d7bd5a29847a46105d20f5074",
+    "lambda": 0.6,
+    "feasible_states": 120,
+    "optimum": 1.7693640000000002,
+    "optimal_bitstrings": [
+      "0100010100"
+    ],
+    "initial_product": 0.008127599224940373,
+    "uniform_feasible": 0.008333333333333333,
+    "ideal_qaoa": 0.014110206506614273,
+    "hardware": [
+      {
+        "task_uuid": "fad4ee6f-3815-4d92-af93-dbd2c19ec6a4",
+        "shots": 200,
+        "optimum_count": 4,
+        "optimum_fraction": 0.02
+      }
+    ]
+  },
+  {
+    "name": "10q_5drug_D2",
+    "qubits": 10,
+    "problem_key": "22ceb0ae28fddc3679048f54b18dbd62d0373a3dfc7dc0cda85672a43c33c150",
+    "circuit_sha256": "1d3f3545cc93c7d32e055cf65c57ebcdd7e8e60d7bd5a29847a46105d20f5074",
+    "lambda": 0.75,
+    "feasible_states": 120,
+    "optimum": 1.2893640000000002,
+    "optimal_bitstrings": [
+      "0100010100"
+    ],
+    "initial_product": 0.008127599224940373,
+    "uniform_feasible": 0.008333333333333333,
+    "ideal_qaoa": 0.014110206506614273,
+    "hardware": [
+      {
+        "task_uuid": "fad4ee6f-3815-4d92-af93-dbd2c19ec6a4",
+        "shots": 200,
+        "optimum_count": 4,
+        "optimum_fraction": 0.02
+      }
+    ]
+  },
+  {
+    "name": "10q_5drug_D2",
+    "qubits": 10,
+    "problem_key": "22ceb0ae28fddc3679048f54b18dbd62d0373a3dfc7dc0cda85672a43c33c150",
+    "circuit_sha256": "1d3f3545cc93c7d32e055cf65c57ebcdd7e8e60d7bd5a29847a46105d20f5074",
+    "lambda": 0.9,
+    "feasible_states": 120,
+    "optimum": 0.8093639999999999,
+    "optimal_bitstrings": [
+      "0100010100"
+    ],
+    "initial_product": 0.008127599224940373,
+    "uniform_feasible": 0.008333333333333333,
+    "ideal_qaoa": 0.014110206506614273,
+    "hardware": [
+      {
+        "task_uuid": "fad4ee6f-3815-4d92-af93-dbd2c19ec6a4",
+        "shots": 200,
+        "optimum_count": 4,
+        "optimum_fraction": 0.02
+      }
+    ]
+  }
+]

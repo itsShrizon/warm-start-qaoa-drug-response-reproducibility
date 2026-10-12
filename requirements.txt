@@ -1,0 +1,6 @@
+# Reanalysis, independent simulator check, figures, and PDF QA; tested with Python 3.12.3.
+numpy==2.2.6
+numba==0.61.2
+matplotlib==3.9.2
+pennylane==0.45.0
+PyMuPDF==1.27.2.2
